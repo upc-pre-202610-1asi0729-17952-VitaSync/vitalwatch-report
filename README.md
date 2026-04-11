@@ -427,15 +427,31 @@ Escribe aquí
 Los segmentos objetivo son grupos específicos de usuarios a los que se dirige un producto o servicio en particular.
 
 Los segmentos objetivos identificados para nuestra plataforma VitalWatch, orientada al monitoreo del nivel de fatiga del personal médico, se presentan a continuación:
-+ **S1**<br>
++ **S1: Personal administrativo de clínicas y hospitales**<br>
+  + **Características demográficas:**<br>
+    Edad: 30 a 60 años.<br>
+    Género: Variado.<br>
+    Cargo: Directores, administradores, jefes de área y supervisores de turnos.<br>
+    Formación: Gestión hospitalaria o administración.<br>
+    Tecnología: Uso frecuente de sistemas digitales.<br>
+    Necesidad: Toma de decisiones y reducción de riesgos operativos.<br>
 
-    + **Características demográficas:** <br>
-    + **Características geográficas:** <br><br>
+  + **Características geográficas:**<br>
+    Ubicación: Clínicas y hospitales en zonas urbanas y semiurbanas.<br>
+    Entorno: Instituciones con alta demanda y carga operativa.<br><br>
 
-+ **S2**<br>
++ **S2: Personal clínico**<br>
+  + **Características demográficas:**<br>
+    Edad: 22 a 60 años.<br>
+    Género: Variado.<br>
+    Cargo: Médicos, enfermeros y técnicos de salud.<br>
+    Condición laboral: Turnos prolongados o rotativos.<br>
+    Tecnología: Uso básico/intermedio de sistemas hospitalarios.<br>
+    Necesidad: Monitorear fatiga y prevenir agotamiento.<br>
 
-    + **Características demográficas:** <br>
-    + **Características geográficas:** <br><br>
+  + **Características geográficas:**<br>
+    Ubicación: Hospitales y centros de salud en zonas urbanas y semiurbanas.<br>
+    Entorno: Alta carga laboral y demanda de atención.<br><br>
 
 ---
 
