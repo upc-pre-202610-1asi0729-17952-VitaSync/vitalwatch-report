@@ -653,21 +653,28 @@ Explicacion
 ## 4.1. Style Guidelines.
 En esta sección se definen las guías de estilo del sistema VitalWatch, con el objetivo de garantizar consistencia visual, usabilidad y una experiencia de usuario clara e intuitiva. Estas guías permiten mantener uniformidad en el diseño de la plataforma y facilitan su desarrollo e implementación.
 ### 4.1.1. General Style Guidelines.
-**Branding** <br><br> <br>
+**Branding** <br><br> <br><br> 
 
 **Typography** <br><br>
-Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakarta Sans*, una fuente sans-serif moderna y legible que se adapta a la estética digital del producto. Esta tipografía permite mantener una apariencia limpia, profesional y fácil de leer en diferentes dispositivos.<br>
-Para la jerarquía visual, se utilizan distintos pesos de la fuente con el fin de resaltar la información:
-  + **Bold - ExtraBold:** para títulos y encabezados
-  + **SemiBold:** para subtítulos
-  + **Regular - Medium:** para texto general
-  + **Light:** para contenido secundario <br>
+Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakarta Sans*, una fuente sans-serif moderna y legible que se adapta a la estética digital del producto. Esta tipografía permite mantener una apariencia limpia, profesional y fácil de leer en diferentes dispositivos.<br>Para la jerarquía visual, se utilizan distintos pesos de la fuente con el fin de resaltar la información:
++ **Bold - ExtraBold:** para títulos y encabezados
++ **SemiBold:** para subtítulos
++ **Regular - Medium:** para texto general
++ **Light:** para contenido secundario <br>
 
 A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
 
-<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br> 
 
-**Colors** <br><br> <br>
+**Colors** <br><br> 
+Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, los cuales transmiten confianza, tecnología y seguridad en el ámbito de la salud. <br> 
+El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
+
+<div align="center">
+<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br> 
+<img src="Resources/Images/background_color.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br>
+<div align="justify"><br> 
 
 **Spacing** <br><br> <br>
 
