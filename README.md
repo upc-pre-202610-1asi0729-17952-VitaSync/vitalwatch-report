@@ -464,16 +464,16 @@ En esta sección se identificarán los mejores referentes para posteriormente re
 
 Según la investigación, se descubrieron apps webs y/o aplicaciones similares. Sin embargo, estamos considerando cuatro competidores directos o indirectos que se parezcan más a nuestra startup.
 
-* **C1**<br>
+* **Readi**<br>
 
 
-* **C2**<br>
+* **Smartcap**<br>
 
 
-* **C3**<br>
+* **Pulsar Informatics**<br>
 
 
-* **C4**<br>
+* **Optalert**<br>
 
 
 ### 2.1.1 Análisis Competitivo
@@ -616,10 +616,19 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-**Estrategia de Diferenciación:**
-**Estrategia de Liderazgo en Costos:**
-**Estrategia de Marketing:**
-**Tácticas:**
+#### **Estrategia de Diferenciación**
+A diferencia de los gigantes del sector que se enfocan en la minería o el transporte pesado, nuestra principal diferencia es la especialización en el sector salud. No nos limitamos a medir el sueño; nuestro algoritmo "Fatigue Score" está diseñado para entender el ritmo real de una guardia médica y la carga laboral acumulada del personal de salud.
+
+#### **Estrategia de Liderazgo en Costos**
+Nuestra ventaja competitiva en costos se basa en un modelo SaaS altamente flexible. Mientras que competidores como SmartCap obligan a las instituciones a comprar hardware costoso y propietario, VitalWatch permite que el centro de salud utilice dispositivos que ya posee o integre datos biométricos de forma digital, eliminando las barreras económicas de entrada.
+
+#### **Estrategia de Marketing**
+Nuestra narrativa no vende solo un monitor de fatiga, sino también seguridad del paciente y tranquilidad legal para los directores de clínicas y hospitales. Nos posicionamos como la herramienta definitiva para combatir el cansancio médico y prevenir negligencias antes de que ocurran, enfocando nuestro mensaje en el cuidado del personal que cuida a los demás.
+
+#### **Tácticas**
+* **Validación Abierta:** Publicaremos partes del algoritmo en GitHub para que la comunidad médica y de software audite su precisión, generando confianza técnica inmediata.
+* **Programas Piloto Dirigidos:** Implementaremos el sistema en clínicas pequeñas para validar el "Fatigue Score" con datos reales de guardias antes de escalar a grandes hospitales.
+* **Integración Ágil:** Desarrollaremos conectores (APIs) para importar automáticamente los turnos desde los sistemas de gestión que las clínicas ya utilizan.
 
 ## 2.2 Entrevistas
 
