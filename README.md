@@ -673,19 +673,22 @@ Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, lo
 El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
 
 <div align="center">
-<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
-<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br> 
-<img src="Resources/Images/background_color.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br>
+<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
+<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
+<img src="Resources/Images/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
 <div align="justify"><br> 
 
 **Spacing** <br><br> 
 Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
 
 <div align="center">
-<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
-<div align="justify"><br> 
+<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
+<div align="justify"> 
 
 ### 4.1.2. Web Style Guidelines.
+
+
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
