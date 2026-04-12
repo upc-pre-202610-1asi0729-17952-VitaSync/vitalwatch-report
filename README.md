@@ -260,7 +260,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Integrante**  | **Perfil**  | **Imagen** |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **Montes Zamora, Edgar Alexander Mauricio - u20241e126** | Buenas, soy Edgar Alexander Mauricio Montes Zamora, con codigo u20241e126 y actualmente estoy cursando el 5to ciclo de la carrera de Ingeniería de Software. Por el momento tengo conocimientos en programación como C++ y Python, además de saber HTML, CSS y también tener conocimientos en bases de datos SQL como Microsoft SQL Server. Considero que poseo habilidades blandas como la comunicación, trabajo en equipo o la adaptabilidad a distintos cambios que puedan presentarse tanto en proyectos como en otras situaciones, intento que en trabajos grupales todos puedan colaborar y ayudarse unos a otros, además de colaborar con ideas creativas.| <img src="Resources/Profiles/Mauricio.jpg" alt="Foto de Montes Zamora, Edgar Alexander Mauricio" width="150"/> |
-| **Güere Calero, Fernando Julio - u202413169** | Soy Fernando Julio Güere Calero (u202413169), estudiante del 5to ciclo de la carrera de Ingeniería de Software. Cuento con los conocimientos para programar en C++, Python y gestión de base de datos SQL. Además, tengo conocimiento para el desarrollo de páginas web usandon HTML, CSS y JavaScript. Siempre estoy interesado en expandir mis conocimientos con otros lenguajes de programación para fortalecer mis competencias técnicas y enfrentar retos en la industria. | <img src="Resources/Profiles/Fernando.jpeg?raw=true" alt="Imagen de Güere Calero, Fernando Julio"/> |
+| **Güere Calero, Fernando Julio - u202413169** | Soy Fernando Julio Güere Calero (u202413169), estudiante del 5to ciclo de la carrera de Ingeniería de Software. Cuento con los conocimientos para programar en C++, Python y gestión de base de datos SQL. Además, tengo conocimiento para el desarrollo de páginas web usando HTML, CSS y JavaScript. Siempre estoy interesado en expandir mis conocimientos con otros lenguajes de programación para fortalecer mis competencias técnicas y enfrentar retos en la industria. | <img src="Resources/Profiles/Fernando.jpeg?raw=true" alt="Imagen de Güere Calero, Fernando Julio"/> |
 | **León Morales, Johan Yonel - u20231h055** | Soy Johan Yonel León Morales, estudiante del 5to ciclo de la carrera de Ingeniería de Software, identificado con el código u20231h055. Cuento con conocimientos en programación en C++, así como en el desarrollo de interfaces web utilizando HTML, CSS y JavaScript. Mi enfoque se basa en el aprendizaje continuo y la atención al detalle, complementado con habilidades de comunicación, empatía y adaptabilidad. Estas competencias me permiten integrarme de manera efectiva en equipos de trabajo, aportar en el desarrollo de soluciones y colaborar activamente en el cumplimiento de los objetivos del proyecto. | <img src="Resources/Profiles/Johan.png?raw=true" alt="Imagen de León Morales, Johan Yonel"/> |
 | **Garcia Villanueva, Leonardo Rafael - u20231h059** | Soy Leonardo Rafael Garcia Villanueva, actualmente estudiante en quinto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos del lenguaje C++, asi como HTML, CSS y JavaScript. Me interesa resolver problemas que requieran de creatividad y pensamiento lógico mediante el desarrollo de software. En los trabajos en equipo frecuentemente busco resolver cualquier dificultad que se presente y me adapto rápidamente a las situaciones que se presentan. | <img src="Resources/Profiles/Leonardo.jpg?raw=true" alt="Imagen de Garcia Villanueva, Leonardo Rafael"/> |
 | **Lozano Leon, Richard Enrique - u20241d990** | Soy Richard Enrique Lozano León, con código U20241D990, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, cursando el quinto ciclo. Me interesa fortalecer mis competencias en el área tecnológica y actualmente me encuentro enfocado en el aprendizaje y práctica del lenguajes de programación. | <img src="Resources/Profiles/Richard.png?raw=true" alt="Imagen de Lozano Leon, Richard Enrique"/> |
@@ -468,16 +468,16 @@ En esta sección se identificarán los mejores referentes para posteriormente re
 
 Según la investigación, se descubrieron apps webs y/o aplicaciones similares. Sin embargo, estamos considerando cuatro competidores directos o indirectos que se parezcan más a nuestra startup.
 
-* **C1**<br>
+* **Readi**<br>
 
 
-* **C2**<br>
+* **Smartcap**<br>
 
 
-* **C3**<br>
+* **Pulsar Informatics**<br>
 
 
-* **C4**<br>
+* **Optalert**<br>
 
 
 ### 2.1.1 Análisis Competitivo
@@ -491,17 +491,17 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 	<tbody>
 		<tr>
 			<td colspan="2">¿Por qué llevar a cabo este análisis?</td>
-			<td colspan="5"> - </td>
+			<td colspan="5">Realizamos este análisis para detectar qué es lo que le falta a las soluciones actuales y asegurar que VitalWatch ofrezca algo único, pensado exclusivamente para el ritmo de un centro de salud. Conocer a fondo a la competencia nos ayuda a construir una herramienta que realmente proteja al personal médico y evite negligencias evitables por cansancio.</td>
 		</tr>
 		<tr>
 			<td colspan="2">
 				<div align="center">Nombre</div>
 			</td>
 			<td><div align="center"><b>VitalWatch</b></div></td>
-			<td><div align="center"><b>C1</b></div></td>
-			<td><div align="center"><b>C2</b></div></td>
-			<td><div align="center"><b>C3</b></div></td>
-			<td><div align="center"><b>C4</b></div></td>
+			<td><div align="center"><b>Readi (Fatigue science)</b></div></td>
+			<td><div align="center"><b>Smartcap</b></div></td>
+			<td><div align="center"><b>Pulsar Informatics</b></div></td>
+			<td><div align="center"><b>Optalert</b></div></td>
 		</tr>
 		<tr>
 			<td colspan="2">
@@ -526,104 +526,113 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 		<tr>
 			<td rowspan="2">Perfil</td>
 			<td>Overview</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Herramienta predictiva para que directores clínicos prevengan errores antes de que ocurran.</td>
+			<td>IA que predice el riesgo de fatiga con 18 horas de antelación.</td>
+			<td>Banda EEG que mide ondas cerebrales para detectar sueño al instante.</td>
+			<td>Software que analiza horarios para hallar "huecos" peligrosos de sueño.</td>
+			<td>Tecnología que mide el parpadeo para detectar somnolencia temprana.</td>
 		</tr>
 		<tr>
 			<td>Ventaja Competitiva</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Algoritmo "Fatigue Score" que cruza biometría con carga laboral real.</td>
+			<td>Predicción a largo plazo basada en tendencias históricas de sueño.</td>
+			<td>Precisión del 94.7% al usar el estándar de oro médico (EEG).</td>
+			<td>Validación por la NASA y el Departamento de Defensa de EE. UU..</td>
+			<td>Detección de microsueños vital para cirugías de alta precisión.</td>
 		</tr>
 		<tr>
 			<td rowspan="2">Marketing</td>
 			<td>Mercado Objetivo</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Clínicas, hospitales y centros de salud especializados.</td>
+			<td>Minería pesada, transporte y deportes de élite.</td>
+			<td>Operadores de maquinaria pesada y minería a cielo abierto.</td>
+			<td>Aerolíneas, defensa y redes hospitalarias académicas.</td>
+			<td>Logística, automotriz y grupos de cirugía avanzada.</td>
 		</tr>
 		<tr>
 			<td>Estrategias</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Enfoque humano: reducir estrés médico y evitar demandas legales.</td>
+			<td>Liderazgo científico mediante estudios de "higiene del sueño".</td>
+			<td>Pruebas de concepto directas en sitios de alto riesgo industrial.</td>
+			<td>Cumplimiento normativo y estándares de seguridad gubernamental.</td>
+			<td>Integración nativa en equipos médicos y vehículos de fábrica.</td>
 		</tr>
 		<tr>
 			<td rowspan="3">Producto</td>
 			<td>Servicios</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Dashboard predictivo, Fatigue Score y alertas en tiempo real.</td>
+			<td>App Readi, análisis predictivo y consultoría técnica.</td>
+			<td>LifeBand (wearable), pantallas de cabina y monitoreo nube.</td>
+			<td>Fatigue Meter y herramientas de evaluación de horarios.</td>
+			<td>Gafas inteligentes y cámaras infrarrojas de cabina.</td>
 		</tr>
 		<tr>
 			<td>Precios</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Suscripción SaaS escalable por número de personal.</td>
+			<td>Suscripción mensual por usuario + costo de hardware.</td>
+			<td>Inversión inicial en bandas EEG + licencia de monitoreo.</td>
+			<td>Licencias corporativas anuales según tamaño de flota.</td>
+			<td>Contratos de integración técnica o venta de hardware.</td>
 		</tr>
 		<tr>
 			<td>Canales</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Plataforma Web SaaS.</td>
+			<td>Venta directa B2B y aplicaciones móviles.</td>
+			<td>Venta directa y distribuidores de seguridad industrial.</td>
+			<td>Venta consultiva a grandes instituciones y partners.</td>
+			<td>Canales B2B directos a fabricantes de equipo original.</td>
 		</tr>
 		<tr>
 			<td rowspan="4">SWOT</td>
 			<td>Fortalezas</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Diseñado específicamente para el caos de una guardia médica.</td>
+			<td>Algoritmo predictivo validado a nivel mundial.</td>
+			<td>Datos de alerta objetivos basados en el cerebro.</td>
+			<td>Líder en estándares de seguridad crítica y aviación.</td>
+			<td>Previene accidentes segundos antes de que ocurran.</td>
 		</tr>
 		<tr>
 			<td>Debilidades</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Startup nueva en fase de validación del algoritmo.</td>
+			<td>Requiere el uso constante de un wearable externo.</td>
+			<td>El hardware puede resultar incómodo en turnos largos.</td>
+			<td>Curva de aprendizaje muy técnica para los usuarios.</td>
+			<td>Implementación costosa por cada puesto de trabajo.</td>
 		</tr>
 		<tr>
 			<td>Oportunidades</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Crisis de burnout médico post-pandemia en hospitales.</td>
+			<td>Expansión a logística ligera y servicios de entrega.</td>
+			<td>Miniaturización de sensores EEG para mayor confort.</td>
+			<td>Nuevas leyes globales de seguridad ocupacional médica.</td>
+			<td>Alianzas con fabricantes de monitores hospitalarios.</td>
 		</tr>
 		<tr>
 			<td>Amenazas</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Nuevas leyes de privacidad de datos biométricos de salud.</td>
+			<td>Dispositivos genéricos con sensores de bajo costo.</td>
+			<td>Relojes inteligentes que añadan funciones de fatiga.</td>
+			<td>Cambios bruscos en regulaciones gubernamentales.</td>
+			<td>Tecnologías de visión artificial de código abierto.</td>
 		</tr>
 	</tbody>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-**Estrategia de Diferenciación:**
-**Estrategia de Liderazgo en Costos:**
-**Estrategia de Marketing:**
-**Tácticas:**
+#### **Estrategia de Diferenciación**
+A diferencia de los gigantes del sector que se enfocan en la minería o el transporte pesado, nuestra principal diferencia es la especialización en el sector salud. No nos limitamos a medir el sueño; nuestro algoritmo "Fatigue Score" está diseñado para entender el ritmo real de una guardia médica y la carga laboral acumulada del personal de salud.
+
+#### **Estrategia de Liderazgo en Costos**
+Nuestra ventaja competitiva en costos se basa en un modelo SaaS altamente flexible. Mientras que competidores como SmartCap obligan a las instituciones a comprar hardware costoso y propietario, VitalWatch permite que el centro de salud utilice dispositivos que ya posee o integre datos biométricos de forma digital, eliminando las barreras económicas de entrada.
+
+#### **Estrategia de Marketing**
+Nuestra narrativa no vende solo un monitor de fatiga, sino también seguridad del paciente y tranquilidad legal para los directores de clínicas y hospitales. Nos posicionamos como la herramienta definitiva para combatir el cansancio médico y prevenir negligencias antes de que ocurran, enfocando nuestro mensaje en el cuidado del personal que cuida a los demás.
+
+#### **Tácticas**
+* **Validación Abierta:** Publicaremos partes del algoritmo en GitHub para que la comunidad médica y de software audite su precisión, generando confianza técnica inmediata.
+* **Programas Piloto Dirigidos:** Implementaremos el sistema en clínicas pequeñas para validar el "Fatigue Score" con datos reales de guardias antes de escalar a grandes hospitales.
+* **Integración Ágil:** Desarrollaremos conectores (APIs) para importar automáticamente los turnos desde los sistemas de gestión que las clínicas ya utilizan.
 
 ## 2.2 Entrevistas
 
@@ -674,8 +683,54 @@ Explicacion
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
+En esta sección se definen las guías de estilo del sistema VitalWatch, con el objetivo de garantizar consistencia visual, usabilidad y una experiencia de usuario clara e intuitiva. Estas guías permiten mantener uniformidad en el diseño de la plataforma y facilitan su desarrollo e implementación.
+
 ### 4.1.1. General Style Guidelines.
+
+Las decisiones de diseño se basan en principios de simplicidad, claridad y consistencia, tomando como referencia sistemas de diseño modernos orientados a aplicaciones SaaS.
+
+**Branding** <br><br> 
+Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y minimalista que refleja el enfoque tecnológico y clínico de la plataforma. El diseño busca transmitir confianza, monitoreo continuo y prevención dentro del entorno de la salud. <br>
+El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
+
+<div align="center">
+<img src="Resources/Images/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
+<div align="justify"><br> 
+
+**Typography** <br><br>
+Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakarta Sans*, una fuente sans-serif moderna y legible que se adapta a la estética digital del producto. Esta tipografía permite mantener una apariencia limpia, profesional y fácil de leer en diferentes dispositivos.<br>Para la jerarquía visual, se utilizan distintos pesos de la fuente con el fin de resaltar la información:
++ **Bold - ExtraBold:** para títulos y encabezados
++ **SemiBold:** para subtítulos
++ **Regular - Medium:** para texto general
++ **Light:** para contenido secundario <br>
+
+A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
+
+<div align="center">
+<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<div align="justify"><br> 
+
+**Colors** <br><br> 
+Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, los cuales transmiten confianza, tecnología y seguridad en el ámbito de la salud. <br> 
+El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
+
+<div align="center">
+<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
+<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
+<img src="Resources/Images/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
+<div align="justify"><br> 
+
+**Spacing** <br><br> 
+Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
+
+<div align="center">
+<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
+<div align="justify"> 
+
 ### 4.1.2. Web Style Guidelines.
+
+
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
