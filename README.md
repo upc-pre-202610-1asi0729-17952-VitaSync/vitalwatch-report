@@ -664,7 +664,9 @@ Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakart
 
 A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
 
-<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br> 
+<div align="center">
+<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<div align="justify"><br> 
 
 **Colors** <br><br> 
 Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, los cuales transmiten confianza, tecnología y seguridad en el ámbito de la salud. <br> 
@@ -676,7 +678,12 @@ El uso de estos colores permite mantener una estética moderna y profesional den
 <img src="Resources/Images/background_color.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> <br>
 <div align="justify"><br> 
 
-**Spacing** <br><br> <br>
+**Spacing** <br><br> 
+Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
+
+<div align="center">
+<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<div align="justify"><br> 
 
 ### 4.1.2. Web Style Guidelines.
 ## 4.2. Information Architecture.
