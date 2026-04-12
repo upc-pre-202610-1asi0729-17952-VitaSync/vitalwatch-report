@@ -299,84 +299,88 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statement
 
+El problema se presenta en entornos hospitalarios donde médicos, enfermeros y doctores tienen jornadas de trabajo largas, con niveles elevados de estrés, descanso insuficiente, y en ocasiones sobrecarga laboral. Esta situación aumenta la probabilidad de fatiga, lo que puede perjudicar la concentración, la toma de decisiones críticas o el desempeño general del personal. A pesar de la gravedad de este problema, muchos centros de salud no cuentan con herramientas que permitan medir este riesgo en tiempo real ni tampoco anticiparse a sus consecuencias de manera preventiva.
 
+Uno de los puntos críticos es que los supervisores y administrativos no suelen tienen una visión precisa y continua del estado de cansancio del personal, lo que dificulta una distribucion de turnos adecuada o tomar decisiones oportunas. Además, el personal clínico solo dispone de su autopercepción para darse cuenta de su nivel de fatiga y no siempre podrán reconocer cuándo su estado podría representar un riesgo para los pacientes.
+
+Por estas razones planteamos lo siguiente: ¿Cómo ayudar a las clínicas y hospitales a detectar el nivel de fatiga del personal clínico y posibles anomalías en sus datos de salud para prevenir errores médicos de forma accesible y personalizada?
 
 #### 1.2.2.2 Lean UX Assumptions
 
  + **User Assumptions:** 
 
-    + **¿Quién es el usuario?** <br> Escribe aquí <br>
+    + **¿Quién es el usuario?** <br> Hay dos grupos de usuarios, el primero está conformado por el personal administrativo de clínicas y hospitales, como directores, administradores, jefes de área o supervisores, y el segundo grupo está compuesto por el personal clínico, como médicos, enfermeros y técnicos de salud. <br>
 
-    + **¿Dónde encaja nuestro producto en su trabajo o en su vida?** <br> Escribe aquí <br>
+    + **¿Dónde encaja nuestro producto en su trabajo o en su vida?** <br> En el trabajo al personal administrativo le facilita la gestión de turnos y le permite revisar el estado de fatiga, recibir alertas y tomar decisiones oportunas sobre el personal clínico de forma eficiente. Al personal clínico, le informa sobre su nivel de fatiga y ello les permite actuar antes de que afecte su desempeño o bienestar. <br>
 
-    + **¿Cuándo y cómo se utiliza nuestro producto?** <br> Escribe aquí <br>
+    + **¿Cuándo y cómo se utiliza nuestro producto?** <br> Se utiliza durante los horarios de trabajo y su funcionamiento se basa en la recopilación de datos mediante un reloj inteligente o dispositivo portable que registre información como horas de sueño, frecuencia cardiaca, actividad física y presión en sangre. Cada médico puede visualizar sus propios datos, y a nivel administrativo se analizan los datos de todo el personal clínico y los supervisores pueden recibir alertas y gestionarlas cuando se detectan niveles elevados de fatiga o valores anómalos que podrían indicar un problema de salud adicional. <br>
 
-    + **¿Qué problemas resuelve nuestro producto?** <br> Escribe aquí <br>
+    + **¿Qué problemas resuelve nuestro producto?** <br> Resuelve la falta de visibilidad sobre la fatiga del personal clínico en tiempo real y la dificultad que supone detectar riesgos antes de que se produzcan errores médicos. Además, ayuda a identificar datos anómalos que podrían sugerir la presencia de una condición o enfermedad no relacionada directamente con el cansancio. <br>
 
-    + **¿Qué características son importantes?** <br> Escribe aquí <br>
+    + **¿Qué características son importantes?** <br> La visualización clara del estado de fatiga, el cálculo de un puntaje de fatiga, la generación de alertas, el historial de datos, la detección de patrones anómalos no relacionados al cansancio, la facilidad de uso para supervisores y personal clínico, y la seguridad en el manejo y guardado de la información sensible. <br>
 
-    + **¿Cómo debe verse y comportarse nuestro producto?** <br> Escribe aquí <br>
+    + **¿Cómo debe verse y comportarse nuestro producto?** <br> Debe verse profesional e intuitivo, con un dashboard legible, alertas visibles y una interfaz que permita facilitar la toma de decisiones. Debe comportarse como una herramienta eficiente que detecte riesgos, emita alertas y ayude a determinar las mejores decisiones. <br>
 
  + **Business Outcomes:** 
 
-    1. **Creo que nuestros usuarios necesitan** 
+    1. **Creo que nuestros usuarios necesitan** <br> una forma confiable de detectar la fatiga antes de que perjudiquen el rendimiento y se conviertan en un riesgo crítico. <br>
 
-    2. **Estas necesidades se pueden resolver con** 
+    2. **Estas necesidades se pueden resolver con** <br> un servicio que recopile datos de sueño, frecuencia cardiaca, actividad y turnos de jornada laboral, y los convierta en un puntaje de fatiga confiable y que emita alertas preventivas. <br> 
 
-    3. **Nuestros usuarios iniciales son** 
+    3. **Nuestros usuarios iniciales son** <br> clínicas y hospitales pequeños o medianos que tienen un horario de apertura extenso y que necesiten mejorar la seguridad de su personal y de los pacientes. <br>
 
-    4. **El valor #1 que un cliente quiere de nuestro servicio es que** 
+    4. **El valor #1 que un cliente quiere de nuestro servicio es que** <br> permita anticipar riesgos de fatiga y tomar decisiones oportunas para evitar errores médicos, incidentes laborales o una atención incompetente. <br>
 
-    5. **El usuario también puede obtener beneficios adicionales como** 
+    5. **El usuario también puede obtener beneficios adicionales como** <br> detectar datos anómalos que sugieran un posible problema de salud o enfermedad no relacionada al cansancio, lo que permitiría una revisión del estado del personal y asi actuar de forma temprana. <br>
 
-    6. **Vamos a adquirir la mayoría de nuestros clientes a través de** 
+    6. **Vamos a adquirir la mayoría de nuestros clientes a través de** <br> campañas de publicidad y ofertas personalizadas dirigidas directamente a clínicas y hospitales según su tamaño y necesidades. <br>
 
-    7. **Haremos dinero a través de** 
+    7. **Haremos dinero a través de** <br> un modelo de suscripción aplicado a clínicas o centros médicos. La suscripción no se aplicará al personal médico, sino al centro clínico como institución. <br>
 
-    8. **Nuestras competencias principales son** 
+    8. **Nuestras competencias principales en el mercado son** <br> Readi, Pulsar, SmartCap y Optalert.<br>
 
-    9. **Los venceremos debido a** 
+    9. **Los venceremos debido a que** <br> nuestro servicio esta ideado de para clínicas y hospitales con un enfoque preventivo mediante la detección de fatiga y anomalías de salud. <br>
 
-    10. **Nuestro mayor riesgo es** 
+    10. **Nuestro mayor riesgo es** <br> que las instituciones no nos adopten por temas de privacidad, costo o un posible rechazo del personal para utilizar dispositivos de monitoreo. <br>
 
-    11. **Resolveremos esto a través de** 
+    11. **Resolveremos esto a través de** <br> propuestas comerciales flexibles y personalizadas por institución que facilite la adopción progresiva, además de ofrecer una interfaz intuitiva y políticas transparentes de privacidad. <br>
     
-    13. **¿Qué otras suposiciones tenemos?**
+    12. **¿Qué otras suposiciones tenemos?** <br> Las clínicas valorarán más el costo de la prevención antes que el costo de los accidentes o problemas ya generados. <br>
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 ###### Hipótesis 1:
 Escribe aquí
 
--   **Business Outcome:** 
+-   **Business Outcome:** <br> <br>
     
--   **Users:** 
+-   **Users:** <br> <br>
     
--   **User Outcome:** 
+-   **User Outcome:** <br> <br>
     
--   **Feature:** .
+-   **Feature:** <br> <br>
 
 ###### Hipótesis 2:
 Escribe aquí
 
--   **Business Outcome:** 
+-   **Business Outcome:** <br> <br>
     
--   **Users:** 
+-   **Users:** <br> <br>
     
--   **User Outcome:** 
+-   **User Outcome:** <br> <br>
     
--   **Feature:** 
+-   **Feature:** <br> <br>
 
 
 ###### Hipótesis 3:
 Escribe aquí
 
--   **Business Outcome:** 
+-   **Business Outcome:** <br> <br>
     
--   **Users:** 
+-   **Users:** <br> <br>
     
--   **User Outcome:** 
+-   **User Outcome:** <br> <br>
     
--   **Feature:** 
+-   **Feature:** <br> <br>
 
 
 #### 1.2.2.4 Lean UX Canvas
