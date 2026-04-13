@@ -245,7 +245,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **Área:** Salud 
 
-VitalVital es una startup tecnológica centrada en el desarrollo de soluciones innovadoras para mejorar la seguridad y el bienestar dentro de las clínicas y hospitales. <br>
+VitaSync es una startup tecnológica centrada en el desarrollo de soluciones innovadoras para mejorar la seguridad y el bienestar dentro de las clínicas y hospitales. <br>
 
 Nuestro producto VitalWatch es una plataforma web que permite monitorear el nivel de fatiga del personal médico mediante datos de su estado físico y carga laboral, analizando información como horas de sueño, frecuencia cardiaca, actividad física y turnos de trabajo para determinar el nivel de fatiga y generar alertas preventivas sobre los posibles riesgos al detectar niveles de fatiga elevados. Frente a ello buscamos ofrecer una solución accesible y confiable que permita a las instituciones de salud actuar con mayor anticipación y responsabilidad. <br>
 
