@@ -241,21 +241,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
 
-**Nombre:**  
+**Nombre:** VitaSync 
 
-**Área:**  
+**Área:** Salud 
 
+VitalVital es una startup tecnológica centrada en el desarrollo de soluciones innovadoras para mejorar la seguridad y el bienestar dentro de las clínicas y hospitales. <br>
 
-* **Misión:**
+Nuestro producto VitalWatch es una plataforma web que permite monitorear el nivel de fatiga del personal médico mediante datos de su estado físico y carga laboral, analizando información como horas de sueño, frecuencia cardiaca, actividad física y turnos de trabajo para determinar el nivel de fatiga y generar alertas preventivas sobre los posibles riesgos al detectar niveles de fatiga elevados. Frente a ello buscamos ofrecer una solución accesible y confiable que permita a las instituciones de salud actuar con mayor anticipación y responsabilidad. <br>
 
+Proponemos esto como respuesta a las problemas de la sobrecarga laboral, los turnos extensos y la falta de herramientas que permitan detectar a tiempo real el cansancio del personal clínico ya que esta situación puede afectar el rendimiento, la toma de decisiones y la salud de los pacientes.
 
-* **Visión:**
+* **Misión:** Nuestra misión es brindar a las clínicas y hospitales una herramienta inteligente que les permita monitorear la fatiga del personal clínico y detectar riesgos de forma temprana mejorando la seguridad y el bienestar en el entorno de trabajo.
 
+* **Visión:** Nuestra visión es convertirnos en una startup líder en soluciones tecnológicas para la prevención de riesgos en el sector salud, siendo reconocida por ofrecer herramientas confiables, innovadoras y centradas en el bienestar del personal clínico y la seguridad de los pacientes.
 
-* **Valores:**
+* **Valores:** Responsabilidad, confianza, innovación y compromiso.
 
-
-  ### 1.1.2 Perfiles de integrantes del equipo
+### 1.1.2 Perfiles de integrantes del equipo
   
 | **Integrante**  | **Perfil**  | **Imagen** |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
