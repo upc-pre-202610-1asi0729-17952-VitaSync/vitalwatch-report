@@ -262,7 +262,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Montes Zamora, Edgar Alexander Mauricio - u20241e126** | Buenas, soy Edgar Alexander Mauricio Montes Zamora, con codigo u20241e126 y actualmente estoy cursando el 5to ciclo de la carrera de Ingeniería de Software. Por el momento tengo conocimientos en programación como C++ y Python, además de saber HTML, CSS y también tener conocimientos en bases de datos SQL como Microsoft SQL Server. Considero que poseo habilidades blandas como la comunicación, trabajo en equipo o la adaptabilidad a distintos cambios que puedan presentarse tanto en proyectos como en otras situaciones, intento que en trabajos grupales todos puedan colaborar y ayudarse unos a otros, además de colaborar con ideas creativas.| <img src="Resources/Profiles/Mauricio.jpg" alt="Foto de Montes Zamora, Edgar Alexander Mauricio" width="150"/> |
 | **Güere Calero, Fernando Julio - u202413169** | Soy Fernando Julio Güere Calero (u202413169), estudiante del 5to ciclo de la carrera de Ingeniería de Software. Cuento con los conocimientos para programar en C++, Python y gestión de base de datos SQL. Además, tengo conocimiento para el desarrollo de páginas web usando HTML, CSS y JavaScript. Siempre estoy interesado en expandir mis conocimientos con otros lenguajes de programación para fortalecer mis competencias técnicas y enfrentar retos en la industria. | <img src="Resources/Profiles/Fernando.jpeg?raw=true" alt="Imagen de Güere Calero, Fernando Julio"/> |
 | **León Morales, Johan Yonel - u20231h055** | Soy Johan Yonel León Morales, estudiante del 5to ciclo de la carrera de Ingeniería de Software, identificado con el código u20231h055. Cuento con conocimientos en programación en C++, así como en el desarrollo de interfaces web utilizando HTML, CSS y JavaScript. Mi enfoque se basa en el aprendizaje continuo y la atención al detalle, complementado con habilidades de comunicación, empatía y adaptabilidad. Estas competencias me permiten integrarme de manera efectiva en equipos de trabajo, aportar en el desarrollo de soluciones y colaborar activamente en el cumplimiento de los objetivos del proyecto. | <img src="Resources/Profiles/Johan.png?raw=true" alt="Imagen de León Morales, Johan Yonel"/> |
-| **Garcia Villanueva, Leonardo Rafael - u20231h059** | Soy Leonardo Rafael Garcia Villanueva, actualmente estudiante en quinto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos del lenguaje C++, asi como HTML, CSS y JavaScript. Me interesa resolver problemas que requieran de creatividad y pensamiento lógico mediante el desarrollo de software. En los trabajos en equipo frecuentemente busco resolver cualquier dificultad que se presente y me adapto rápidamente a las situaciones que se presentan. | <img src="Resources/Profiles/Leonardo.jpg?raw=true" alt="Imagen de Garcia Villanueva, Leonardo Rafael"/> |
+| **Garcia Villanueva, Leonardo Rafael - u20231h059** | Soy Leonardo Rafael Garcia Villanueva, con código u20231h059, actualmente estudiante en quinto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos del lenguaje C++, asi como HTML, CSS y JavaScript. Me interesa resolver problemas que requieran de creatividad y pensamiento lógico mediante el desarrollo de software. En los trabajos en equipo frecuentemente busco resolver cualquier dificultad que se presente y me adapto rápidamente a las situaciones que se presentan. | <img src="Resources/Profiles/Leonardo.jpg?raw=true" alt="Imagen de Garcia Villanueva, Leonardo Rafael"/> |
 | **Lozano Leon, Richard Enrique - u20241d990** | Soy Richard Enrique Lozano León, con código U20241D990, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, cursando el quinto ciclo. Me interesa fortalecer mis competencias en el área tecnológica y actualmente me encuentro enfocado en el aprendizaje y práctica del lenguajes de programación. | <img src="Resources/Profiles/Richard.png?raw=true" alt="Imagen de Lozano Leon, Richard Enrique"/> |
 
 ## 1.2 Solution Profile
@@ -301,7 +301,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 El problema se presenta en entornos hospitalarios donde médicos, enfermeros y doctores tienen jornadas de trabajo largas, con niveles elevados de estrés, descanso insuficiente, y en ocasiones sobrecarga laboral. Esta situación aumenta la probabilidad de fatiga, lo que puede perjudicar la concentración, la toma de decisiones críticas o el desempeño general del personal. A pesar de la gravedad de este problema, muchos centros de salud no cuentan con herramientas que permitan medir este riesgo en tiempo real ni tampoco anticiparse a sus consecuencias de manera preventiva.
 
-Uno de los puntos críticos es que los supervisores y administrativos no suelen tienen una visión precisa y continua del estado de cansancio del personal, lo que dificulta una distribucion de turnos adecuada o tomar decisiones oportunas. Además, el personal clínico solo dispone de su autopercepción para darse cuenta de su nivel de fatiga y no siempre podrán reconocer cuándo su estado podría representar un riesgo para los pacientes.
+Uno de los puntos críticos es que los supervisores y administrativos no suelen tienen una visión precisa y continua del estado de cansancio del personal, lo que dificulta una distribucion de turnos adecuada o la toma de decisiones oportunas. Además, el personal clínico solo dispone de su autopercepción para darse cuenta de su nivel de fatiga y no siempre podrán reconocer cuándo su estado podría representar un riesgo para los pacientes.
 
 Por estas razones planteamos lo siguiente: ¿Cómo ayudar a las clínicas y hospitales a detectar el nivel de fatiga del personal clínico y posibles anomalías en sus datos de salud para prevenir errores médicos de forma accesible y personalizada?
 
@@ -335,7 +335,7 @@ Por estas razones planteamos lo siguiente: ¿Cómo ayudar a las clínicas y hosp
 
     6. **Vamos a adquirir la mayoría de nuestros clientes a través de** <br> campañas de publicidad y ofertas personalizadas dirigidas directamente a clínicas y hospitales según su tamaño y necesidades. <br>
 
-    7. **Haremos dinero a través de** <br> un modelo de suscripción aplicado a clínicas o centros médicos. La suscripción no se aplicará al personal médico, sino al centro clínico como institución. <br>
+    7. **Haremos dinero a través de** <br> un modelo de suscripción aplicado a clínicas o centros médicos. La suscripción no se aplicará al personal médico, sino al centro clínico. <br>
 
     8. **Nuestras competencias principales en el mercado son** <br> Readi, Pulsar, SmartCap y Optalert.<br>
 
@@ -349,38 +349,38 @@ Por estas razones planteamos lo siguiente: ¿Cómo ayudar a las clínicas y hosp
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 ###### Hipótesis 1:
-Escribe aquí
+Creemos que si mostramos al personal administrativo un dashboard con el puntaje de fatiga del personal clínico y alertas en tiempo real estos podrán responder con mayor rapidez ante situaciones de riesgo y tomar decisiones con más seguridad, sabremos que hemos tenido éxito cuando el 80% del personal administrativo reporten haber identificado con mayor rapidez a los trabajadores en riesgo y tomado una decisión oportuna.
 
--   **Business Outcome:** <br> <br>
+-   **Business Outcome:** <br> Incrementar los clientes de VitalWatch al reducir los incidentes asociados a fatiga y mejorar la seguridad operativa. <br>
     
--   **Users:** <br> <br>
+-   **Users:** <br> Directores, administradores, jefes de área y supervisores. <br>
     
--   **User Outcome:** <br> <br>
+-   **User Outcome:** <br> Detectar rápidamente al personal fatigado y redistribuir turnos o tareas a tiempo. <br>
     
--   **Feature:** <br> <br>
+-   **Feature:** <br> Dashboard de monitoreo con puntajes de fatiga, alertas y estado del personal. <br>
 
 ###### Hipótesis 2:
-Escribe aquí
+Creemos que si mostramos al personal clínico datos relevantes sobre su estado de fatiga y su historial podrán reconocer de forma precisa su nivel de agotamiento y decidir si necesitan descanso, sabremos que hemos tenido éxito cuando el 70% del personal que haya tenido un puntaje de fatiga elevado reporte una mejoría en su desempeño y estado de salud físico.
 
--   **Business Outcome:** <br> <br>
+-   **Business Outcome:** <br> Incrementar la cantidad de usuarios activos de VitalWatch fortaleciendo la prevención de riesgos laborales causados por la fatiga dentro del personal clínico. <br>
     
--   **Users:** <br> <br>
+-   **Users:** <br> Médicos, enfermeros y técnicos de salud. <br>
     
--   **User Outcome:** <br> <br>
+-   **User Outcome:** <br> Comprender su estado físico de mejor manera y saber cuándo necesitan descanso. <br>
     
--   **Feature:** <br> <br>
+-   **Feature:** <br> Vista de monitoreo individual para visualizar el nivel de fatiga actual e historial de datos de los últimos días. <br>
 
 
 ###### Hipótesis 3:
-Escribe aquí
+Creemos que si emitimos alertas de datos anómalos tanto al personal administrativo como clínico podrán identificar a tiempo posibles problemas de salud que no estén relacionadas con el cansancio y tomar decisiones oportunas, sabremos que hemos tenido éxito cuando el 85% las alertas revisadas hayan generado alguna acción como seguimiento o revisión médica.
 
--   **Business Outcome:** <br> <br>
+-   **Business Outcome:** <br> Incremento de la visiblidad de VitalWatch al fortalecer el valor diferencial mediante su capacidad de prevención adicional. <br>
     
--   **Users:** <br> <br>
+-   **Users:** <br> Personal administrativo y clínico. <br>
     
--   **User Outcome:** <br> <br>
+-   **User Outcome:** <br> Detectar señales tempranas de posibles problemas de salud y tomar decisiones oportunas para su bienestar. <br>
     
--   **Feature:** <br> <br>
+-   **Feature:** <br> Módulo de detección de anomalías con alertas compartidas para supervisores y personal clínico en el dashboard. <br>
 
 
 #### 1.2.2.4 Lean UX Canvas
@@ -388,39 +388,62 @@ Escribe aquí
 <table>
     <tr>
         <td valign="top" >
-            <div align="center"> <br><b>Buiness Problem</b> </div><br>
-            <p>- <br> - </p><br>
+            <div align="center"> <br><b>Business Problem</b> </div><br>
+            <p> - En clínicas y hospitales no existe una forma clara de medir la fatiga del personal en tiempo real <br> 
+                - La falta de monitoreo preventivo incrementa el riesgo de errores médicos y afecta la seguridad de los pacientes
+            </p>
         </td>
         <td rowspan="2" valign="top">
             <div align="center"><br><b>Solutions</b> </div><br>
-            <p>- <br> - 
-            </p><br>
+            <p> - Dashboard de monitoreo a tiempo real <br> 
+                - Cálculo de puntaje de fatiga a partir de datos biométricos y de jornada de trabajo <br>
+                - Alertas preventivas para el personal administrativo y clínico <br>
+                - Detección de datos anómalos no relacionados con la fatiga que indiquen posibles problemas de salud
+            </p>
         </td>
             <td valign="top">
             <div align="center"> <br><b>Business Outcomes</b> </div><br>
-            <p>- <br>- </p><br>
+            <p> - Incrementar los clientes de VitalWatch al reducir los incidentes asociados a fatiga y mejorar la seguridad operativa en clínicas y hospitales <br>
+                - Incrementar la cantidad de usuarios activos de VitalWatch fortaleciendo la prevención de riesgos laborales causados por la fatiga <br>
+                - Incremento de la visiblidad de VitalWatch al fortalecer el valor diferencial mediante su capacidad de prevención adicional.
+            </p>
             </td>
         </tr>
     <tr>
         <td valign="top">
             <div align="center"><br><b>Users</b></div><br>
-            <p>- .<br> - </p><br>
+            <p> - Personal administrativo (directores, administradores y supervisores) <br> 
+                - Personal clínico (médicos, enfermeros y técnicos de salud)
+            </p>
         </td>
         <td valign="top">
             <div align="center"><br><b>User Outcomes & Benefits</b></div><br>
-            <p>- <br> - <br> - </p><br>
+            <p> - Detectar rápidamente al personal fatigado y redistribuir turnos o tareas a tiempo <br> 
+                - Comprender su estado físico de mejor manera y saber cuándo necesitan descanso <br> 
+                - Detectar señales tempranas de posibles problemas de salud y tomar decisiones oportunas para su bienestar
+            </p>
         </td>
     </tr>
     <tr>
         <td valign="top">
             <div align="center"> <br><b>Hypotheses</b> </div><br>
-            <p>- <br> - </p> <br>
+            <p> - Si mostramos al personal administrativo el puntaje de fatiga del personal clínico en tiempo real podrán responder con mayor rapidez ante situaciones de riesgo <br>
+                - Si mostramos al personal clínico datos relevantes sobre su estado de fatiga podrán actuar antes de que su desempeño se vea afectado <br>
+                - Si emitimos alertas de datos anómalos se podrán identificar a tiempo posibles problemas de salud que no estén relacionadas con el cansancio 
+            </p>
         </td>
         <td valign="top">
-            <div align="center"> <br><b>What’s the most important thing we need to learn first?</b> </div><br><p>- <br> - </p> <br>
+            <div align="center"> <br><b>What’s the most important thing we need to learn first?</b> </div><br>
+            <p> - Saber si el personal administrativo realmente confiaría en el monitoreo de fatiga y entendería el puntaje mostrado <br>
+                - Saber si el personal clínico vería el puntaje de fatiga como una herramienta de apoyo real <br>
+                - Saber si las alertas de datos anómalos se percibirían como algo útil e importante
+            </p>
         </td>
         <td valign="top">
-            <div align="center">  <br><b>What's the least amount of work we need to do to learn the next most important thing?</b> </div><br><p>- <br> - </p> <br>
+            <div align="center">  <br><b>What's the least amount of work we need to do to learn the next most important thing?</b> </div><br>
+            <p> - Crear un prototipo funcional del dashboard con puntaje de fatiga y algunas alertas básicas. <br>
+                - Simular datos para probar la detección de fatiga y los datos anomalos.
+            </p>
         </td>
     </tr>
 </table>
