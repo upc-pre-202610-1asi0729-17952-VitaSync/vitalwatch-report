@@ -781,6 +781,9 @@ Explicacion
 
 ## 3.2. Impact Mapping
 
+<img src="Resources/Images/impact_map.png?raw=true" alt="Gráfico del impact map de VitalWatch"/>
+
+
 ## 3.3. Product Backlog
 
 ---
