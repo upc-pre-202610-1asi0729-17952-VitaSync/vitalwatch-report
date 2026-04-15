@@ -694,11 +694,110 @@ Explicacion
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories.
-
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | :--- | :--- | :--- | :--- | :--- |
-| **US-XX** | | | **Escenario 1:** <br>Dado que <br>Cuando <br>Entonces | **EP-XX** |
-| | | | | |
+| **EP-01** | Presentación de VitalWatch | Se reune todo lo necesario para la elaboración de la landing page, teniendo como objetivo presentar la problemática que se busca resolver, la propuesta de valor, los beneficios, planes de suscripción y un medio de contacto con los clientes potenciales. | **-** | **-** |
+| **EP-02** | | | **-** | **-** |
+| **EP-03** | | | **-** | **-** |
+| **EP-04** | | | **-** | **-** |
+| **US-01** | Primera impresión sobre el producto | 
+Como director o administrador de una clínica, quiero entender rápidamente qué es VitalWatch y qué problema resuelve, para saber si puede ayudar a mejorar mi clínica | 
+**Escenario 1: Visualización de la sección principal**<br>
+Dado que el director o administrador de una clínica ingresa a la landing page<br>
+Cuando se carga la sección inicial<br>
+Entonces debe visualizar una descripción breve y precisa sobre VitalWatch<br> 
+**Escenario 2: Lectura de la información principal**<br> 
+Dado que el director o administrador de una clínica se encuentra en el sitio<br>
+Cuando revise el contenido<br>
+Entonces debe identificar cuál es el próposito principal del producto<br> | 
+**EP-01** |
+| **US-02** | Navegación por secciones | 
+Como médico o administrador de una clínica, quiero navegar fácilmente entre las secciones informativas sobre VitalWatch, para encontrar rápidamente la información que necesito | 
+**Escenario 1: Visualización de opciones de navegación**<br> 
+Dado que el médico o administrador de una clínica visita la landing page<br> 
+Cuando se carga la página<br> 
+Entonces debe visualizar una barra de navegación superior con las secciones de inicio, funcionalidades, suscripciones, contacto y términos del servicio<br>
+**Escenario 2: Acceso a secciones desde la barra de navegación**<br> 
+Dado que el médico o administrador de una clínica se encuentra en la landing page<br> 
+Cuando selecciona una opción de la barra de navegación<br> 
+Entonces se debe visualizar la sección correspondiente<br>   | 
+**EP-01** |
+| **US-03** | Explicación detallada del producto | Como administrador de una clínica, quiero conocer qué ofrece VitalWatch, para evaluar si lo que ofrece es útil para las necesidades de mi institución | **Escenario 1: Visualización de la propuesta del servicio**<br> 
+Dado que el administrador de una clínica revisa la sección de funcionalidades<br> 
+Cuando termina de leer el contenido<br> 
+Entonces debe entender que VitalWatch se encarga de monitorear la fatiga, generar alertas y analizar datos del personal clínico<br> | 
+**EP-01** |
+| **US-04** | Sección de beneficios de gestión | Como administrador de una clínica, quiero ver los beneficios de gestión que ofrece VitalWatch, para entender cómo puede ayudarme en la supervisión del personal | **Escenario 1: Revisión de beneficios para la gestión**<br> 
+Dado que el administrador de una clínica revisa la sección de funcionalidades<br> 
+Cuando analiza el contenido<br> 
+Entonces debe comprender cómo VitalWatch apoya la supervisión y prevención de riesgos por fatiga<br>  
+**Escenario 2: Evaluación del aporte a la toma de decisiones**<br> 
+Dado que el directivo de una clínica termina de leer la sección de funcionalidades<br> 
+Cuando compara lo que se ofrece con sus necesidades<br> 
+Entonces debe identificar cómo VitalWatch puede ayudar en la toma de decisiones de asignación de personal<br> | 
+**EP-01** |
+| **US-05** | Sección de beneficios para el personal clínico | Como personal clínico de una clínica, quiero conocer cómo VitalWatch puede ayudarme en mi trabajo diario, para identificar los beneficios que me podría brindar |
+**Escenario 1: Revisión de beneficios al trabajo rutinario**<br> 
+Dado que el personal clínico termina de revisar la sección de funcionalidades<br> 
+Cuando analiza lo que se ofrece<br> 
+Entonces debe reconocer los beneficios que VitalWatch puede darle al ayudarle a detectar la fatiga y señales anómalas de salud<br> | 
+**EP-01** |
+| **US-06** | Sección de planes de suscripción | Como administrador de una clínica, quiero revisar los planes de suscripción disponibles, para identificar la opción más adecuada para mi institución |
+**Escenario 1: Visualización de los planes disponibles**<br> 
+Dado que el administrador de una clínica se encuentra en la sección de suscripciones<br> 
+Cuando observa los planes disponibles<br> 
+Entonces debe poder comparar fácilmente lo que ofrece cada plan<br>  
+**Escenario 2: Selección del plan más adecuado**<br> 
+Dado que el administrador de una clínica ha revisado los planes de suscripción <br> 
+Cuando elige el plan que desea adquirir<br> 
+Entonces se le redirecciona a la sección de contacto<br> | 
+**EP-01** |
+| **US-07** | Formulario de contacto | Como director o administrador de una clínica, quiero encontrar un formulario de contacto en la página, para solicitar información o una demostración |
+**Escenario 1: Acceso al formulario de contacto**<br> 
+Dado que el director o administrador de una clínica se encuentra en la sección de contacto<br> 
+Cuando visualiza el formulario<br> 
+Entonces debe poder visualizar todos los campos necesarios para enviar su consulta<br>  
+**Escenario 2: Envío del formulario completado**<br> 
+Dado que el directivo de una clínica completa correctamente el formulario<br> 
+Cuando presiona el botón de envío<br> 
+Entonces se le debe mostrar una confirmación de que su mensaje fue recibido<br>
+**Escenario 3: Envío del formulario con datos incompletos**<br> 
+Dado que el directivo de una clínica no llena correctamente el formulario<br> 
+Cuando presiona el botón de envío<br> 
+Entonces se le debe mostrar una alerta que le indique que datos no ingresó correctamente<br> | 
+**EP-01** |
+| **US-08** | Sección de términos de servicio | Como director o administrador de una clínica, quiero ver información sobre el manejo de la privacidad y el uso responsable de los datos, para saber si el servicio es confiable |
+**Escenario 1: Visualización resumida de los términos de uso**<br> 
+Dado que el director o administrador de una clínica se encuentra en la landing page<br> 
+Cuando llega a la sección de términos de uso del servicio<br> 
+Entonces debe encontrar una versión resumida de los términos de uso más importantes de VitalWatch<br>
+**Escenario 2: Visualización detallada de los términos de uso**<br> 
+Dado que el director o administrador de una clínica se encuentra en la sección de términos de uso del servicio<br> 
+Cuando presiona el botón de "Más información"<br> 
+Entonces debe mostrarse la información completa sobre los términos de uso de VitalWatch<br> | 
+**EP-01** |
+| **US-09** | Diseño adaptable para móviles | Como director o administrador de una clínica que accede desde un dispositivo móvil, quiero que la página se adapte correctamente a mi pantalla, para poder navegar cómodamente desde mi dispositivo |
+**Escenario 1: Adaptación de la página al celular**<br> 
+Dado que el director o administrador de una clínica ingresa desde un celular<br> 
+Cuando se carga la página<br> 
+Entonces el contenido debe ajustarse correctamente al tamaño de su pantalla<br>  
+**Escenario 2: Menú hamburguesa de navegación**<br> 
+Dado que el director o administrador de una clínica presiona el ícono del menú de navegación<br> 
+Cuando se despliega la barra de navegación<br> 
+Entonces debe poder acceder a las secciones principales fácilmente<br> | 
+**EP-01** |
+| **US-10** | Sección de redes sociales | Como personal de una clínica, quiero acceder a las redes sociales y medios de contacto de la empresa, para conocer más sobre VitaSync y VitalWatch |
+**Escenario 1: Redirección a las redes sociales**<br> 
+Dado que el personal de una clínica se encuentra en la sección de contacto<br> 
+Cuando revisa el pie de página<br> 
+Entonces debe encontrar iconos con enlaces que redirijan a las redes sociales de VitaSync<br> | 
+**EP-01** |
+| **US-XX** | Titulo | Como, quiero, para |
+**Escenario X: Titulo**<br> 
+Dado que <br> 
+Cuando <br> 
+Entonces <br> | 
+**EP-XX** |
 
 ## 3.2. Impact Mapping
 
