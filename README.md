@@ -272,30 +272,33 @@ Proponemos esto como respuesta a las problemas de la sobrecarga laboral, los tur
 
 ### 1.2.1 Antecedentes y problemática
 
+Actualmente, es evidente que el agotamiento profesional es un fenómeno generalizado entre los profesionales de la salud. Este fenómeno se ha convertido en una evidente problemática en Perú, especialmente en los hospitales donde las exigencias laborales son altas y las jornadas de trabajo pueden llegar a durar más de 24 horas. Un estudio reciente realizado en un hospital de Tacna (NBR, 2023), muestra que los profesionales de la salud presentan una alta sensibilidad emocional, directamente relacionada con las exigencias de su trabajo, las largas jornadas y la presión constante de la atención al paciente.
+
+En vista de este contexto, surge la necesidad de implementar soluciones que puedan ayudar a medir los niveles de agotamiento del personal medico de manera temprana, esto con el fin de prevenir posibles riesgos, mejorar las condiciones laborales y poder garantizar una atención eficiente y segura para los pacientes.
 
 **5W's y 2H's**
 <br>
 
 * **What?**
-
+Tanto en clínicas como en hospitales existe una problemática relacionada con la fatiga del personal clínico, producida por jornadas laborales extensas, turnos rotativos inesperados y altos niveles de estrés acumulados durante días. Esto afecta evidentemente al rendimiento del personal medico, lo cual puede aumentar el riesgo de errores durante la atención a pacientes, realización de documentos, etc. Actualmente, no se evidencia la presencia de aplicaciones que permitan medir y monitorear este nivel de fatiga en tiempo real de manera preventiva.
 <br><br>
 * **Why?**
-
+El problema se origina principalmente por la sobrecarga laboral, una alta demanda de atención médica y una notoria falta de sistemas que permitan evaluar de forma objetiva el estado tanto físico como mental del personal clínico. Además, la gestión de turnos del personal se asigna sin tomar en cuenta la fatiga, lo que incrementa el riesgo de agotamiento del personal asignado y a su vez disminuye la calidad del servicio de salud.
 <br><br>
 * **Who?**
-
+Los principales afectados serían el personal clínico, enfermeros y técnicos de salud, quienes estarían expuestos a largas jornadas de trabajo. Por lo que, de manera indirecta, también impacta al personal administrativo, quienes están encargados de la gestión hospitalaria, y no cuentan con herramientas para tomar decisiones informadas sin confirmación de un médico en plenitud de facultades. Finalmente, los pacientes también se pueden ver afectados, al correr el riesgo de posibles errores médicos.
 <br><br>
 * **When?**
-
+Este problema si bien ocurre principalmente durante turnos prolongados, guardias nocturnas o jornadas laborales continuas sin de un descanso adecuado, también se intensifica durante situaciones de alta demanda, como emergencias médicas o temporadas con mayor carga hospitalaria.
 <br><br>
 * **Where?**
-
+Esta problemática se presenta en hospitales, clínicas, centros de salud o postas médicas, especialmente en aquellas que están ubicadas en zonas urbanas o que tengan un flujo de pacientes elevado, donde el personal clínico enfrenta una mayor carga laboral y presión operativa.
 <br><br>
 * **How?**
-
+Ocurre debido a una acumulación progresiva una acumulación de horas de trabajo, la falta de descanso adecuado ya sea por tiempo o por espacios, y niveles elevados de estrés. La ausencia de herramientas que le permitan al personal monitorear este problema lo que provoca que pase desapercibido hasta que los errores se manifiesten, la disminución del rendimiento o problemas de salud en el personal.
 <br><br>
 * **How much?**
-
+El impacto es evidentemente significativo, al incrementar el riesgo de errores médicos, afecta la calidad con la que se brinda el servicio de salud y que puede generar consecuencias graves para los pacientes. Además, puede generar costos operativos para las mismas instituciones, como rotación de personal, disminución de productividad e incluso posibles responsabilidades legales derivadas de negligencias médicas.
 <br><br>
 
 ### 1.2.2 Lean UX Process
@@ -888,4 +891,7 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ---
 # Conclusiones
 # Bibliografía
+Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
+https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
+
 # Anexos
