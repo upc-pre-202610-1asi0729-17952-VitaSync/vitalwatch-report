@@ -672,40 +672,40 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 ---
 
-## Segmento 1: Personal administrativo (Directores y Administradores)
+
+## Segmento 1: Administradores y Directores Médicos
 
 ### Preguntas complementarias
 
 - ¿Cuál es su nombre completo?
 - ¿Cuántos años tiene?
-- ¿En qué tipo de institución trabaja actualmente? (hospital público, clínica privada, red hospitalaria, etc.)
-- ¿Cuántos años de experiencia tiene en gestión hospitalaria?
-- ¿Cuál es su cargo o responsabilidad principal?
-- ¿Cuántas personas supervisa aproximadamente?
-- ¿Qué dispositivos tecnológicos utiliza en su trabajo?
-- ¿Qué herramientas usa para gestionar horarios y turnos?
-- ¿Qué navegador utiliza normalmente?
-- ¿Qué métodos de autenticación usa en sistemas institucionales?
+- ¿En qué tipo de institución ejerce actualmente su cargo? (hospital público, clínica privada, red hospitalaria, etc.)
+- ¿Cuántos años de experiencia tiene en roles de gestión hospitalaria o administración de personal sanitario?
+- ¿Cuál es su cargo o campo principal de responsabilidad? (dirección médica, jefatura de departamento, coordinación de recursos humanos, etc.)
+- ¿Cuántas personas conforman aproximadamente el equipo médico bajo su supervisión directa?
+- ¿Qué dispositivos tecnológicos utiliza con mayor frecuencia en su trabajo administrativo? (laptop, tablet, smartphone, etc.)
+- ¿Qué herramientas o software emplea habitualmente para la gestión de horarios y turnos del personal?
+- ¿Qué navegador web utiliza normalmente para su trabajo?
+- ¿Cuáles son los métodos que utiliza más para autenticarse en sistemas institucionales? (correo corporativo, SSO, autenticación en dos pasos, etc.)
 
 ### Preguntas principales
 
-- ¿Cómo elabora los horarios del personal médico?
-- ¿Cómo se maneja un caso de agotamiento extremo en su institución?
-- ¿Qué pasos sigue cuando detecta fatiga en un trabajador?
-- ¿Cuál es el problema más urgente en la gestión de turnos y fatiga?
-- ¿Cómo definiría un turno de riesgo?
-- Si tuviera datos en tiempo real de fatiga, ¿qué decisiones tomaría?
-- ¿Quién debería tener acceso a esa información?
-- ¿Qué resultado esperaría de una reprogramación automática de turnos?
-- ¿Qué funcionalidad del sistema considera más importante?
-- ¿Qué requisitos debe cumplir el sistema para implementarse?
-- ¿Cómo debería ser el dashboard ideal?
-- ¿Qué reportes necesita para auditoría?
-- ¿Qué integraciones espera con otros sistemas? (HIS, planillas, etc.)
+- ¿Cómo elabora actualmente los horarios y turnos del personal médico? ¿Qué criterios utiliza para distribuir la carga de trabajo entre los especialistas?
+- Cuando ocurre una situación de agotamiento extremo del personal durante un turno, ¿cómo se llama ese evento dentro de su institución? ¿Existe un protocolo formal para manejarlo?
+- ¿Qué pasos sigue usted desde que detecta que un médico está en riesgo de fatiga hasta que toma una acción correctiva? ¿Quiénes más intervienen en ese proceso?
+- De todos los problemas que enfrenta en la gestión del personal relacionados con la fatiga y los turnos, ¿cuál considera que es el más urgente de resolver con apoyo tecnológico?
+- Si tuviera que describir en sus propias palabras qué significa un "turno de riesgo" o una "unidad en estado crítico de fatiga", ¿cómo lo definiría? ¿Qué indicadores utilizaría para identificarlo?
+- Si el sistema le mostrara en tiempo real el nivel de fatiga acumulada de cada médico en turno, ¿qué decisiones concretas tomaría con esa información? ¿Quién dentro de la institución debería tener acceso a esos datos?
+- Cuando el sistema detecte automáticamente que un médico ha superado el umbral de riesgo y genere una sugerencia de reprogramación de turno, ¿qué resultado esperaría ver para considerar que esa acción fue exitosa? ¿Cómo mediría que funcionó correctamente?
+- De las siguientes capacidades del sistema, ¿cuál le resulta más urgente e importante: visualización de fatiga en tiempo real, sugerencias automáticas de reprogramación, reportes exportables para auditoría, o alertas preventivas al personal? ¿Por qué?
+- ¿Cuáles serían los criterios mínimos que un sistema de monitoreo biométrico debería cumplir para que usted lo aprobara e implementara en su institución? (seguridad de datos, cumplimiento normativo, costo, facilidad de uso, aceptación del personal, etc.)
+- ¿Cómo debería estructurarse el dashboard administrativo para que encaje en su flujo de trabajo diario? ¿Prefiere resúmenes consolidados, alertas en tiempo real o una combinación de ambos?
+- ¿Qué tipo de reportes necesitaría exportar desde la plataforma para cumplimiento normativo o auditorías internas?
+- ¿Qué integración esperaría que tuviera esta plataforma con los sistemas que ya utiliza en su institución? (HIS, planillas, nómina, etc.)
 
 ---
 
-## Segmento 2: Personal clínico (Médicos, Enfermeros y Técnicos)
+## Segmento 2: Personal clínico (Médicos Residentes, Especialistas y Enfermeros)
 
 ### Preguntas complementarias
 
@@ -722,18 +722,18 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 ### Preguntas principales
 
 - ¿Cuántas horas trabaja seguidas en una guardia típica y con qué frecuencia se repiten a la semana?
-- Cuando usted o un colega llega a un punto de agotamiento extremo durante una guardia, ¿cómo describiría ese momento?
-- ¿Qué sucede en su institución cuando un médico colapsa por fatiga durante un turno?
-- ¿Existe algún mecanismo formal para detectar o prevenir el agotamiento del personal?
-- ¿Cuál considera que es el problema más urgente relacionado con la fatiga en su trabajo?
-- ¿Cómo definiría un estado de riesgo por fatiga? ¿Qué señales lo identifican?
-- Si un sistema detectara ese riesgo, ¿qué debería hacer automáticamente?
-- ¿Qué resultado esperaría para considerar que el sistema funciona correctamente?
-- ¿Qué información sobre su salud le sería más útil durante una guardia?
-- ¿Qué tan dispuesto estaría a usar un wearable para prevenir errores o agotamiento?
-- ¿Qué condiciones necesitaría para aceptar ese monitoreo? (privacidad, control, etc.)
-- ¿Cómo debería ser el dispositivo para no interferir en su trabajo?
-- ¿Qué funcionalidad no le gustaría que tuviera el sistema?
+- Cuando usted o un colega llega a un punto de agotamiento extremo durante una guardia, ¿cómo describiría ese momento? ¿Qué nombre le daría a ese estado dentro de su entorno de trabajo?
+- ¿Qué sucede exactamente en su institución cuando un médico colapsa por fatiga durante un turno? ¿Qué pasos se siguen y quiénes intervienen?
+- ¿Existe actualmente algún mecanismo formal en su institución para detectar o prevenir el agotamiento del personal? ¿Considera que es suficiente?
+- De todas las dificultades que enfrenta relacionadas con la fatiga en guardia, ¿cuál considera que es la más urgente de resolver? ¿Por qué?
+- Si tuviera que describir en sus propias palabras qué significa para usted estar en un "estado de riesgo por fatiga", ¿cómo lo definiría? ¿Qué señales físicas o mentales lo identifican?
+- Si un sistema detectara automáticamente que usted ha superado ese umbral de riesgo, ¿qué debería ocurrir a continuación? ¿Qué acción del sistema consideraría que resuelve correctamente esa situación?
+- ¿Cómo sabría usted que esa acción automática del sistema funcionó bien? ¿Qué resultado esperaría ver para considerarla exitosa?
+- ¿Qué información sobre su propia salud durante la guardia le resultaría más valiosa consultar? Si tuviera que ordenarlas por importancia, ¿cuál iría primero?
+- ¿Qué tan dispuesto estaría a usar un wearable durante sus horas de servicio si este le ayudara a prevenir un error clínico o un colapso físico?
+- ¿Qué condiciones serían indispensables para que usted aceptara este tipo de monitoreo continuo? (privacidad de datos, anonimización, control sobre quién accede a su información, etc.)
+- ¿Cómo debería ser físicamente el dispositivo para que no interfiera con su trabajo clínico? (tamaño, peso, zona del cuerpo, discreción visual)
+- ¿Existe alguna funcionalidad que definitivamente NO querría que tuviera el sistema? ¿Por qué?
 
 ### 2.2.2 Registro de entrevistas
 
