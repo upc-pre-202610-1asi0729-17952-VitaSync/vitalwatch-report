@@ -862,13 +862,9 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 <br>
 
 <img src="Resources/Images/Wireframes/landing_page_browser_movile_1.png?raw=true" alt="Pantalla de contacto en formato móvil de la landing page de VitalWatch"/>
-<br> 
 <img src="Resources/Images/Wireframes/landing_page_browser_movile_2.png?raw=true" alt="Pantalla de funciones en formato móvil de la landing page de VitalWatch"/>
-<br> 
 <img src="Resources/Images/Wireframes/landing_page_browser_movile_3.png?raw=true" alt="Pantalla de planes en formato móvil de la landing page de VitalWatch"/>
-<br> 
 <img src="Resources/Images/Wireframes/landing_page_browser_movile_4.png?raw=true" alt="Pantalla de términos en formato móvil de la landing page de VitalWatch"/>
-<br> 
 <img src="Resources/Images/Wireframes/landing_page_browser_movile_5.png?raw=true" alt="Pantalla de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
 
