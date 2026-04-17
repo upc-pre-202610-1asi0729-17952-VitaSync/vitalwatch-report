@@ -808,7 +808,7 @@ Utilizamos el siguiente código de colores estándar para garantizar la legibili
 
 **Big Picture Event Storming - Mapa**
 <div align="center">
-  <img src="Resources/images/WebStorming/BigPictureEventStorming.jpg" alt="Mapa Big Picture Event Storming de VitalWatch">
+  <img src="Resources/Images/WebStorming/BigPictureEventStorming.jpg" alt="Mapa Big Picture Event Storming de VitalWatch">
 </div>
 
 **Interpretación de hallazgos clave**
