@@ -280,24 +280,31 @@ En vista de este contexto, surge la necesidad de implementar soluciones que pued
 <br>
 
 * **What?**
+
 Tanto en clínicas como en hospitales existe una problemática relacionada con la fatiga del personal clínico, producida por jornadas laborales extensas, turnos rotativos inesperados y altos niveles de estrés acumulados durante días. Esto afecta evidentemente al rendimiento del personal medico, lo cual puede aumentar el riesgo de errores durante la atención a pacientes, realización de documentos, etc. Actualmente, no se evidencia la presencia de aplicaciones que permitan medir y monitorear este nivel de fatiga en tiempo real de manera preventiva.
 <br><br>
 * **Why?**
+
 El problema se origina principalmente por la sobrecarga laboral, una alta demanda de atención médica y una notoria falta de sistemas que permitan evaluar de forma objetiva el estado tanto físico como mental del personal clínico. Además, la gestión de turnos del personal se asigna sin tomar en cuenta la fatiga, lo que incrementa el riesgo de agotamiento del personal asignado y a su vez disminuye la calidad del servicio de salud.
 <br><br>
 * **Who?**
+
 Los principales afectados serían el personal clínico, enfermeros y técnicos de salud, quienes estarían expuestos a largas jornadas de trabajo. Por lo que, de manera indirecta, también impacta al personal administrativo, quienes están encargados de la gestión hospitalaria, y no cuentan con herramientas para tomar decisiones informadas sin confirmación de un médico en plenitud de facultades. Finalmente, los pacientes también se pueden ver afectados, al correr el riesgo de posibles errores médicos.
 <br><br>
 * **When?**
+
 Este problema si bien ocurre principalmente durante turnos prolongados, guardias nocturnas o jornadas laborales continuas sin de un descanso adecuado, también se intensifica durante situaciones de alta demanda, como emergencias médicas o temporadas con mayor carga hospitalaria.
 <br><br>
 * **Where?**
+
 Esta problemática se presenta en hospitales, clínicas, centros de salud o postas médicas, especialmente en aquellas que están ubicadas en zonas urbanas o que tengan un flujo de pacientes elevado, donde el personal clínico enfrenta una mayor carga laboral y presión operativa.
 <br><br>
 * **How?**
+
 Ocurre debido a una acumulación progresiva una acumulación de horas de trabajo, la falta de descanso adecuado ya sea por tiempo o por espacios, y niveles elevados de estrés. La ausencia de herramientas que le permitan al personal monitorear este problema lo que provoca que pase desapercibido hasta que los errores se manifiesten, la disminución del rendimiento o problemas de salud en el personal.
 <br><br>
 * **How much?**
+
 El impacto es evidentemente significativo, al incrementar el riesgo de errores médicos, afecta la calidad con la que se brinda el servicio de salud y que puede generar consecuencias graves para los pacientes. Además, puede generar costos operativos para las mismas instituciones, como rotación de personal, disminución de productividad e incluso posibles responsabilidades legales derivadas de negligencias médicas.
 <br><br>
 
@@ -749,8 +756,19 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 <div align="justify"><br> 
 
 ### 2.3.2. User Task Matrix.
-### Segmento 1:
-### Segmento 2:
+
+
+| Tarea del usuario |‎ ‎ ‎ ‎ ‎ Maribel||
+|------------------|---------|--|
+|                  | Frecuencia | Importancia |
+| Procesar muestras<br>y entregar resultados | Alta (diaria) | Muy alta |
+| Atender emergencias<br>simultáneamente | Alta | Muy alta |
+| Acceder y usar<br>el sistema clínico | Alta | Alta |
+| Coordinar con<br>colegas | Media | Alta |
+| Gestionar su estrés<br>y fatiga | Alta | Muy alta |
+| Mantener confidencialidad<br>de datos | Alta | Crítica |
+| Cumplir turnos<br>extensos | Alta | Muy alta |
+
 ### 2.3.3. User Journey Mapping.
 ### Segmento 1:
 ### Segmento 2:
