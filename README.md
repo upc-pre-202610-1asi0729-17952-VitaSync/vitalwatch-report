@@ -818,6 +818,27 @@ Utilizamos el siguiente código de colores estándar para garantizar la legibili
 
 ## 2.5. Ubiquitous Language
 
+Se muestra a continuación el glosario de términos utilizados dentro del dominio del problema, especifico al monitoreo de la fatiga en personal de salud. Estos términos facilitan una comunicación clara y sin ambigüedades dentro de su equipo y los stakeholders.
+
+- **Fatigue Score (Nivel de Fatiga):** valor o indicador que representa el grado de fatiga de un trabajador de salud según ciertos datos biométricos y laborales.
+
+- **Clinical Staff (Personal Clínico):** personal de salud que atiende directamente a los pacientes, como médicos, enfermeros y técnicos.
+
+- **Administrative Staff (Personal Administrativo):** personal encargado de supervisar, organizar turnos y tomar decisiones relacionadas con la gestión del equipo médico.
+
+- **Work Shift (Turno de Trabajo):** periodo de tiempo en el que un trabajador de salud cumple con sus funciones dentro de la institución.
+
+- **Fatigue Risk (Riesgo por Fatiga):** situación en la que un trabajador presenta señales de agotamiento que podrían afectar su rendimiento o incrementar la posibilidad de errores.
+
+- **Alert (Alerta):** aviso generado cuando se identifica una condición de riesgo relacionada con la fatiga.
+
+- **Biometric Data (Datos Biométricos):** datos físicos o fisiológicos del personal, como frecuencia cardiaca, horas de sueño o actividad.
+
+- **Workload (Carga Laboral):** nivel de exigencia que tiene un trabajador según la cantidad de tareas, horas de trabajo y frecuencia de guardias.
+
+- **Monitoring (Monitoreo):** seguimiento constante del estado del personal a partir de la recolección y análisis de información.
+
+- **Preventive Action (Acción Preventiva):** medida que se toma antes de que ocurra un problema, con el fin de reducir riesgos en el entorno de trabajo.
 ---
 # Capítulo III: Requirements Specification
 
