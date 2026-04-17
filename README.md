@@ -742,14 +742,25 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 ## 2.3 Needfinding
 
 ### 2.3.1. User Personas.
-
+### Segmento 1:
+### Segmento 2:
 <div align="center">
-<img src="Resources/Images/Needfinding/UsersPersonas2.jpg?raw=true" alt="Imagen del User Personas del segundo segmento"/> 
+<img src="Resources/Images/Needfinding/UsersPersonas2.jpg" alt="Imagen del User Personas del segundo segmento"/> 
 <div align="justify"><br> 
 
 ### 2.3.2. User Task Matrix.
+### Segmento 1:
+### Segmento 2:
 ### 2.3.3. User Journey Mapping.
+### Segmento 1:
+### Segmento 2:
+<div align="center">
+<img src="Resources/Images/Needfinding/JourneyMapping2.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
+<div align="justify"><br> 
+
 ### 2.3.4. Empathy Mapping.
+### Segmento 1:
+### Segmento 2:
 
 ## 2.4. Big Picture Event Storming.
 
