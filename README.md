@@ -785,15 +785,36 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 ## 2.4. Big Picture Event Storming.
 
-Explicacion 
+### Explicación
+El Big Picture Event Storming es una técnica de modelado colaborativo que nos ha permitido mapear todo el flujo de VitalWatch de extremo a extremo. El objetivo principal es comprender cómo fluye la información desde que el personal médico inicia su guardia hasta que el sistema ejecuta una acción preventiva, permitiéndonos identificar puntos críticos que podrían comprometer la seguridad en los hospitales y clínicas.
 
 **Metodología aplicada**
+Para el desarrollo de esta sesión, el equipo de **VitaSync** siguió un proceso de cuatro etapas fundamentales:
+1.  **Exploración Caótica:** Identificamos todos los eventos de dominio (sucesos en pasado) relacionados con la gestión de fatiga y la operatividad clínica.
+2.  **Línea de Tiempo:** Ordenamos los eventos cronológicamente para entender el ciclo de vida de una jornada laboral bajo monitoreo.
+3.  **Identificación de Actores y Sistemas:** Asignamos responsables (Directores de Guardia, Médicos) y herramientas externas (Wearables, Sistemas HIS).
+4.  **Detección de puntos críticos:** Marcamos áreas de incertidumbre, como la privacidad de datos biométricos o la resistencia del personal al monitoreo.
 
 **Big Picture Event Storming - Leyenda**
+Utilizamos el siguiente código de colores estándar para garantizar la legibilidad del diagrama:
+
+| Color | Concepto | Función en VitalWatch |
+| :--- | :--- | :--- |
+| **Naranja** | **Domain Event** | Sucesos significativos ya ocurridos (ej. "Alerta de riesgo enviada"). |
+| **Azul** | **Command** | Acciones o intenciones que provocan un evento (ej. "Redistribuir turnos"). |
+| **Amarillo** | **Actor** | Personas que toman decisiones clave dentro del flujo hospitalario. |
+| **Rosado** | **External System** | Plataformas externas que se integran (Wearables, Base de Datos HIS). |
+| **Violeta** | **Hotspot** | Riesgos, dudas técnicas o cuellos de botella detectados en el negocio. |
 
 **Big Picture Event Storming - Mapa**
+<div align="center">
+  <img src="Resources/images/WebStorming/BigPictureEventStorming.jpg" alt="Mapa Big Picture Event Storming de VitalWatch">
+</div>
 
 **Interpretación de hallazgos clave**
+* **La confirmación humana es vital:** El análisis reveló que el sistema no puede ser puramente automático; la confirmación de recepción por parte del médico es el paso que asegura que la alerta realmente prevenga una negligencia.
+* **Gestión de la resistencia clínica:** Identificamos que el mayor reto no es la tecnología, sino el factor cultural. Los directores médicos necesitan confiar en que el algoritmo es un apoyo y no un reemplazo de su juicio clínico.
+* **Valor en el post-descanso:** Descubrimos una oportunidad de mejora al monitorear el desempeño después de una intervención de fatiga, lo que nos permite validar científicamente la efectividad de VitalWatch.
 
 ## 2.5. Ubiquitous Language
 
