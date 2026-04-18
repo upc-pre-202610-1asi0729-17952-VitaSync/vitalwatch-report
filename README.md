@@ -860,25 +860,25 @@ Utilizamos el siguiente código de colores estándar para garantizar la legibili
 
 Se muestra a continuación el glosario de términos utilizados dentro del dominio del problema, especifico al monitoreo de la fatiga en personal de salud. Estos términos facilitan una comunicación clara y sin ambigüedades dentro de su equipo y los stakeholders.
 
-- **Fatigue Score (Nivel de Fatiga):** valor o indicador que representa el grado de fatiga de un trabajador de salud según ciertos datos biométricos y laborales.
+- **Fatigue Score (Nivel de Fatiga):** indicador que representa el nivel de fatiga de un trabajador de salud a partir del análisis de información biométrica y laboral, como horas de sueño, frecuencia cardiaca, actividad física y duración de la jornada. Este valor permite identificar qué tan expuesto se encuentra el personal a condiciones de agotamiento que podrían afectar su desempeño durante el turno.
 
-- **Clinical Staff (Personal Clínico):** personal de salud que atiende directamente a los pacientes, como médicos, enfermeros y técnicos.
+- **Clinical Staff (Personal Clínico):** conjunto de profesionales de salud que participan directamente en la atención de pacientes dentro de una institución médica. En este grupo se incluyen médicos, enfermeros y técnicos de salud, quienes suelen estar expuestos a jornadas prolongadas, alta carga laboral y situaciones de presión constante.
 
-- **Administrative Staff (Personal Administrativo):** personal encargado de supervisar, organizar turnos y tomar decisiones relacionadas con la gestión del equipo médico.
+- **Administrative Staff (Personal Administrativo):** personal responsable de la organización, supervisión y toma de decisiones relacionadas con la gestión operativa del equipo de salud. Dentro de este grupo se consideran administradores, directores médicos, jefes de área o supervisores, quienes intervienen en la asignación de turnos y en la respuesta ante situaciones de riesgo del personal.
 
-- **Work Shift (Turno de Trabajo):** periodo de tiempo en el que un trabajador de salud cumple con sus funciones dentro de la institución.
+- **Work Shift (Turno de Trabajo):** periodo de tiempo durante el cual un trabajador de salud cumple con sus funciones dentro de una clínica u hospital. Un turno puede variar en duración, horario y nivel de exigencia, y constituye uno de los factores principales que influyen en la acumulación de cansancio y fatiga laboral.
 
-- **Fatigue Risk (Riesgo por Fatiga):** situación en la que un trabajador presenta señales de agotamiento que podrían afectar su rendimiento o incrementar la posibilidad de errores.
+- **Fatigue Risk (Riesgo por Fatiga):** condición en la que un trabajador presenta señales físicas, mentales o conductuales de agotamiento que pueden afectar su capacidad de concentración, juicio o respuesta durante la atención clínica. Este riesgo es relevante porque puede incrementar la probabilidad de errores y comprometer tanto el bienestar del profesional como la seguridad del paciente.
 
-- **Alert (Alerta):** aviso generado cuando se identifica una condición de riesgo relacionada con la fatiga.
+- **Alert (Alerta):** notificación o aviso emitido cuando el sistema detecta que un trabajador ha alcanzado un nivel de fatiga que requiere atención. Su propósito es advertir oportunamente al personal o a los responsables de gestión para que puedan tomar medidas antes de que ocurra una situación crítica.
 
-- **Biometric Data (Datos Biométricos):** datos físicos o fisiológicos del personal, como frecuencia cardiaca, horas de sueño o actividad.
+- **Biometric Data (Datos Biométricos):** información relacionada con el estado físico o fisiológico del trabajador, obtenida a partir de mediciones como frecuencia cardiaca, horas de sueño, nivel de actividad o patrones de descanso. Estos datos sirven como base para evaluar el estado general del personal y estimar su nivel de fatiga.
 
-- **Workload (Carga Laboral):** nivel de exigencia que tiene un trabajador según la cantidad de tareas, horas de trabajo y frecuencia de guardias.
+- **Workload (Carga Laboral):** nivel de exigencia al que está sometido un trabajador según la cantidad de tareas asignadas, la duración de sus turnos, la frecuencia de guardias y la intensidad de las actividades que realiza. Una carga laboral elevada puede influir de forma directa en el agotamiento físico y mental del personal clínico.
 
-- **Monitoring (Monitoreo):** seguimiento constante del estado del personal a partir de la recolección y análisis de información.
+- **Monitoring (Monitoreo):** proceso continuo de seguimiento del estado del personal de salud mediante la recolección, revisión y análisis de información relevante. En el contexto del proyecto, el monitoreo permite observar cambios en el nivel de fatiga y detectar posibles situaciones de riesgo de manera anticipada.
 
-- **Preventive Action (Acción Preventiva):** medida que se toma antes de que ocurra un problema, con el fin de reducir riesgos en el entorno de trabajo.
+- **Preventive Action (Acción Preventiva):** medida tomada de manera anticipada con el fin de reducir o evitar consecuencias negativas asociadas a la fatiga del personal. Estas acciones pueden incluir la emisión de alertas, la reorganización de turnos o la intervención temprana por parte del área administrativa.
 ---
 # Capítulo III: Requirements Specification
 
