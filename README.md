@@ -280,24 +280,31 @@ En vista de este contexto, surge la necesidad de implementar soluciones que pued
 <br>
 
 * **What?**
+
 Tanto en clínicas como en hospitales existe una problemática relacionada con la fatiga del personal clínico, producida por jornadas laborales extensas, turnos rotativos inesperados y altos niveles de estrés acumulados durante días. Esto afecta evidentemente al rendimiento del personal medico, lo cual puede aumentar el riesgo de errores durante la atención a pacientes, realización de documentos, etc. Actualmente, no se evidencia la presencia de aplicaciones que permitan medir y monitorear este nivel de fatiga en tiempo real de manera preventiva.
 <br><br>
 * **Why?**
+
 El problema se origina principalmente por la sobrecarga laboral, una alta demanda de atención médica y una notoria falta de sistemas que permitan evaluar de forma objetiva el estado tanto físico como mental del personal clínico. Además, la gestión de turnos del personal se asigna sin tomar en cuenta la fatiga, lo que incrementa el riesgo de agotamiento del personal asignado y a su vez disminuye la calidad del servicio de salud.
 <br><br>
 * **Who?**
+
 Los principales afectados serían el personal clínico, enfermeros y técnicos de salud, quienes estarían expuestos a largas jornadas de trabajo. Por lo que, de manera indirecta, también impacta al personal administrativo, quienes están encargados de la gestión hospitalaria, y no cuentan con herramientas para tomar decisiones informadas sin confirmación de un médico en plenitud de facultades. Finalmente, los pacientes también se pueden ver afectados, al correr el riesgo de posibles errores médicos.
 <br><br>
 * **When?**
+
 Este problema si bien ocurre principalmente durante turnos prolongados, guardias nocturnas o jornadas laborales continuas sin de un descanso adecuado, también se intensifica durante situaciones de alta demanda, como emergencias médicas o temporadas con mayor carga hospitalaria.
 <br><br>
 * **Where?**
+
 Esta problemática se presenta en hospitales, clínicas, centros de salud o postas médicas, especialmente en aquellas que están ubicadas en zonas urbanas o que tengan un flujo de pacientes elevado, donde el personal clínico enfrenta una mayor carga laboral y presión operativa.
 <br><br>
 * **How?**
+
 Ocurre debido a una acumulación progresiva una acumulación de horas de trabajo, la falta de descanso adecuado ya sea por tiempo o por espacios, y niveles elevados de estrés. La ausencia de herramientas que le permitan al personal monitorear este problema lo que provoca que pase desapercibido hasta que los errores se manifiesten, la disminución del rendimiento o problemas de salud en el personal.
 <br><br>
 * **How much?**
+
 El impacto es evidentemente significativo, al incrementar el riesgo de errores médicos, afecta la calidad con la que se brinda el servicio de salud y que puede generar consecuencias graves para los pacientes. Además, puede generar costos operativos para las mismas instituciones, como rotación de personal, disminución de productividad e incluso posibles responsabilidades legales derivadas de negligencias médicas.
 <br><br>
 
@@ -737,29 +744,141 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 ### 2.2.2 Registro de entrevistas
 
+#### Segmento 1: Adminsitradores y directores médicos
+
+**Entrevista 1**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource.png" alt="Entrevista con Yeny Calero" width="500"/>
+  <br/><i>Evidencia de entrevista: Yeny Calero</i>
+</p>
+
+- **Nombre:** Yeny Calero Orbezo
+- **Edad:** 52 años
+- **Residencia:** Chaclacayo
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD0dyMXbaROT5fFDo4qoxW8AT992-FFO5cp0yr4PLYm7SM?e=J2eQyf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:**
+<div align="justify">
+La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de personal basada en procesos manuales y criterios subjetivos de disponibilidad. El protocolo actual ante la fatiga es reactivo, interviniendo solo cuando el agotamiento deriva en enfermedad. Ella enfatiza que la falta de herramientas de monitoreo en tiempo real pone en riesgo la seguridad del paciente. Por ende, valida la necesidad de implementar soluciones tecnológicas portátiles que permitan transicionar hacia una prevención proactiva, integrando alertas de riesgo con la gestión de planillas para asegurar una distribución de carga laboral más humana y segura en entornos de alta demanda.
+</div>
+
+<br/>
+
+#### Segmento 2: Personal clínico
+
+**Entrevista 1**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_OpenSource.png" alt="Entrevista con Valeria Montalvo" width="500"/>
+  <br/><i>Evidencia de entrevista: Valeria Montalvo</i>
+</p>
+
+- **Nombre:** Valeria Montalvo Aponte
+- **Edad:** 24 años
+- **Residencia:** Chaclacayo
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQBOeF7zcoqLT59IFZbU9VAhAS9M7MUiQGm0VvyN2kvgzro?e=kQrnWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:**
+<div align="justify">
+Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan en un estado de "piloto automático", elevando el riesgo de errores en dosis y diagnósticos. Ante la ausencia de protocolos preventivos y la presión institucional por continuar, destaca la urgencia de contar con dispositivos de monitoreo discreto que aporten datos objetivos sobre el tiempo de reacción y estrés. Para ella, una solución tecnológica exitosa debe ofrecer un respaldo técnico que justifique descansos obligatorios sin comprometer la privacidad, transformando la cultura hospitalaria actual hacia una gestión de seguridad clínica basada en el bienestar del profesional.
+</div>
+
+<br/>
+
 ### 2.2.3 Análisis de entrevistas
 
 ## 2.3 Needfinding
 
 ### 2.3.1. User Personas.
+### Segmento 1:
+### Segmento 2:
+<div align="center">
+<img src="Resources/Images/NeedFinding/UsersPersonas2.jpg" alt="Imagen del User Personas del segundo segmento"/> 
+<div align="justify"><br> 
+
 ### 2.3.2. User Task Matrix.
+
+
+| Tarea del usuario |‎ ‎ ‎ ‎ ‎ Maribel||
+|------------------|---------|--|
+|                  | Frecuencia | Importancia |
+| Procesar muestras<br>y entregar resultados | Alta (diaria) | Muy alta |
+| Atender emergencias<br>simultáneamente | Alta | Muy alta |
+| Acceder y usar<br>el sistema clínico | Alta | Alta |
+| Coordinar con<br>colegas | Media | Alta |
+| Gestionar su estrés<br>y fatiga | Alta | Muy alta |
+| Mantener confidencialidad<br>de datos | Alta | Crítica |
+| Cumplir turnos<br>extensos | Alta | Muy alta |
+
 ### 2.3.3. User Journey Mapping.
+### Segmento 1:
+### Segmento 2:
+<div align="center">
+<img src="Resources/Images/NeedFinding/JourneyMapping2.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
+<div align="justify"><br> 
+
 ### 2.3.4. Empathy Mapping.
+### Segmento 1:
+### Segmento 2:
+<div align="center">
+<img src="Resources/Images/NeedFinding/EmpathyMapping2.jpg" alt="Imagen del Empathy Mapping del segundo segmento"/> 
+<div align="justify"><br> 
 
 ## 2.4. Big Picture Event Storming.
 
-Explicacion 
+### Explicación
+El Big Picture Event Storming es una técnica de modelado colaborativo que nos ha permitido mapear todo el flujo de VitalWatch de extremo a extremo. El objetivo principal es comprender cómo fluye la información desde que el personal médico inicia su guardia hasta que el sistema ejecuta una acción preventiva, permitiéndonos identificar puntos críticos que podrían comprometer la seguridad en los hospitales y clínicas.
 
 **Metodología aplicada**
+Para el desarrollo de esta sesión, el equipo de **VitaSync** siguió un proceso de cuatro etapas fundamentales:
+1.  **Exploración Caótica:** Identificamos todos los eventos de dominio (sucesos en pasado) relacionados con la gestión de fatiga y la operatividad clínica.
+2.  **Línea de Tiempo:** Ordenamos los eventos cronológicamente para entender el ciclo de vida de una jornada laboral bajo monitoreo.
+3.  **Identificación de Actores y Sistemas:** Asignamos responsables (Directores de Guardia, Médicos) y herramientas externas (Wearables, Sistemas HIS).
+4.  **Detección de puntos críticos:** Marcamos áreas de incertidumbre, como la privacidad de datos biométricos o la resistencia del personal al monitoreo.
 
 **Big Picture Event Storming - Leyenda**
+Utilizamos el siguiente código de colores estándar para garantizar la legibilidad del diagrama:
+
+| Color | Concepto | Función en VitalWatch |
+| :--- | :--- | :--- |
+| **Naranja** | **Domain Event** | Sucesos significativos ya ocurridos (ej. "Alerta de riesgo enviada"). |
+| **Azul** | **Command** | Acciones o intenciones que provocan un evento (ej. "Redistribuir turnos"). |
+| **Amarillo** | **Actor** | Personas que toman decisiones clave dentro del flujo hospitalario. |
+| **Rosado** | **External System** | Plataformas externas que se integran (Wearables, Base de Datos HIS). |
+| **Violeta** | **Hotspot** | Riesgos, dudas técnicas o cuellos de botella detectados en el negocio. |
 
 **Big Picture Event Storming - Mapa**
+<div align="center">
+  <img src="Resources/Images/WebStorming/BigPictureEventStorming.jpg" alt="Mapa Big Picture Event Storming de VitalWatch">
+</div>
 
 **Interpretación de hallazgos clave**
+* **La confirmación humana es vital:** El análisis reveló que el sistema no puede ser puramente automático; la confirmación de recepción por parte del médico es el paso que asegura que la alerta realmente prevenga una negligencia.
+* **Gestión de la resistencia clínica:** Identificamos que el mayor reto no es la tecnología, sino el factor cultural. Los directores médicos necesitan confiar en que el algoritmo es un apoyo y no un reemplazo de su juicio clínico.
+* **Valor en el post-descanso:** Descubrimos una oportunidad de mejora al monitorear el desempeño después de una intervención de fatiga, lo que nos permite validar científicamente la efectividad de VitalWatch.
 
 ## 2.5. Ubiquitous Language
 
+Se muestra a continuación el glosario de términos utilizados dentro del dominio del problema, especifico al monitoreo de la fatiga en personal de salud. Estos términos facilitan una comunicación clara y sin ambigüedades dentro de su equipo y los stakeholders.
+
+- **Fatigue Score (Nivel de Fatiga):** valor o indicador que representa el grado de fatiga de un trabajador de salud según ciertos datos biométricos y laborales.
+
+- **Clinical Staff (Personal Clínico):** personal de salud que atiende directamente a los pacientes, como médicos, enfermeros y técnicos.
+
+- **Administrative Staff (Personal Administrativo):** personal encargado de supervisar, organizar turnos y tomar decisiones relacionadas con la gestión del equipo médico.
+
+- **Work Shift (Turno de Trabajo):** periodo de tiempo en el que un trabajador de salud cumple con sus funciones dentro de la institución.
+
+- **Fatigue Risk (Riesgo por Fatiga):** situación en la que un trabajador presenta señales de agotamiento que podrían afectar su rendimiento o incrementar la posibilidad de errores.
+
+- **Alert (Alerta):** aviso generado cuando se identifica una condición de riesgo relacionada con la fatiga.
+
+- **Biometric Data (Datos Biométricos):** datos físicos o fisiológicos del personal, como frecuencia cardiaca, horas de sueño o actividad.
+
+- **Workload (Carga Laboral):** nivel de exigencia que tiene un trabajador según la cantidad de tareas, horas de trabajo y frecuencia de guardias.
+
+- **Monitoring (Monitoreo):** seguimiento constante del estado del personal a partir de la recolección y análisis de información.
+
+- **Preventive Action (Acción Preventiva):** medida que se toma antes de que ocurra un problema, con el fin de reducir riesgos en el entorno de trabajo.
 ---
 # Capítulo III: Requirements Specification
 
