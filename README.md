@@ -744,6 +744,46 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 ### 2.2.2 Registro de entrevistas
 
+#### Segmento 1: Adminsitradores y directores médicos
+
+**Entrevista 1**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource.png" alt="Entrevista con Yeny Calero" width="500"/>
+  <br/><i>Evidencia de entrevista: Yeny Calero</i>
+</p>
+
+- **Nombre:** Yeny Calero Orbezo
+- **Edad:** 52 años
+- **Residencia:** Chaclacayo
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD0dyMXbaROT5fFDo4qoxW8AT992-FFO5cp0yr4PLYm7SM?e=J2eQyf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:**
+<div align="justify">
+La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de personal basada en procesos manuales y criterios subjetivos de disponibilidad. El protocolo actual ante la fatiga es reactivo, interviniendo solo cuando el agotamiento deriva en enfermedad. Ella enfatiza que la falta de herramientas de monitoreo en tiempo real pone en riesgo la seguridad del paciente. Por ende, valida la necesidad de implementar soluciones tecnológicas portátiles que permitan transicionar hacia una prevención proactiva, integrando alertas de riesgo con la gestión de planillas para asegurar una distribución de carga laboral más humana y segura en entornos de alta demanda.
+</div>
+
+<br/>
+
+#### Segmento 2: Personal clínico
+
+**Entrevista 1**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_OpenSource.png" alt="Entrevista con Valeria Montalvo" width="500"/>
+  <br/><i>Evidencia de entrevista: Valeria Montalvo</i>
+</p>
+
+- **Nombre:** Valeria Montalvo Aponte
+- **Edad:** 24 años
+- **Residencia:** Chaclacayo
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQBOeF7zcoqLT59IFZbU9VAhAS9M7MUiQGm0VvyN2kvgzro?e=kQrnWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:**
+<div align="justify">
+Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan en un estado de "piloto automático", elevando el riesgo de errores en dosis y diagnósticos. Ante la ausencia de protocolos preventivos y la presión institucional por continuar, destaca la urgencia de contar con dispositivos de monitoreo discreto que aporten datos objetivos sobre el tiempo de reacción y estrés. Para ella, una solución tecnológica exitosa debe ofrecer un respaldo técnico que justifique descansos obligatorios sin comprometer la privacidad, transformando la cultura hospitalaria actual hacia una gestión de seguridad clínica basada en el bienestar del profesional.
+</div>
+
+<br/>
+
 ### 2.2.3 Análisis de entrevistas
 
 ## 2.3 Needfinding
