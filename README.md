@@ -744,7 +744,7 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 ### 2.2.2 Registro de entrevistas
 
-#### Segmento 1: Adminsitradores y directores médicos
+#### Segmento 1: Administradores y directores médicos
 
 **Entrevista 1**
 <p align="center">
@@ -762,7 +762,25 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de personal basada en procesos manuales y criterios subjetivos de disponibilidad. El protocolo actual ante la fatiga es reactivo, interviniendo solo cuando el agotamiento deriva en enfermedad. Ella enfatiza que la falta de herramientas de monitoreo en tiempo real pone en riesgo la seguridad del paciente. Por ende, valida la necesidad de implementar soluciones tecnológicas portátiles que permitan transicionar hacia una prevención proactiva, integrando alertas de riesgo con la gestión de planillas para asegurar una distribución de carga laboral más humana y segura en entornos de alta demanda.
 </div>
 
-<br/>
+<br>
+
+**Entrevista 2**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource_2.png" alt="Entrevista con Frank Carrillo"/>
+  <br/><i>Evidencia de entrevista: Frank Carrillo</i>
+</p>
+
+- **Nombre:** Frank Carrillo Pino
+- **Edad:** 51 años
+- **Residencia:** Cusco
+- **Enlace de la entrevista:** [Ver grabación aquí]
+
+**Resumen de la entrevista:**
+<div align="justify">
+En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cusco del MINSA, muestra que la gestión del personal se maneja principalmente en computadoras fijas y en el sistema interno de la institución, sin uso frecuente de laptops o celulares. El entrevistado indicó que la distribución de turnos se ajusta según la necesidad del centro, priorizando la demanda de los pacientes sobre la disponibilidad individual. Ante situaciones de fatiga o estrés, no existe un protocolo formal establecido, por lo que la intervención se realiza internamente con apoyo de personal de psicología y de salud. Además, señaló que una solución de software que pueda mostrar las alertas preventivas de salud del personal clínico, y que tenga buena seguridad en el manejo de datos y cumplimiento normativo sería algo ideal. Finalmente indicó que prefiere reportes en Excel para las auditorías internas.
+</div>
+
+<br>
 
 #### Segmento 2: Personal clínico
 
