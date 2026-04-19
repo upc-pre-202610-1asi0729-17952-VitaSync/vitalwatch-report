@@ -1083,9 +1083,99 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 # Capítulo V: Product Implementation, Validation & Deployment.
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
+
+A continuación se detallarán los productos de software que se han utilizado para el proyecto de acuerdo a las diferentes actividades realizadas.
+
+**Project Management**
+
+WhatsApp: Es una aplicación de mensajería instantánea que permite la comunicación rápida y en tiempo real entre las personas. Lo utilizamos para mantener una comunicación constante entre los integrantes del proyecto y coordinar las tareas a realizar. https://web.whatsapp.com/
+
+Google Meet: Es una plataforma de videoconferencias que permite realizar reuniones virtuales con audio, video y compartir pantalla. Lo usamos para llevar a cabo reuniones con todo el equipo y coordinar el desarrollo del proyecto verbalmente. https://meet.google.com/
+
+Discord: Es una plataforma de comunicación en línea que permite realizar llamadas, videollamadas y chats por canales. Lo utilizamos para reuniones rápidas entre los miembros disponibles del equipo y para resolver dudas de forma rápida. https://discord.com/
+
+**Requirements Management**
+
+Trello: Es una plataforma de gestión de tareas y proyectos basada en tableros, listas y tarjetas. Lo utilizamos para organizar y dar seguimiento a los sprint backlogs del proyecto. https://trello.com/es
+
+**Product UX/UI Design**
+
+UXPressia: Es una plataforma en línea orientada al diseño de experiencias de usuario, que permite crear diferentes artefactos relacionados al needfinding. Lo utilizamos para elaborar las user personas, user journey mapping, empathy mapping e impact mapping del proyecto. https://uxpressia.com/
+
+Miro: Es una pizarra colaborativa digital que permite crear diagramas y esquemas de forma visual y en tiempo real. Lo utilizamos para desarrollar el event storming e identificar los bounded contexts del proyecto. https://miro.com/
+
+Figma: Es una herramienta de diseño y prototipado de interfaces que permite crear wireframes, mockups y prototipos interactivos. Lo utilizamos para elaborar los wireframes, mockups y prototipos del proyecto. https://www.figma.com/
+
+**Software Development**
+
+WebStorm: Es un IDE especializado en tecnologías web. Lo utilizamos para estructurar y desarrollar la landing page del proyecto. https://www.jetbrains.com/es-es/webstorm/
+
+Visual Studio Code: Es un editor de código ligero y extensible, ampliamente utilizado en desarrollo web. Lo utilizamos para realizar ediciones rápidas en el código de la landing page. https://code.visualstudio.com/
+
+**Software Deployment**
+
+GitHub: Es una plataforma de desarrollo colaborativo basada en control de versiones Git, que permite alojar y compartir repositorios de software. Lo utilizamos para desplegar la primera versión de nuestra landing page. https://github.com/
+ 
+**Software Documentation**
+
+StarUML: Es una herramienta de modelado UML que permite crear distintos tipos de diagramas de software. Lo utilizamos para elaborar el diagrama de clases del proyecto. https://staruml.io/
+
+GitHub: Es una plataforma de control de versiones y colaboración en línea. Lo utilizamos para redactar, organizar y dar seguimiento al informe completo del proyecto. https://github.com/
+
+Structurizr: Es una herramienta para modelado de arquitectura de software mediante el enfoque C4. Lo utilizamos para construir los diagramas de arquitectura C4 del proyecto. https://structurizr.com/
+
+ERD-Editor: Es una herramienta en línea para diseñar diagramas de bases de datos. Lo utilizamos para elaborar el diagrama de la base de datos de nuestro proyecto. https://erd-editor.io/
+
 ### 5.1.2. Source Code Management.
+
+La gestión del código fuente del proyecto se hará mediante GitHub, a continuación los enlaces a nuestros repositorios.
+
+Landing Page: https://github.com/upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-website
+
+Implementaremos GitFlow mediante el uso de dos ramas principales:
+
+**main:** Aquí se publicarán las versiones finales de los proyectos, conteniendo únicamente versiones estables y funcionales.
+
+**develop:** En esta rama se guardarán las actualizaciones progresivas de las ramificaciones de cada feature completado.
+
+Además, tendremos ramas de soporte adicional, y las convenciones que tendremos son:
+
+**Feature branches:** Cada nueva funcionalidad se desarrollará en una rama independiente creada a partir de develop. Esto permitirá trabajar cada feature de forma aislada hasta su integración final.
+
+**Release branches:** Se usarán para preparar una nueva versión del proyecto, se crearán a partir de develop cuando los avances realizados en el proyecto hasta el momento estén listos para tener una revisión final antes de fusionarse con main.
+
+**Hotfix branches:** Se utilizarán para corregir errores críticos detectados en el despliegue. Estas ramas se crearán a partir de main y después de corregir los problemas, se fusionarán nuevamente en main y develop.
+
+**Commits:** El formato que tendrá será: 
+
+"Type (scope): description of modification"
+
+"Descripción detallada opcional de las modificaciones"
+
+Los tipos de commits que habrán son: 
+
+feat: Para nuevas funcionalidades. 
+
+fix: Para corregir errores. 
+
+refactor: Para refactorizar el código. 
+
+Finalmente, para el versionamiento de los lanzamientos se usará el formato: "vMAJOR.MINOR.PATCH", donde:
+
+MAJOR: Cambios incompatibles con versiones anteriores.
+
+MINOR: Implementación de nuevas funcionalidades compatibles.
+
+PATCH: Arreglo de errores menores.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+
+
 ### 5.1.4. Software Deployment Configuration.
+
+
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
 El primer sprint fue una  de las etapas importantes durante el desarrollo de VitalWatch, producto de la startup VitaSync. Durante este periodo, el equipo se organizó, distribuyó tareas y trabajó en la construcción de una primera versión funcional de la landing page, siguiendo el enfoque de la metodología ágil Scrum.
