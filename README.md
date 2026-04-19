@@ -744,7 +744,7 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 ### 2.2.2 Registro de entrevistas
 
-#### Segmento 1: Adminsitradores y directores médicos
+#### Segmento 1: Administradores y directores médicos
 
 **Entrevista 1**
 <p align="center">
