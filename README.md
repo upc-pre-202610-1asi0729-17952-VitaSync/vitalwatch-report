@@ -762,7 +762,7 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de personal basada en procesos manuales y criterios subjetivos de disponibilidad. El protocolo actual ante la fatiga es reactivo, interviniendo solo cuando el agotamiento deriva en enfermedad. Ella enfatiza que la falta de herramientas de monitoreo en tiempo real pone en riesgo la seguridad del paciente. Por ende, valida la necesidad de implementar soluciones tecnológicas portátiles que permitan transicionar hacia una prevención proactiva, integrando alertas de riesgo con la gestión de planillas para asegurar una distribución de carga laboral más humana y segura en entornos de alta demanda.
 </div>
 
-<br><br>
+<br>
 
 **Entrevista 2**
 <p align="center">
