@@ -832,6 +832,9 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 
 ### 2.3.3. User Journey Mapping.
 ### Segmento 1:
+<div align="center">
+<img src="Resources/Images/NeedFinding/JourneyMapping1.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
+<div align="justify"><br> 
 ### Segmento 2:
 <div align="center">
 <img src="Resources/Images/NeedFinding/JourneyMapping2.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
