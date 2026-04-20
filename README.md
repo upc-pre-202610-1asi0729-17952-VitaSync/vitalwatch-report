@@ -1138,7 +1138,7 @@ Implementaremos GitFlow mediante el uso de dos ramas principales:
 
 **develop:** En esta rama se guardarán las actualizaciones progresivas de las ramificaciones de cada feature completado.
 
-Además, tendremos ramas de soporte adicional, y las convenciones que tendremos son:
+Además, tendremos ramas como soporte adicional, y las convenciones que tendremos son:
 
 **Feature branches:** Cada nueva funcionalidad se desarrollará en una rama independiente creada a partir de develop. Esto permitirá trabajar cada feature de forma aislada hasta su integración final.
 
@@ -1170,9 +1170,62 @@ PATCH: Arreglo de errores menores.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+En el proyecto para las convenciones de estilo de código se van a tomar como referencia el "HTML Style Guide and Coding Conventions de W3Schools", el "Google HTML/CSS Style Guide", el "Angular Coding Style Guide", el "Google Java Style Guide" y las convenciones estándar de Gherkin. Además, todos los elementos del código, nombres de archivos, carpetas, clases, funciones, métodos, componentes, variables y comentarios serán escritos en inglés.
 
+Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y tecnologías utilizadas se detallarán a continuación.
+
+**HTML:**
+
+- Las etiquetas y atributos se escribirán en minúsculas
+- Los nombres de clases e identificadores seguirán el formato kebab-case
+- Se evitará el uso de estilos o scripts incrustados directamente en el HTML
+- Se mantendrá una estructura clara, ordenada y con indentación consistente
+- Se utilizarán saltos de línea y espacios de forma uniforme para mejorar la legibilidad
+
+**CSS:**
+
+- Se evitará el uso de estilos inline en el HTML
+- Las propiedades y valores se escribirán en minúsculas
+- Se utilizará una indentación uniforme en todo el archivo
+- Las propiedades CSS se ordenarán en el orden de maquetación y estructura, dimensiones, tipografía y finalmente colores y fondos
+- Las media queries se ubicarán al final del archivo
+
+**JavaScript:**
+
+- El código JavaScript no se escribirá directamente dentro del HTML, salvo casos estrictamente necesarios
+- Los nombres de variables y funciones estarán en inglés y usarán camelCase
+- Las funciones deberán ser cortas y cumplir una sola responsabilidad
+- Se evitará en lo posible el uso de variables globales
+- Los nombres de las funciones deberán describir claramente la acción que realizan
+- Los comentarios solo se usarán cuando aporten claridad adicional a una lógica que no sea evidente
+
+**Angular:**
+
+- Los nombres de archivos seguirán el formato kebab-case
+- Cada componente tendrá archivos relacionados con un mismo nombre
+- La estructura del proyecto se organizará por DDD
+- Los componentes deberán tener responsabilidades bien definidas
+
+**Java:**
+
+- Los nombres de clases, interfaces y enums se escribirán en PascalCase
+- Los métodos, variables y parámetros usarán camelCase
+- Los paquetes se escribirán en minúsculas
+- Las constantes se escribirán en UPPER_SNAKE_CASE
+- Cada archivo contendrá una sola clase pública
+- Se mantendrá una organización clara del código, separando responsabilidades por capas o paquetes
+- Se utilizarán comentarios cuando sea necesarios, especialmente en clases o métodos públicos importantes
+
+**Gherkin:**
+
+- Los escenarios se redactarán en inglés
+- Se utilizará la estructura estándar de "Given, When, Then"
+- Los escenarios deben ser breves, claros y enfocados en un único comportamiento
+- Se evitarán ambigüedades en la redacción
+- Los comentarios se escribirán con # al inicio de la línea cuando sea necesario
 
 ### 5.1.4. Software Deployment Configuration.
+
 
 
 
