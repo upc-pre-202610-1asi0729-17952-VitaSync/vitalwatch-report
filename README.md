@@ -948,7 +948,18 @@ Se muestra a continuación el glosario de términos utilizados dentro del domi
 <br> 
 
 ## 3.3. Product Backlog
-
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---|---|---|---|---|
+| 1 | US-01 | Primera impresión sobre el producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** entender rápidamente qué es VitalWatch y qué problema resuelve,<br><br>**Para** saber si puede ayudar a mejorar mi clínica. | 2 |
+| 2 | US-02 | Navegación por secciones | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** navegar fácilmente entre las secciones informativas sobre VitalWatch,<br><br>**Para** encontrar rápidamente la información que necesito. | 3 |
+| 3 | US-03 | Explicación detallada del producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** conocer qué ofrece VitalWatch,<br><br>**Para** evaluar si lo que ofrece es útil para las necesidades de mi institución. | 2 |
+| 4 | US-04 | Sección de beneficios de gestión | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** ver los beneficios de gestión que ofrece VitalWatch,<br><br>**Para** entender cómo puede ayudarme en la supervisión del personal. | 2 |
+| 5 | US-05 | Sección de beneficios para el personal clínico | **Como** visitante del segmento personal clínico de una clínica,<br><br>**Quiero** conocer cómo VitalWatch puede ayudarme en mi trabajo diario,<br><br>**Para** identificar los beneficios que me podría brindar. | 2 |
+| 6 | US-06 | Sección de planes de suscripción | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** revisar los planes de suscripción disponibles,<br><br>**Para** identificar la opción más adecuada para mi institución. | 3 |
+| 7 | US-07 | Formulario de contacto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** encontrar un formulario de contacto en la página,<br><br>**Para** solicitar información o una demostración. | 5 |
+| 8 | US-08 | Sección de términos de servicio | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** ver información sobre el manejo de la privacidad y el uso responsable de los datos,<br><br>**Para** saber si el servicio es confiable. | 2 |
+| 9 | US-09 | Diseño adaptable para móviles | **Como** visitante del segmento administrativo de una clínica que accede desde un dispositivo móvil,<br><br>**Quiero** que la página se adapte correctamente a mi pantalla,<br><br>**Para** poder navegar cómodamente desde mi dispositivo. | 3 |
+| 10 | US-10 | Sección de redes sociales | **Como** visitante del segmento general de una clínica,<br><br>**Quiero** acceder a las redes sociales y medios de contacto de la empresa,<br><br>**Para** conocer más sobre VitaSync y VitalWatch. | 1 |
 ---
 # Capítulo IV: Product Design
 
