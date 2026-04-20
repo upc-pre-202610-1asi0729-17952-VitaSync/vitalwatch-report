@@ -808,6 +808,9 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 
 ### 2.3.1. User Personas.
 ### Segmento 1:
+<div align="center">
+<img src="Resources/Images/NeedFinding/UsersPersonas1.jpg" alt="Imagen del User Personas del primer segmento"/> 
+<div align="justify"><br> 
 ### Segmento 2:
 <div align="center">
 <img src="Resources/Images/NeedFinding/UsersPersonas2.jpg" alt="Imagen del User Personas del segundo segmento"/> 
