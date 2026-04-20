@@ -1021,25 +1021,25 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 <img src="Resources/Images/Wireframes/landing_page_browser_5.png?raw=true" alt="Wireframe de contacto de la landing page de VitalWatch"/>
 <br>
 
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_1.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_1.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_2.png?raw=true" alt="Wireframe de funciones en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_2.png?raw=true" alt="Wireframe de funciones en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_3.png?raw=true" alt="Wireframe de planes en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_3.png?raw=true" alt="Wireframe de planes en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_4.png?raw=true" alt="Wireframe de términos en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_4.png?raw=true" alt="Wireframe de términos en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_5.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_5.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_6.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_6.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_7.png?raw=true" alt="Wireframe de funciones en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_7.png?raw=true" alt="Wireframe de funciones en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_8.png?raw=true" alt="Wireframe de planes en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_8.png?raw=true" alt="Wireframe de planes en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_9.png?raw=true" alt="Wireframe de términos en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_9.png?raw=true" alt="Wireframe de términos en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_movile_10.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/Wireframes/landing_page_browser_mobile_10.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
 
 ### 4.3.2. Landing Page Mock-up.
@@ -1055,25 +1055,25 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 <img src="Resources/Images/MockUps/landing_page_browser_5.png?raw=true" alt="Mock-up de contacto de la landing page de VitalWatch"/>
 <br>
 
-<img src="Resources/Images/MockUps/landing_page_browser_movile_1.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_1.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_2.png?raw=true" alt="Mock-up de funciones en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_2.png?raw=true" alt="Mock-up de funciones en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_3.png?raw=true" alt="Mock-up de planes en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_3.png?raw=true" alt="Mock-up de planes en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_4.png?raw=true" alt="Mock-up de términos en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_4.png?raw=true" alt="Mock-up de términos en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_5.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_5.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_6.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_6.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_7.png?raw=true" alt="Mock-up de funciones en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_7.png?raw=true" alt="Mock-up de funciones en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_8.png?raw=true" alt="Mock-up de planes en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_8.png?raw=true" alt="Mock-up de planes en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_9.png?raw=true" alt="Mock-up de términos en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_9.png?raw=true" alt="Mock-up de términos en formato móvil de la landing page de VitalWatch"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_movile_10.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/MockUps/landing_page_browser_mobile_10.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
 <br>
 
 ## 4.4. Web Applications UX/UI Design.
