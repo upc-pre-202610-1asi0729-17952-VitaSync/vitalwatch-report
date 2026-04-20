@@ -803,6 +803,24 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 
 <br/>
 
+**Entrevista 2**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_N2.png" alt="Entrevista con Maribel Fernandez Chauca" width="500"/>
+  <br/><i>Evidencia de entrevista: Maribel Fernandez Chauca</i>
+</p>
+
+- **Nombre:** Maribel Fernandez Chauca
+- **Edad:** 38 años
+- **Residencia:** Ayacucho
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h055_upc_edu_pe/IQD9tsnTkZMFSaHIhyzRkJJQAU37_QdwuOtgMt3qLLnsloE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tx72Ux)
+
+**Resumen de la entrevista:**
+<div align="justify">
+Maribel Fernandez una profesional de laboratorio clínico que labora en un hospital público en Huanta, Ayacucho, bajo intensas jornadas de guardia de doce horas. La trabajadora describe cómo la falta de personal y la presión por resultados inmediatos generan un severo agotamiento físico y mental, afectando el bienestar emocional del equipo. Se destaca la ausencia de mecanismos institucionales formales para prevenir el colapso del personal de salud, dejando la resolución de crisis al apoyo mutuo entre colegas. La entrevistada muestra una actitud favorable hacia el uso de tecnología vestible, como relojes inteligentes, para monitorear indicadores de fatiga y estrés. Finalmente, enfatiza que cualquier sistema de este tipo debe garantizar la confidencialidad de los datos y servir como evidencia estadística para justificar la contratación de más personal.
+</div>
+
+<br/>
+
 ### 2.2.3 Análisis de entrevistas
 
 ## 2.3 Needfinding
