@@ -1163,6 +1163,11 @@ A continuación, se describe cada bounded context de manera individual.
 El diagrama de contexto muestra a VitalWatch como el sistema central y permite ver, de forma general, con quiénes interactúa y de qué servicios externos depende. En este caso, se observa la relación con el personal administrativo y el personal médico, así como con herramientas externas como Auth0, FCM, SendGrid, Google Calendar y Stripe, que apoyan funciones clave del sistema como autenticación, notificaciones, gestión de eventos y pagos.
 
 ### 4.6.3. Software Architecture Container Diagrams.
+
+<img src="Resources/Images/C4Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores."> <br>
+
+El diagrama de contenedores muestra cómo está organizado internamente el sistema VitalWatch, identificando sus principales componentes y cómo se comunican entre sí. Se puede ver que los usuarios interactúan a través de la Landing Page y la Web Application, las cuales consumen los servicios de la REST API, donde se concentra la lógica del negocio. A su vez, la API se encarga de comunicarse con la base de datos y con servicios externos para funcionalidades como autenticación, notificaciones, calendario y pagos.
+
 ### 4.6.4. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
