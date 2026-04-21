@@ -1121,7 +1121,41 @@ La sesión fue realizada de manera colaborativa en el programa miro a partir del
 A continuación, se muestra la representación general del Design-Level Event Storming del sistema:
 
 <img src="Resources/Images/EventStorming/vitalwatch_eventstorming.jpg" alt="Design level event storming del funcionamiento de VitalWatch">
-<br>
+<br><br>
+
+En conjunto, estos bounded contexts permiten representar el flujo completo del sistema, desde la captura y almacenamiento de datos biométricos, su análisis y detección de estados, hasta la generación de alertas y la gestión operativa y administrativa de la plataforma.
+
+A partir del análisis realizado, se identificaron bounded contexts que cumplen distintos roles dentro del sistema. Algunos representan el núcleo funcional de la solución, como State Analysis y Medical Rest Management, mientras que otros cumplen funciones de soporte, como Identity and Access Management y Subscription and Payment Management.
+
+A continuación, se describe cada bounded context de manera individual.
+
+  * **State Analysis:** Este bounded context se encarga de analizar los datos biométricos capturados por los dispositivos, con el fin de identificar si el estado del médico se encuentra dentro de niveles normales o si presenta valores críticos.<br><br>
+  <img src="Resources/Images/EventStorming/state_analysis.jpg" alt="Event Storming del bounded context de Análisis de Estado">
+
+  * **Biometric Data Management:** Este bounded context gestiona el almacenamiento, actualización y respaldo de los datos biométricos obtenidos desde los dispositivos, asegurando su persistencia y disponibilidad para su posterior análisis. <br><br>
+  <img src="Resources/Images/EventStorming/biometric_data.jpg" alt="Event Storming del bounded context de Gestión de Datos Biométricos">
+
+  * **Alerting and Notification Management:** Este bounded context se encarga de generar y enviar alertas y notificaciones cuando se detectan condiciones relevantes, permitiendo informar tanto al médico como a los administradores del sistema. <br><br>
+  <img src="Resources/Images/EventStorming/alerting_and_notification.jpg" alt="Event Storming del bounded context de Gestión de Alertas y Notificaciones">
+
+  * **Medical Rest Management:** Este bounded context gestiona la programación, modificación y validación de los periodos de descanso del personal médico, incluyendo recomendaciones basadas en el estado del usuario. <br><br>
+  <img src="Resources/Images/EventStorming/medical_rest.jpg" alt="Event Storming del bounded context de Gestión de Descansos Médicos">
+
+  * **Medical Shift Management:** Este bounded context administra la asignación, validación y reprogramación de turnos médicos, asegurando la disponibilidad del personal. <br><br>
+  <img src="Resources/Images/EventStorming/medical_shift.jpg" alt="Event Storming del bounded context de Gestión de Turnos Médicos">
+
+  * **Medical Device Management:** Este bounded context gestiona la vinculación de dispositivos médicos con las cuentas de usuario, así como la configuración de umbrales para el monitoreo. <br><br>
+  <img src="Resources/Images/EventStorming/medical_device.jpg" alt="Event Storming del bounded context de Gestión de Dispositivos Médicos">
+
+  * **Medical Staff Management:** Este bounded context permite la gestión del personal médico, incluyendo su registro y búsqueda dentro del sistema. <br><br>
+  <img src="Resources/Images/EventStorming/medical_staff.jpg" alt="Event Storming del bounded context de Gestión de Personal Médico">
+
+  * **Identity and Access Management:** Este bounded context se encarga de la creación, verificación y control de acceso de las cuentas de usuario dentro de la plataforma. <br><br>
+  <img src="Resources/Images/EventStorming/identity_and_access.jpg" alt="Event Storming del bounded context de Gestión de Identidad y Acceso">
+
+  * **Subscription and Payment Management:** Este bounded context gestiona los planes de suscripción, pagos y el acceso a funcionalidades del sistema según el estado de la suscripción. <br><br>
+  <img src="Resources/Images/EventStorming/subscription_and_payment.jpg" alt="Event Storming del bounded context de Suscripciones y Gestión de Pagos">
+
 
 ### 4.6.2. Software Architecture Context Diagram.
 ### 4.6.3. Software Architecture Container Diagrams.
