@@ -821,6 +821,24 @@ Maribel Fernandez una profesional de laboratorio clínico que labora en un hospi
 
 <br/>
 
+**Entrevista 3**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_N3.png" alt="Entrevista con Yesenia Consuelo Bardales" width="500"/>
+  <br/><i>Evidencia de entrevista: Yesenia Consuelo Bardales</i>
+</p>
+
+- **Nombre:** Yesenia Consuelo Bardales 
+- **Edad:** 47 años
+- **Residencia:** Lima
+- **Enlace de la entrevista:** [Ver grabación aquí]
+
+**Resumen de la entrevista:**
+<div align="justify">
+Yesenia Consuelo Bardales, técnica en enfermería que trabaja en un centro materno infantil público en Lima, desempeña su labor principalmente en el área de emergencia y realiza guardias de doce horas entre dos y tres veces por semana. Durante la entrevista, señaló que el agotamiento extremo en su entorno laboral se manifiesta a través del estrés, el cansancio físico y cambios en el estado de ánimo, afectando tanto el desempeño como el bienestar del personal. Asimismo, indicó que en su institución no existe un mecanismo formal para detectar o prevenir el agotamiento del personal de salud, por lo que, ante estas situaciones, el apoyo entre compañeros constituye la principal forma de respuesta. La entrevistada expresó una disposición favorable hacia el uso de tecnología vestible que permita monitorear señales como el pulso y la presión, siempre que el dispositivo sea pequeño, de uso personal y emita alertas útiles. Finalmente, remarcó que el sistema debe respetar la privacidad del trabajador y evitar funciones de geolocalización, ya que considera fundamental que el monitoreo se mantenga enfocado en la salud y el cuidado individual del personal. 
+</div>
+
+<br/>
+
 ### 2.2.3 Análisis de entrevistas
 
 ## 2.3 Needfinding
