@@ -1460,7 +1460,7 @@ Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las ta
 <p align="center">
   <img src="Resources/Images/StyleGuidelines/Trello.png" alt="Board del Sprint 1 en Trello" width="900"/>
   <br>
-  <i>Figura X. Board del Sprint 1 de VitalWatch en Trello.</i>
+  <i>Figura del Board del Sprint 1 de VitalWatch en Trello.</i>
 </p>
 
 **URL del board:**  
@@ -1486,6 +1486,21 @@ En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Spri
 Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas, capturas de interacción y commits relacionados con Web Services no aplica en este sprint y será desarrollada en iteraciones posteriores del proyecto.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con el landing page y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en la elaboración y actualización de los entregables correspondientes al Sprint 1.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Git1.png" alt="Analíticos de colaboración del equipo durante el Sprint 1 en GitHub" width="900"/>
+  <br>
+  <i>Analíticos de colaboración del equipo durante el Sprint 1 en GitHub.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Git2.png" alt="Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub" width="900"/>
+  <br>
+  <i>Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub.</i>
+</p>
+
 <!--## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
