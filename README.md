@@ -1131,9 +1131,123 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+
+En esta sección se presenta el Design-Level Event Storming desarrollado para VitalWatch, con el objetivo de refinar el dominio del problema e identificar con mayor nivel de detalle los eventos, comandos, políticas, agregados y bounded contexts del sistema. Esta etapa permitió mejorar la comprensión de los principales procesos y definir con mayor precisión las responsabilidades de cada parte del sistema.
+
+La sesión fue realizada de manera colaborativa en el programa miro a partir del Big Picture Event Storming previamente elaborado. Durante el proceso se identificaron los flujos principales del sistema, se definieron comandos, eventos de dominio y políticas, y posteriormente se agruparon en bounded contexts. Para mantener consistencia con los artefactos de arquitectura, la nomenclatura utilizada en los diagramas se encuentra en inglés.
+
+A continuación, se muestra la representación general del Design-Level Event Storming del sistema:
+
+<img src="Resources/Images/EventStorming/vitalwatch_eventstorming.jpg" alt="Design level event storming del funcionamiento de VitalWatch">
+<br><br>
+
+En conjunto, estos bounded contexts permiten representar el flujo completo del sistema, desde la captura y almacenamiento de datos biométricos, su análisis y detección de estados, hasta la generación de alertas y la gestión operativa y administrativa de la plataforma.
+
+A partir del análisis realizado, se identificaron bounded contexts que cumplen distintos roles dentro del sistema. Algunos representan el núcleo funcional de la solución, como State Analysis y Medical Rest Management, mientras que otros cumplen funciones de soporte, como Identity and Access Management y Subscription and Payment Management.
+
+A continuación, se describe cada bounded context de manera individual.
+
+  * **State Analysis:** Este bounded context se encarga de analizar los datos biométricos capturados por los dispositivos, con el fin de identificar si el estado del médico se encuentra dentro de niveles normales o si presenta valores críticos.<br><br>
+  <img src="Resources/Images/EventStorming/state_analysis.jpg" alt="Event Storming del bounded context de Análisis de Estado">
+
+  * **Biometric Data Management:** Este bounded context gestiona el almacenamiento, actualización y respaldo de los datos biométricos obtenidos desde los dispositivos, asegurando su persistencia y disponibilidad para su posterior análisis. <br><br>
+  <img src="Resources/Images/EventStorming/biometric_data.jpg" alt="Event Storming del bounded context de Gestión de Datos Biométricos">
+
+  * **Alerting and Notification Management:** Este bounded context se encarga de generar y enviar alertas y notificaciones cuando se detectan condiciones relevantes, permitiendo informar tanto al médico como a los administradores del sistema. <br><br>
+  <img src="Resources/Images/EventStorming/alerting_and_notification.jpg" alt="Event Storming del bounded context de Gestión de Alertas y Notificaciones">
+
+  * **Medical Rest Management:** Este bounded context gestiona la programación, modificación y validación de los periodos de descanso del personal médico, incluyendo recomendaciones basadas en el estado del usuario. <br><br>
+  <img src="Resources/Images/EventStorming/medical_rest.jpg" alt="Event Storming del bounded context de Gestión de Descansos Médicos">
+
+  * **Medical Shift Management:** Este bounded context administra la asignación, validación y reprogramación de turnos médicos, asegurando la disponibilidad del personal. <br><br>
+  <img src="Resources/Images/EventStorming/medical_shift.jpg" alt="Event Storming del bounded context de Gestión de Turnos Médicos">
+
+  * **Medical Device Management:** Este bounded context gestiona la vinculación de dispositivos médicos con las cuentas de usuario, así como la configuración de umbrales para el monitoreo. <br><br>
+  <img src="Resources/Images/EventStorming/medical_device.jpg" alt="Event Storming del bounded context de Gestión de Dispositivos Médicos">
+
+  * **Medical Staff Management:** Este bounded context permite la gestión del personal médico, incluyendo su registro y búsqueda dentro del sistema. <br><br>
+  <img src="Resources/Images/EventStorming/medical_staff.jpg" alt="Event Storming del bounded context de Gestión de Personal Médico">
+
+  * **Identity and Access Management:** Este bounded context se encarga de la creación, verificación y control de acceso de las cuentas de usuario dentro de la plataforma. <br><br>
+  <img src="Resources/Images/EventStorming/identity_and_access.jpg" alt="Event Storming del bounded context de Gestión de Identidad y Acceso">
+
+  * **Subscription and Payment Management:** Este bounded context gestiona los planes de suscripción, pagos y el acceso a funcionalidades del sistema según el estado de la suscripción. <br><br>
+  <img src="Resources/Images/EventStorming/subscription_and_payment.jpg" alt="Event Storming del bounded context de Suscripciones y Gestión de Pagos">
+
 ### 4.6.2. Software Architecture Context Diagram.
+
+<img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
+
+El diagrama de contexto muestra a VitalWatch como el sistema central y permite ver, de forma general, con quiénes interactúa y de qué servicios externos depende. En este caso, se observa la relación con el personal administrativo y el personal médico, así como con herramientas externas como Auth0, FCM, SendGrid, Google Calendar y Stripe, que apoyan funciones clave del sistema como autenticación, notificaciones, gestión de eventos y pagos.
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+<img src="Resources/Images/C4Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores."> <br>
+
+El diagrama de contenedores muestra cómo está organizado internamente el sistema VitalWatch, identificando sus principales componentes y cómo se comunican entre sí. Se puede ver que los usuarios interactúan a través de la Landing Page y la Web Application, las cuales consumen los servicios de la REST API, donde se concentra la lógica del negocio. A su vez, la API se encarga de comunicarse con la base de datos y con servicios externos para funcionalidades como autenticación, notificaciones, calendario y pagos.
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+### REST API
+
+<img src="Resources/Images/C4Diagrams/api_rest_component_diagram.png" alt="Diseño del diagrama de componentes de la Rest Api"> <br>
+
+El diagrama muestra la organización interna de la REST API, donde cada componente representa un bounded context del sistema. Se puede observar cómo interactúan entre sí y con servicios externos para implementar la lógica del negocio.
+
+### State Analysis
+
+<img src="Resources/Images/C4Diagrams/state_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Análisis de estado"> <br>
+
+El diagrama de componentes de Análisis de estado muestra cómo se estructura este módulo para procesar los datos biométricos y determinar el nivel de fatiga del personal médico.
+
+### Medical Rest Management
+
+<img src="Resources/Images/C4Diagrams/rest_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión del descanso médico"> <br>
+
+El diagrama de componentes de Gestión del descanso médico muestra cómo se administran los descansos del personal médico, incluyendo su programación, modificación y validación.
+
+### Alerting and Notification Management
+
+<img src="Resources/Images/C4Diagrams/alerting_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de alertas y notificaciones"> <br>
+
+El diagrama de componentes de Gestión de alertas y notificaciones muestra cómo el sistema genera y envía alertas a partir de los eventos detectados en otros módulos.
+
+### Biometric Data Management
+
+<img src="Resources/Images/C4Diagrams/biometric_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de datos biométricos"> <br>
+
+El diagrama de componentes de Gestión de datos biométricos muestra cómo se almacenan, actualizan y gestionan los datos provenientes de los dispositivos médicos.
+
+### Identity and Access Management
+
+<img src="Resources/Images/C4Diagrams/identity_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de identidad y acceso"> <br>
+
+El diagrama de componentes de Gestión de identidad y acceso muestra cómo se gestionan la autenticación, verificación y control de acceso dentro del sistema.
+
+### Medical Staff Management
+
+<img src="Resources/Images/C4Diagrams/staff_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de personal médico"> <br>
+
+El diagrama de componentes de Gestión de personal médico muestra cómo se administra la información del personal médico, incluyendo su registro y búsqueda.
+
+### Medical Device Management
+
+<img src="Resources/Images/C4Diagrams/device_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de dispositivos médicos"> <br>
+
+El diagrama de componentes de Gestión de dispositivos médicos muestra cómo se realiza la vinculación y configuración de los dispositivos utilizados por el sistema.
+
+### Subscription and Payment Management
+
+<img src="Resources/Images/C4Diagrams/subscription_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Suscripciones y gestión de pagos"> <br>
+
+El diagrama de componentes de Suscripciones y gestión de pagos muestra cómo se gestionan los planes, pagos y el acceso a funcionalidades de la plataforma.
+
+### Medical Shift Management
+
+<img src="Resources/Images/C4Diagrams/shift_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de turnos médicos"> <br>
+
+El diagrama de componentes de Gestión de turnos médicos muestra cómo se administran los horarios del personal médico, incluyendo asignación, validación y reprogramación.
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
