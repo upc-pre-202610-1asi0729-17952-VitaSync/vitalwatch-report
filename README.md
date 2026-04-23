@@ -1496,6 +1496,13 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 <img src="Resources/Images/ClassDiagrams/subscriptionAndPaymentManagement.jpeg" alt="Diseño del package Subscription and Payment Management"> <br>
 </div>
 
+
+### Identity and Access Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/identityAndAccessManagement.jpeg" alt="Diseño del package Identity and Access Management"> <br>
+</div>
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
 
