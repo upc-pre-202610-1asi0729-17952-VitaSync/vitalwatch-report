@@ -1813,6 +1813,18 @@ En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Spri
 
 Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas, capturas de interacción y commits relacionados con Web Services no aplica en este sprint y será desarrollada en iteraciones posteriores del proyecto.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+<img src="Resources/Images/Deploy/deploy_1.png" alt="Primer paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_2.png" alt="Segundo paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_3.png" alt="Tercer paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_4.png" alt="Cuarto paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_5.png" alt="Quinto paso para deploy"/>
+<br>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con el landing page y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en la elaboración y actualización de los entregables correspondientes al Sprint 1.
