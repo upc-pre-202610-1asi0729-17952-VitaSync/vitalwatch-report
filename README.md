@@ -163,7 +163,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 	<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto, fui el encargado de analizar y realizar diagramas en base a las entrevistas realizadas, de los cuales se pudo obtener información importante de lo que querían nuestro segmentos objetivo, adicional a esto me encargué de realizar los diagramas tanto de clases como de base de datos, además, estuve coordinando con todo el grupo para tener una optima comunicación, solicitar feedback de mis avances y estar de acuerdo con el trabajo.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
