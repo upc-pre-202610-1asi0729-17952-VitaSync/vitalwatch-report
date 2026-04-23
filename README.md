@@ -544,7 +544,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 				<div align="center">Logo</div>
 			</td>
 			<td><div align="center">
-				<img src="Resources/Images/StyleGuidelines/logo.png?raw=true" alt="VitalWatch logo"/>
+				<img src="Resources/Images/StyleGuidelines/General/logo.png?raw=true" alt="VitalWatch logo"/>
 			</div></td>
 			<td><div align="center">
 				<img src="Resources/Competitors/C1.png?raw=true" alt="C1 logo"/>
@@ -1009,7 +1009,7 @@ Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y
 El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
+<img src="Resources/Images/StyleGuidelines/General/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
 <div align="justify"><br> 
 
 **Typography** <br><br>
@@ -1022,7 +1022,7 @@ Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakart
 A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<img src="Resources/Images/StyleGuidelines/General/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
 <div align="justify"><br> 
 
 **Colors** <br><br> 
@@ -1030,21 +1030,43 @@ Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, lo
 El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
-<img src="Resources/Images/StyleGuidelines/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
-<img src="Resources/Images/StyleGuidelines/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
+<img src="Resources/Images/StyleGuidelines/General/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
+<img src="Resources/Images/StyleGuidelines/General/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
+<img src="Resources/Images/StyleGuidelines/General/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
 <div align="justify"><br> 
 
 **Spacing** <br><br> 
 Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
+<img src="Resources/Images/StyleGuidelines/General/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
 <div align="justify"> 
 
 ### 4.1.2. Web Style Guidelines.
 
+**Header** <br>
+En esta sección podremos encontrar el logo de VitalWatch a la izquierda, acompañado del menú de navegación principal (*Inicio*, *Funciones*, *Planes*, *Términos*, *Contáctanos*) y el boton de acción *Ingreso* a la derecha. El fondo es de color azul claro *#65A8FB* y los botones de un azul un poco mas oscuro *#1678F2* destacar las acciones principales.
 
+<div align="center">
+<img src="Resources/Images/StyleGuidelines/WebStyles/Header.png?raw=true" alt="Imagen referencial del header"/> 
+<img src="Resources/Images/StyleGuidelines/WebStyles/Header_Responsive.png?raw=true" alt="Imagen referencial del header en diseño responsive"/> 
+<div align="justify"> <br>
+
+**Sección Principal** <br>
+La sección principal de la landing page está diseñada para captar la atención del usuario desde el primer momento, mostrando un título llamativo, una breve descripción del servicio y un botón de acción principal junto a un recurso visual ilustrativo. En su adaptación responsive, la composición se ajusta a un formato vertical propio de dispositivos móviles, conservando la claridad del mensaje y la facilidad de interacción.
+
+<div align="center">
+<img src="Resources/Images/StyleGuidelines/WebStyles/Main_Section.png?raw=true" alt="Imagen referencial del header" width="70.8%"/>
+<img src="Resources/Images/StyleGuidelines/WebStyles/Main_Section_Responsive.png?raw=true" alt="Imagen referencial del header" width="17%"/>
+<div align="justify"> <br>
+
+**Footer**<br>
+El footer de la landing page reúne la información complementaria de la plataforma, incluyendo la identidad visual de la marca, enlaces a redes sociales, acceso a términos y condiciones y datos de contacto. En la versión web, estos elementos se distribuyen de manera horizontal para aprovechar el espacio y mantener un orden visual equilibrado, mientras que, en la versión responsive, se reorganizan verticalmente para facilitar la lectura y conservar la claridad y accesibilidad del contenido en dispositivos móviles.
+
+<div align="center">
+<img src="Resources/Images/StyleGuidelines/WebStyles/Footer.png?raw=true" alt="Imagen referencial del header""/>
+<img src="Resources/Images/StyleGuidelines/WebStyles/Footer_Responsive.png?raw=true" alt="Imagen referencial del header" width="20%"/>
+<div align="justify"> <br>
 
 ## 4.2. Information Architecture.
 
