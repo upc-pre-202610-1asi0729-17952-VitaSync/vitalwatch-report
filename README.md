@@ -908,7 +908,6 @@ Utilizamos el siguiente código de colores estándar para garantizar la legibili
 | Color | Concepto | Función en VitalWatch |
 | :--- | :--- | :--- |
 | **Naranja** | **Domain Event** | Sucesos significativos ya ocurridos (ej. "Alerta de riesgo enviada"). |
-| **Azul** | **Command** | Acciones o intenciones que provocan un evento (ej. "Redistribuir turnos"). |
 | **Amarillo** | **Actor** | Personas que toman decisiones clave dentro del flujo hospitalario. |
 | **Rosado** | **External System** | Plataformas externas que se integran (Wearables, Base de Datos HIS). |
 | **Violeta** | **Hotspot** | Riesgos, dudas técnicas o cuellos de botella detectados en el negocio. |
@@ -1049,11 +1048,169 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 
 
 ## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
+
+### 4.2.1. Organization systems
+
+La arquitectura de la información en **VitalWatch** está diseñada para que distintos tipos de usuario accedan de manera rápida y lógica a las funcionalidades y datos más relevantes, minimizando la complejidad y guiando a los usuarios en flujos intuitivos para cada necesidad.
+
+<a name="org-hierarchy"></a>
+**a) Jerarquía visual** </br>
+El sistema emplea una estructura donde la información crítica se destaca en puntos de acceso común:
+* **Dashboards de entrada:** Actúan como el punto de acceso principal que agrupa métricas clave, notificaciones y accesos rápidos. En el segmento administrativo, se priorizan indicadores como el "Nivel de fatiga promedio" y el "Personal en riesgo".
+* **Prioridad de datos:** Se antepone siempre el estado actual y las alertas activas frente a las métricas históricas.
+* **Landing page:** La navegación sigue un orden lógico iniciando con la propuesta de valor ("La solución que los médicos necesitan"), seguida de los pilares de servicio (Dashboard, Notificaciones, Prevención y Bienestar), planes y contacto.
+
+<a name="org-sequential"></a>
+**b) Organización secuencial** </br>
+Los flujos complejos se descomponen en pasos simples para evitar la sobrecarga cognitiva:
+* **Generación de reportes:** El usuario sigue una secuencia de selección de criterios: Visualización previa a confirmación y luego a exportación.
+* **Versión móvil:** Los procesos inician con una pantalla resumen que permite avanzar progresivamente hacia detalles específicos y comparativas de periodos.
+
+<a name="org-matrix"></a>
+**c) Organización matricial** </br>
+Diseñada específicamente para el perfil administrativo que requiere análisis cruzado de datos:
+* **Análisis multidimensional:** El sistema permite combinar filtros para identificar tendencias por usuario, fecha y área médica.
+* **Apoyo visual:** Se utilizan tablas detalladas y gráficos de calor para mostrar rápidamente relaciones entre la carga laboral y los focos de riesgo detectados.
+
+<a name="org-categorization"></a>
+**d) Sistemas de categorización** </br>
+* **Jerárquico (Por segmento objetivo):**
+    * **Administradores:** Control global mediante Dashboard General, Reportes, Gestión de Personal y Configuración de umbrales.
+    * **Personal Clínico:** Enfoque en el auto-monitoreo a través de "Mi Estado", "Mis Alertas" e "Historial".
+* **Cronológico:** Los registros de fatiga y anomalías se organizan temporalmente para permitir exploraciones por día, semana o mes.
+* **Por tópicos:** Las alertas se segmentan en categorías específicas como "Fatiga", "Anomalía de Salud" y "Turnos Extensos" para facilitar la respuesta inmediata.
+
+### 4.2.2. Labeling systems
+
+El sistema de etiquetado tiene como objetivo principal eliminar la ambigüedad, utilizando términos familiares tanto para el personal médico como para los gestores administrativos. Se han estandarizado las etiquetas para asegurar una navegación rápida, especialmente en situaciones de alta carga laboral.
+
+<a name="label-navigation"></a>
+**a) Etiquetas de navegación** </br>
+Estas etiquetas se encuentran en los menús principales y barras laterales para orientar al usuario sobre su ubicación actual:
+* **Landing page:** Inicio, Funciones, Planes, Soporte, Contáctanos e Ingresar.
+* **Dashboard administrativo:** Dashboard, Usuarios en Riesgo, Reportes, Eventos de Anomalías, Gestión de Personal y Configuración.
+* **Aplicación móvil (clínico):** Mi Estado, Historial, Alertas y Perfil.
+
+<a name="label-action"></a>
+**b) Etiquetas de acción** </br>
+Identifican las operaciones que el usuario puede ejecutar dentro de la plataforma:
+* **CTAs principales:** "Ver Planes", "Solicitar Demo", "Regístrate ahora", "Ingresar".
+* **Acciones operativas:** "Ver Detalle" (para profundizar en un registro), "Exportar Reporte" (para descarga en PDF/Excel) y "Actualizar Datos".
+* **Formularios:** "Enviar Mensaje", "Crear cuenta", "¿Olvidaste tu contraseña?".
+
+<a name="label-metadata"></a>
+**c) Etiquetas informativas y de estado** </br>
+Utilizadas para encabezados de métricas y estados de salud:
+* **Indicadores de riesgo:** "Nivel de Fatiga Promedio", "Alertas Activas", "Personal en Riesgo", "Normal", "Crítico".
+* **Métricas biométricas:** "Frecuencia Cardíaca", "Ritmo de Sueño", "Nivel de Estrés", "Puntaje de Fatiga".
+
+<a name="label-system"></a>
+**d) Mensajes de sistema y ayuda** </br>
+Etiquetas diseñadas para retroalimentar al usuario sobre procesos internos:
+* **Notificaciones:** "Alerta de fatiga detectada", "Sincronización exitosa", "Error de conexión con wearable".
+* **Ayuda/Soporte:** "Centro de ayuda", "Preguntas Frecuentes", "Términos y condiciones".
+
 ### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems.
-### 4.2.5. Navigation Systems.
+
+Las meta etiquetas permiten codificar y especificar metadatos en las páginas web del proyecto. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las utilizan para leer y analizar la estructura de la web. Así, facilitan tareas de indexación, mantenimiento del contenido y, sobre todo, mejoran el posicionamiento de nuestra landing page, dashboards y demás secciones en los motores de búsqueda.
+
+<a name="seo-encoding"></a>
+**Codificación de caracteres** </br>
+Se ha elegido el estándar `utf-8` porque permite una gestión eficiente y universal de todos los caracteres necesarios, tanto en español como en inglés, optimizando además el uso de memoria para la mayoría de casos comunes.
+
+<a name="seo-main-tags"></a>
+**Etiquetas principales utilizadas** </br>
+
+* **Title:** Permite definir el nombre visible de la pestaña y el identificador principal para indexación y búsquedas. En VitalWatch, se personaliza según la sección:
+  `<title>VitalWatch - Monitoreo de Fatiga para Profesionales de Salud</title>`
+
+* **Description:** Describe el objetivo y contenido de la página web. Sirve para mostrar un resumen en los resultados de búsqueda y cuando la página es compartida:
+  `<meta name="description" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">`
+
+* **Keywords:** Lista palabras relacionadas al propósito y alcance de la plataforma, ayudando a los buscadores en la categorización temática:
+  `<meta name="keywords" content="fatiga, salud laboral, vitalwatch, clínica, hospital, prevención, monitoreo, plataforma, turnos, bienestar, personal médico">`
+
+* **Author y copyright:** Se especifica el o los autores y derechos de autor del desarrollo:
+  `<meta name="author" content="Equipo VitaSync">`
+  `<meta name="copyright" content="Copyright Equipo VitaSync 2026" />`
+
+<a name="seo-example"></a>
+**Ejemplo completo de Meta Tags en una página principal del proyecto** </br>
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>VitalWatch - Monitoreo de Fatiga para Profesionales de Salud</title>
+  <meta name="description" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">
+  <meta name="keywords" content="fatiga, salud laboral, vitalwatch, clínica, hospital, prevención, monitoreo, plataforma, turnos, bienestar, personal médico">
+  <meta name="author" content="Equipo VitaSync">
+  <meta name="copyright" content="Copyright Equipo VitaSync 2026" />
+</head>
+<body>
+  </body>
+</html>
+```
+
+### 4.2.4. Searching systems
+
+El sistema de búsqueda de la plataforma no se limita a una barra de texto convencional, sino que emplea mecanismos de filtrado dinámico y búsqueda asistida para garantizar que la toma de decisiones sea rápida y precisa.
+
+<a name="search-keywords"></a>
+**a) Búsqueda por palabras clave** </br>
+Implementada principalmente en el Módulo de gestión de personal, permite a los administradores localizar perfiles específicos de manera instantánea:
+* **Criterios de búsqueda:** Nombre del médico, ID de empleado o código de especialidad.
+* **Ubicación:** Barra de búsqueda superior persistente en las secciones de "Gestión de Personal" y "Usuarios en Riesgo".
+
+<a name="search-filters"></a>
+**b) Sistemas de filtrado avanzado** </br>
+Debido al alto volumen de datos biométricos, el sistema permite reducir el ruido informativo mediante filtros técnicos:
+* **Filtros por atributos:** Selección por departamento (UCI, Emergencias, Consulta Externa), turno laboral y tipo de personal.
+* **Filtros por estado de riesgo:** Capacidad de aislar únicamente a los usuarios en estado "Crítico" o con "Alertas de anomalía" activas para priorizar la intervención.
+* **Filtros temporales:** Selector de rangos de fechas para el análisis de tendencias históricas y generación de reportes.
+
+<a name="search-support"></a>
+**c) Búsqueda asistida en soporte y FAQ** </br>
+En la landing page y el centro de ayuda, el sistema guía al usuario hacia la solución de problemas comunes:
+* **Navegación por categorías:** División clara entre soporte técnico de wearables, dudas sobre planes de suscripción y términos de privacidad.
+* **Resultados sugeridos:** Mientras el usuario escribe en el formulario de contacto o búsqueda de soporte, el sistema propone temas relacionados para agilizar la resolución.
+
+<a name="search-results"></a>
+**d) Visualización de resultados y retroalimentación** </br>
+* **Resultados en tiempo real:** Los listados de personal y reportes se actualizan automáticamente conforme se aplican los filtros.
+* **Estado de "Sin resultados":** En caso de búsquedas fallidas, el sistema ofrece sugerencias alternativas o accesos directos para registrar a un nuevo usuario o contactar a soporte.
+
+### 4.2.5. Navigation systems
+
+El sistema de navegación de **VitalWatch** se ha diseñado para garantizar que la transición entre secciones sea fluida y que el usuario siempre mantenga la noción de su ubicación dentro de la plataforma. Se emplean diferentes modelos de navegación adaptados al dispositivo y al rol del usuario.
+
+<a name="nav-global"></a>
+**a) Navegación global** </br>
+Es el nivel superior de navegación que permite moverse entre las áreas principales de la solución de forma persistente:
+* **Landing page:** Utiliza un menú de cabecera con enlaces a Inicio, Funciones, Planes, Términos, Contáctanos e Ingreso. Implementa una navegación vertical mediante anclajes internos (*anchors*) que dirigen al usuario a secciones específicas de la página de aterrizaje.
+* **Panel administrativo:** Se basa en una barra de navegación lateral (*sidebar*) persistente que contiene accesos directos al Dashboard General, Usuarios en Riesgo, Reportes, Eventos de Anomalías, Gestión de Personal y Configuración.
+* **Aplicación móvil (Personal Clínico):** Emplea una barra de navegación fija que permite el cambio rápido entre las vistas de "Mi Estado", "Historial", "Alertas" y "Perfil".
+
+<a name="nav-local"></a>
+**b) Navegación local y contextual** </br>
+Permite la exploración de contenidos específicos dentro de un módulo sin perder el contexto global:
+* **Accesos de profundización:** Uso de botones de acción directa como "Ver Detalle" en los listados de personal o alertas, permitiendo al usuario descender un nivel en la jerarquía de información para visualizar datos detallados.
+* **Navegación de retorno:** El sistema integra botones de retroceso y la posibilidad de volver al nivel superior de la jerarquía de forma sencilla, evitando que el usuario quede atrapado en vistas profundas.
+
+<a name="nav-secuencial"></a>
+**c) Navegación secuencial** </br>
+Diseñada para procesos que requieren una serie de pasos lógicos y ordenados:
+* **Flujo de gestión de reportes:** Dashboard → Sección de Reportes → Aplicación de Filtros → Visualización previa → Exportación.
+* **Flujo de atención de alertas:** Recepción de notificación → Vista de detalle de alerta → Revisión de historial del usuario afectado → Ejecución de acciones sugeridas (descanso/reprogramación).
+
+<a name="nav-suplementaria"></a>
+**d) Navegación suplementaria** </br>
+Proporciona vías alternativas para encontrar información o realizar acciones rápidas:
+* **Llamadas a la acción (CTAs):** Botones destacados como "Ver Planes" o "Solicitar Demo" distribuidos estratégicamente para motivar el flujo hacia el registro o contacto.
+* **Buscadores y accesos rápidos:** Permiten saltar directamente a perfiles de personal o eventos de anomalía específicos, funcionando como atajos de navegación para usuarios experimentados.
+
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
