@@ -163,37 +163,37 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 	<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto, fui el encargado de analizar y realizar diagramas en base a las entrevistas realizadas, de los cuales se pudo obtener información importante de lo que querían nuestro segmentos objetivo, adicional a esto me encargué de realizar los diagramas tanto de clases como de base de datos, además, estuve coordinando con todo el grupo para tener una optima comunicación, solicitar feedback de mis avances y estar de acuerdo con el trabajo.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>A lo largo del desarrollo, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto participé en reuniones grupales presenciales en la universidad y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
           <br>
       </td>
       <td colspan="3">
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>El grupo llevó a cabo reuniones presenciales y virtuales en las que se comunicaron diferentes ideas, se resolvieron dudas y se tomaron decisiones de manera conjunta con una comunicación oral clara y efectiva, permitiendo la comprensión entre los integrantes y contribuyendo al cumplimiento de los objetivos del proyecto.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       </td>
     </tr>
     <tr>
@@ -201,36 +201,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>En el desarrollo del proyecto, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
 		  <br>
       </td>
       <td colspan="3">
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>El grupo utilizó aplicaciones de mensajería como WhatsApp y Discord para coordinar actividades, resolver dudas y organizar el trabajo de manera eficiente. La comunicación fue clara y oportuna para todos los integrantes, lo que permitió una adecuada gestión de tareas y el cumplimiento del avance del proyecto.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       </td>
     </tr>
   </tbody>
@@ -544,7 +544,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 				<div align="center">Logo</div>
 			</td>
 			<td><div align="center">
-				<img src="Resources/Competitors/vitalwatch.png?raw=true" alt="VitalWatch logo"/>
+				<img src="Resources/Images/StyleGuidelines/General/logo.png?raw=true" alt="VitalWatch logo"/>
 			</div></td>
 			<td><div align="center">
 				<img src="Resources/Competitors/C1.png?raw=true" alt="C1 logo"/>
@@ -749,14 +749,16 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 **Entrevista 1**
 <p align="center">
-  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource.png" alt="Entrevista con Yeny Calero" width="500"/>
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_N1.png" alt="Entrevista con Yeny Calero" width="500"/>
   <br/><i>Evidencia de entrevista: Yeny Calero</i>
 </p>
 
 - **Nombre:** Yeny Calero Orbezo
 - **Edad:** 52 años
 - **Residencia:** Chaclacayo
-- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD0dyMXbaROT5fFDo4qoxW8AT992-FFO5cp0yr4PLYm7SM?e=J2eQyf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 09:50
+- **Timing:** 00:00 - 09:50
 
 **Resumen de la entrevista:**
 <div align="justify">
@@ -767,19 +769,45 @@ La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de pe
 
 **Entrevista 2**
 <p align="center">
-  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource_2.png" alt="Entrevista con Frank Carrillo"/>
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_N2.png" alt="Entrevista con Frank Carrillo"/>
   <br/><i>Evidencia de entrevista: Frank Carrillo</i>
 </p>
 
 - **Nombre:** Frank Carrillo Pino
 - **Edad:** 51 años
 - **Residencia:** Cusco
-- **Enlace de la entrevista:** [Ver grabación aquí]
-
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 12:59
+- **Timing:** 09:50 - 22:49
+  
 **Resumen de la entrevista:**
 <div align="justify">
 En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cusco del MINSA, muestra que la gestión del personal se maneja principalmente en computadoras fijas y en el sistema interno de la institución, sin uso frecuente de laptops o celulares. El entrevistado indicó que la distribución de turnos se ajusta según la necesidad del centro, priorizando la demanda de los pacientes sobre la disponibilidad individual. Ante situaciones de fatiga o estrés, no existe un protocolo formal establecido, por lo que la intervención se realiza internamente con apoyo de personal de psicología y de salud. Además, señaló que una solución de software que pueda mostrar las alertas preventivas de salud del personal clínico, y que tenga buena seguridad en el manejo de datos y cumplimiento normativo sería algo ideal. Finalmente indicó que prefiere reportes en Excel para las auditorías internas.
 </div>
+
+
+
+<br>
+
+
+**Entrevista 3**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmenteo1_N3.jpg" alt="Entrevista con Frank Carrillo"/>
+  <br/><i>Evidencia de entrevista: Susana Zegarra</i>
+</p>
+
+- **Nombre:** Susana Zegarra Fernandez
+- **Edad:** 43 años
+- **Residencia:** Lima 
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 09:02
+- **Timing:** 22:49 - 31:51
+  
+**Resumen de la entrevista:**
+<div align="justify">
+Se realiza una entrevista a la directora médica de un hospital regional en Arequipa, quien detalla los desafíos actuales en la gestión de personal y la organización de turnos. La especialista describe el fenómeno de la fatiga laboral crítica y la necesidad de contar con herramientas tecnológicas que permitan monitorear el cansancio del equipo en tiempo real. Se discute la importancia de implementar alertas preventivas y tableros de control que faciliten la toma de decisiones para redistribuir cargas de trabajo de manera eficiente. Finalmente, se subrayan requisitos técnicos clave como la seguridad de datos, la interoperabilidad con sistemas institucionales y la generación de reportes para auditorías de cumplimiento.
+</div>
+
 
 <br>
 
@@ -787,15 +815,17 @@ En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cus
 
 **Entrevista 1**
 <p align="center">
-  <img src="Resources/Images/Interview/EntrevistaSegmento2_OpenSource.png" alt="Entrevista con Valeria Montalvo" width="500"/>
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_N1.png" alt="Entrevista con Valeria Montalvo" width="500"/>
   <br/><i>Evidencia de entrevista: Valeria Montalvo</i>
 </p>
 
 - **Nombre:** Valeria Montalvo Aponte
 - **Edad:** 24 años
 - **Residencia:** Chaclacayo
-- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQBOeF7zcoqLT59IFZbU9VAhAS9M7MUiQGm0VvyN2kvgzro?e=kQrnWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 05:08
+- **Timing:** 43:48 - 48:56
+  
 **Resumen de la entrevista:**
 <div align="justify">
 Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan en un estado de "piloto automático", elevando el riesgo de errores en dosis y diagnósticos. Ante la ausencia de protocolos preventivos y la presión institucional por continuar, destaca la urgencia de contar con dispositivos de monitoreo discreto que aporten datos objetivos sobre el tiempo de reacción y estrés. Para ella, una solución tecnológica exitosa debe ofrecer un respaldo técnico que justifique descansos obligatorios sin comprometer la privacidad, transformando la cultura hospitalaria actual hacia una gestión de seguridad clínica basada en el bienestar del profesional.
@@ -803,7 +833,100 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 
 <br/>
 
+**Entrevista 2**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_N2.png" alt="Entrevista con Maribel Fernandez Chauca" width="500"/>
+  <br/><i>Evidencia de entrevista: Maribel Fernandez Chauca</i>
+</p>
+
+- **Nombre:** Maribel Fernandez Chauca
+- **Edad:** 38 años
+- **Residencia:** Ayacucho
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 11:57
+- **Timing:** 31:51 - 43:48
+  
+**Resumen de la entrevista:**
+<div align="justify">
+Maribel Fernandez una profesional de laboratorio clínico que labora en un hospital público en Huanta, Ayacucho, bajo intensas jornadas de guardia de doce horas. La trabajadora describe cómo la falta de personal y la presión por resultados inmediatos generan un severo agotamiento físico y mental, afectando el bienestar emocional del equipo. Se destaca la ausencia de mecanismos institucionales formales para prevenir el colapso del personal de salud, dejando la resolución de crisis al apoyo mutuo entre colegas. La entrevistada muestra una actitud favorable hacia el uso de tecnología vestible, como relojes inteligentes, para monitorear indicadores de fatiga y estrés. Finalmente, enfatiza que cualquier sistema de este tipo debe garantizar la confidencialidad de los datos y servir como evidencia estadística para justificar la contratación de más personal.
+</div>
+
+<br/>
+
+**Entrevista 3**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_N3.png" alt="Entrevista con Yesenia Consuelo Bardales" width="500"/>
+  <br/><i>Evidencia de entrevista: Yesenia Consuelo Bardales</i>
+</p>
+
+- **Nombre:** Yesenia Consuelo Bardales 
+- **Edad:** 47 años
+- **Residencia:** Lima
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 06:24
+- **Timing:** 48:56 - 55:20
+  
+**Resumen de la entrevista:**
+<div align="justify">
+Yesenia Consuelo Bardales, técnica en enfermería que trabaja en un centro materno infantil público en Lima, desempeña su labor principalmente en el área de emergencia y realiza guardias de doce horas entre dos y tres veces por semana. Durante la entrevista, señaló que el agotamiento extremo en su entorno laboral se manifiesta a través del estrés, el cansancio físico y cambios en el estado de ánimo, afectando tanto el desempeño como el bienestar del personal. Asimismo, indicó que en su institución no existe un mecanismo formal para detectar o prevenir el agotamiento del personal de salud, por lo que, ante estas situaciones, el apoyo entre compañeros constituye la principal forma de respuesta. La entrevistada expresó una disposición favorable hacia el uso de tecnología vestible que permita monitorear señales como el pulso y la presión, siempre que el dispositivo sea pequeño, de uso personal y emita alertas útiles. Finalmente, remarcó que el sistema debe respetar la privacidad del trabajador y evitar funciones de geolocalización, ya que considera fundamental que el monitoreo se mantenga enfocado en la salud y el cuidado individual del personal. 
+</div>
+
+<br/>
+
 ### 2.2.3 Análisis de entrevistas
+
+**Segmento 1: Gestores y Administradores Hospitalarios**
+
+<a name="entrevistado-01-s1"></a>
+**Entrevistado 01: Yeny Calero Orbezo (52 años)** </br>
+* **Cargo y Contexto:** Coordinadora de servicio en un hospital público (MINSA) con 35 médicos a su cargo.
+* **Gestión de Horarios y Criterios Actuales:** Realiza la programación de turnos de forma manual usando Excel, basándose únicamente en la disponibilidad y los descansos de ley, sin aplicar criterios técnicos de carga laboral o fatiga.
+* **Protocolo ante el Agotamiento:** El enfoque es puramente reactivo. Solo se interviene si el personal está visiblemente enfermo o notifica su cansancio al jefe de guardia, derivándolos a salud ocupacional para evaluación médica o vacaciones.
+* **Valoración de la Tecnología:** Considera urgente resolver la sobrecarga laboral. Valida el uso de relojes inteligentes para monitorear al personal, priorizando la visualización de fatiga en tiempo real sobre la reprogramación automática.
+* **Expectativas del Sistema:** Espera que el sistema genere alertas en tiempo real e informes de cansancio que se integren con las planillas para automatizar descansos, optimizando la seguridad del paciente.
+
+<a name="entrevistado-02-s1"></a>
+**Entrevistado 02: Frank Carrillo Pino (51 años)** </br>
+* **Cargo y Contexto:** Jefe de un Centro de Salud Mental en Cusco (MINSA) con 10 años de experiencia administrativa.
+* **Identificación de la Fatiga:** No cuenta con un protocolo formal, pero identifica el estrés y el esfuerzo mental como los problemas más urgentes, especialmente por cómo afectan la salud emocional del trabajador.
+* **Decisiones con Datos en Tiempo Real:** Considera ideal tener una herramienta de monitoreo, señalando que la carga actual por paciente genera una fatiga que requiere ajustes técnicos en los tiempos de atención.
+* **Barreras para la Reprogramación:** Se muestra escéptico ante la reprogramación automática debido a la baja tolerancia de los pacientes en servicios públicos, quienes exigen atención inmediata.
+* **Relevancia de la Seguridad:** Para aprobar el sistema, exige garantías estrictas de seguridad de datos y cumplimiento normativo, prefiriendo un dashboard con alertas en tiempo real.
+
+<a name="entrevistado-03-s1"></a> 
+**Entrevistado 03: Susana Zegarra Fernandez (43 años)** </br> 
+* **Cargo y Contexto:** Directora médica en el Hospital Regional Honorio Delgado Espinoza (MINSA, Arequipa). Supervisa a aproximadamente 250 profesionales de la salud con 13 años de experiencia en gestión.
+* **Gestión de Horarios y Criterios Actuales:** Utiliza el sistema hospitalario interno (HIS) y Excel. La programación es mensual y se basa en carga laboral, proyección de demanda, especialidades y experiencia del personal.
+* **Protocolo ante el Agotamiento:** Define el evento como "Fatiga laboral crítica". Existe un protocolo formal, aunque su aplicación depende de la disponibilidad de personal; las acciones incluyen redirigir pacientes, asignar reemplazos y supervisión de turnos.
+* **Valoración de la Tecnología:** Identifica como problema urgente la falta de monitoreo en tiempo real. Considera que las alertas preventivas son la capacidad más importante, ya que permiten adelantarse a eventos críticos y disminuir errores.
+* **Expectativas del Sistema:** Busca una reducción de eventos adversos y un mayor desempeño del equipo. El dashboard debe combinar resúmenes generales con alertas en tiempo real y estar integrado obligatoriamente con los sistemas HIS, RRHH y planillas.
+
+**Segmento 2: Personal Clínico y Operativo**
+
+<a name="entrevistado-01-s2"></a>
+**Entrevistado 01: Valeria Montalvo (24 años)** </br>
+* **Rol y Experiencia:** Interna de Medicina en Emergencia y Cirugía. Realiza guardias de 12 horas, 6 veces por semana.
+* **Descripción del Agotamiento:** Define la fatiga extrema como estar en "modo zombie", donde se actúa por inercia y se pierde la capacidad de reacción consciente.
+* **Motivaciones y Riesgos:** Identifica el error por distracción (confundir dosis o datos en historias clínicas) como el riesgo más crítico tras jornadas extensas.
+* **Acción Deseada del Sistema:** Busca que el sistema envíe alertas vibratorias privadas y notifique al jefe para gestionar relevos, sirviendo como un respaldo legal para el descanso.
+* **Uso de Wearables:** 100% dispuesta a usarlos siempre que sean dispositivos ligeros, resistentes al alcohol en gel y que no posean funciones invasivas como micrófono o cámara.
+
+<a name="entrevistado-02-s2"></a>
+**Entrevistado 02: Maribel Fernandez Chauca (38 años)** </br>
+* **Rol y Contexto:** Personal de Laboratorio Clínico en Ayacucho. Atiende áreas críticas como UCI y Emergencia.
+* **Impacto de la Falta de Personal:** Describe una alta presión por la demanda inmediata de resultados y la escasez de personal en turnos nocturnos, lo que genera agotamiento extremo.
+* **Mecanismos de Prevención:** Señala la inexistencia de protocolos para atender la parte emocional del personal tras la pandemia.
+* **Valoración del Monitoreo:** Considera valioso evidenciar el riesgo del personal para justificar más contrataciones ante el Estado. Prioriza consultar niveles de fatiga y presión.
+* **Condiciones de Privacidad:** Aceptaría el monitoreo continuo siempre que se garantice la confidencialidad absoluta y que los datos se usen solo para estadísticas internas.
+
+<a name="entrevistado-03-s2"></a>
+**Entrevistado 03: Yesenia Consuelo Bardales (47 años)** </br>
+* **Rol y Contexto:** Enfermera técnica en el área de Emergencia de un centro materno infantil.
+* **Estado de Riesgo:** Identifica la fatiga a través de dolores físicos y cambios en la actitud. Describe el ambiente de guardia como altamente estresante.
+* **Falta de Apoyo Institucional:** Afirma que no existe ningún mecanismo formal de prevención; ante un colapso, el apoyo es únicamente improvisado entre compañeros.
+* **Interés en Wearables:** Está muy dispuesta a usar un wearable que emita alertas, interesándose especialmente en el monitoreo de la presión del corazón.
+* **Privacidad:** Su condición indispensable es que la información sea estrictamente personal y que sus datos no sean rastreables de forma pública.
+
 
 ## 2.3 Needfinding
 
@@ -872,14 +995,13 @@ Utilizamos el siguiente código de colores estándar para garantizar la legibili
 | Color | Concepto | Función en VitalWatch |
 | :--- | :--- | :--- |
 | **Naranja** | **Domain Event** | Sucesos significativos ya ocurridos (ej. "Alerta de riesgo enviada"). |
-| **Azul** | **Command** | Acciones o intenciones que provocan un evento (ej. "Redistribuir turnos"). |
 | **Amarillo** | **Actor** | Personas que toman decisiones clave dentro del flujo hospitalario. |
 | **Rosado** | **External System** | Plataformas externas que se integran (Wearables, Base de Datos HIS). |
 | **Violeta** | **Hotspot** | Riesgos, dudas técnicas o cuellos de botella detectados en el negocio. |
 
 **Big Picture Event Storming - Mapa**
 <div align="center">
-  <img src="Resources/Images/WebStorming/BigPictureEventStorming.jpg" alt="Mapa Big Picture Event Storming de VitalWatch">
+  <img src="Resources/Images/WebStorming/Big_Picture_Event_Storming.jpg" alt="Mapa Big Picture Event Storming de VitalWatch">
 </div>
 
 **Interpretación de hallazgos clave**
@@ -940,15 +1062,25 @@ Se muestra a continuación el glosario de términos utilizados dentro del domi
 | **US-18** | Generación automática de reportes periódicos | Como administrador, quiero que el sistema genere reportes automáticos semanales y mensuales sobre el estado de fatiga institucional, para facilitar seguimiento y toma de decisiones estratégicas. |**Escenario 1: Configuración de destinatarios para reportes semanales**<br><br> Dado que el administrador desea automatizar el seguimiento<br><br> Cuando configura los correos electrónicos y selecciona la frecuencia "Semanal"<br><br> Entonces el sistema debe confirmar que el reporte se enviará cada domingo a las 23:59 horas<br><br> **Escenario 2: Recepción de reporte mensual automatizado**<br><br> Dado que ha finalizado el mes calendario<br><br> Cuando el reloj del sistema marca el inicio del nuevo mes<br><br> Entonces el sistema debe enviar automáticamente un resumen ejecutivo en PDF a la dirección de correo configurada<br><br>| **EP-02** |
 | **US-19** | Visualización segmentada por áreas o departamentos | Como responsable de un área, quiero ver los niveles de fatiga agregados solo de mi departamento, para enfocar las medidas preventivas donde son más necesarias. |**Escenario 1: Enfoque de medidas preventivas por jefe de departamento**<br><br> Dado que el responsable de la Unidad de Cuidados Intensivos (UCI) ingresa al dashboard<br><br> Cuando selecciona su departamento en el selector de áreas<br><br> Entonces todos los promedios y alertas mostrados deben limitarse exclusivamente al personal de UCI<br><br> **Escenario 2: Comparación de casos críticos entre servicios**<br><br> Dado que el administrador general revisa la plataforma<br><br> Cuando cambia entre diferentes departamentos en el menú de segmentación<br><br> Entonces los datos deben actualizarse instantáneamente para permitir la identificación de la unidad con mayor fatiga<br><br>| **EP-02** |
 | **US-20** | Consulta de registro de eventos de anomalías | Como usuario autorizado, quiero consultar el historial de eventos donde se detectaron anomalías en los datos biométricos, para análisis y auditoría médica. |**Escenario 1: Auditoría de una anomalía de salud detectada**<br><br> Dado que un usuario autorizado necesita investigar un evento pasado<br><br> Cuando ingresa a la "Interfaz de anomalías"<br><br> Entonces debe poder visualizar la fecha, la identidad del médico y el tipo de irregularidad biométrica detectada originalmente<br><br> **Escenario 2: Búsqueda de eventos específicos por nombre de usuario**<br><br> Dado que se realiza una revisión médica de un doctor específico<br><br> Cuando el usuario autorizado utiliza la barra de búsqueda dentro del registro de eventos<br><br> Entonces el sistema debe filtrar y mostrar cronológicamente solo las anomalías asociadas a ese doctor<br><br>| **EP-02** |
-| **US-XX** | Titulo | Como, quiero, para | **Escenario X: Titulo**<br><br>Dado que<br><br>Cuando<br><br>Entonces<br><br> | **EP-XX** |
 
 ## 3.2. Impact Mapping
 
-<img src="Resources/Images/impact_map.png?raw=true" alt="Gráfico del impact map de VitalWatch"/>
+<img src="Resources/Images/StyleGuidelines/impact_map.png?raw=true" alt="Gráfico del impact map de VitalWatch"/>
 <br> 
 
 ## 3.3. Product Backlog
-
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---|---|---|---|---|
+| 1 | US-01 | Primera impresión sobre el producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** entender rápidamente qué es VitalWatch y qué problema resuelve,<br><br>**Para** saber si puede ayudar a mejorar mi clínica. | 2 |
+| 2 | US-02 | Navegación por secciones | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** navegar fácilmente entre las secciones informativas sobre VitalWatch,<br><br>**Para** encontrar rápidamente la información que necesito. | 3 |
+| 3 | US-03 | Explicación detallada del producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** conocer qué ofrece VitalWatch,<br><br>**Para** evaluar si lo que ofrece es útil para las necesidades de mi institución. | 2 |
+| 4 | US-04 | Sección de beneficios de gestión | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** ver los beneficios de gestión que ofrece VitalWatch,<br><br>**Para** entender cómo puede ayudarme en la supervisión del personal. | 2 |
+| 5 | US-05 | Sección de beneficios para el personal clínico | **Como** visitante del segmento personal clínico de una clínica,<br><br>**Quiero** conocer cómo VitalWatch puede ayudarme en mi trabajo diario,<br><br>**Para** identificar los beneficios que me podría brindar. | 2 |
+| 6 | US-06 | Sección de planes de suscripción | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** revisar los planes de suscripción disponibles,<br><br>**Para** identificar la opción más adecuada para mi institución. | 3 |
+| 7 | US-07 | Formulario de contacto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** encontrar un formulario de contacto en la página,<br><br>**Para** solicitar información o una demostración. | 5 |
+| 8 | US-08 | Sección de términos de servicio | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** ver información sobre el manejo de la privacidad y el uso responsable de los datos,<br><br>**Para** saber si el servicio es confiable. | 2 |
+| 9 | US-09 | Diseño adaptable para móviles | **Como** visitante del segmento administrativo de una clínica que accede desde un dispositivo móvil,<br><br>**Quiero** que la página se adapte correctamente a mi pantalla,<br><br>**Para** poder navegar cómodamente desde mi dispositivo. | 3 |
+| 10 | US-10 | Sección de redes sociales | **Como** visitante del segmento general de una clínica,<br><br>**Quiero** acceder a las redes sociales y medios de contacto de la empresa,<br><br>**Para** conocer más sobre VitaSync y VitalWatch. | 1 |
 ---
 # Capítulo IV: Product Design
 
@@ -964,7 +1096,7 @@ Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y
 El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
 
 <div align="center">
-<img src="Resources/Images/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
+<img src="Resources/Images/StyleGuidelines/General/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
 <div align="justify"><br> 
 
 **Typography** <br><br>
@@ -977,7 +1109,7 @@ Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakart
 A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
 
 <div align="center">
-<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<img src="Resources/Images/StyleGuidelines/General/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
 <div align="justify"><br> 
 
 **Colors** <br><br> 
@@ -985,28 +1117,208 @@ Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, lo
 El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
 
 <div align="center">
-<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
-<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
-<img src="Resources/Images/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
+<img src="Resources/Images/StyleGuidelines/General/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
+<img src="Resources/Images/StyleGuidelines/General/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
+<img src="Resources/Images/StyleGuidelines/General/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
 <div align="justify"><br> 
 
 **Spacing** <br><br> 
 Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
 
 <div align="center">
-<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
+<img src="Resources/Images/StyleGuidelines/General/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
 <div align="justify"> 
 
 ### 4.1.2. Web Style Guidelines.
 
+**Header** <br>
+En esta sección podremos encontrar el logo de VitalWatch a la izquierda, acompañado del menú de navegación principal (*Inicio*, *Funciones*, *Planes*, *Términos*, *Contáctanos*) y el boton de acción *Ingreso* a la derecha. El fondo es de color azul claro *#65A8FB* y los botones de un azul un poco mas oscuro *#1678F2* destacar las acciones principales.
 
+<div align="center">
+<img src="Resources/Images/StyleGuidelines/WebStyles/Header.png?raw=true" alt="Imagen referencial del header"/> 
+<img src="Resources/Images/StyleGuidelines/WebStyles/Header_Responsive.png?raw=true" alt="Imagen referencial del header en diseño responsive"/> 
+<div align="justify"> <br>
+
+**Sección Principal** <br>
+La sección principal de la landing page está diseñada para captar la atención del usuario desde el primer momento, mostrando un título llamativo, una breve descripción del servicio y un botón de acción principal junto a un recurso visual ilustrativo. En su adaptación responsive, la composición se ajusta a un formato vertical propio de dispositivos móviles, conservando la claridad del mensaje y la facilidad de interacción.
+
+<div align="center">
+<img src="Resources/Images/StyleGuidelines/WebStyles/Main_Section.png?raw=true" alt="Imagen referencial del header" width="70.8%"/>
+<img src="Resources/Images/StyleGuidelines/WebStyles/Main_Section_Responsive.png?raw=true" alt="Imagen referencial del header" width="17%"/>
+<div align="justify"> <br>
+
+**Footer**<br>
+El footer de la landing page reúne la información complementaria de la plataforma, incluyendo la identidad visual de la marca, enlaces a redes sociales, acceso a términos y condiciones y datos de contacto. En la versión web, estos elementos se distribuyen de manera horizontal para aprovechar el espacio y mantener un orden visual equilibrado, mientras que, en la versión responsive, se reorganizan verticalmente para facilitar la lectura y conservar la claridad y accesibilidad del contenido en dispositivos móviles.
+
+<div align="center">
+<img src="Resources/Images/StyleGuidelines/WebStyles/Footer.png?raw=true" alt="Imagen referencial del header""/>
+<img src="Resources/Images/StyleGuidelines/WebStyles/Footer_Responsive.png?raw=true" alt="Imagen referencial del header" width="20%"/>
+<div align="justify"> <br>
 
 ## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
+
+### 4.2.1. Organization systems
+
+La arquitectura de la información en **VitalWatch** está diseñada para que distintos tipos de usuario accedan de manera rápida y lógica a las funcionalidades y datos más relevantes, minimizando la complejidad y guiando a los usuarios en flujos intuitivos para cada necesidad.
+
+<a name="org-hierarchy"></a>
+**a) Jerarquía visual** </br>
+El sistema emplea una estructura donde la información crítica se destaca en puntos de acceso común:
+* **Dashboards de entrada:** Actúan como el punto de acceso principal que agrupa métricas clave, notificaciones y accesos rápidos. En el segmento administrativo, se priorizan indicadores como el "Nivel de fatiga promedio" y el "Personal en riesgo".
+* **Prioridad de datos:** Se antepone siempre el estado actual y las alertas activas frente a las métricas históricas.
+* **Landing page:** La navegación sigue un orden lógico iniciando con la propuesta de valor ("La solución que los médicos necesitan"), seguida de los pilares de servicio (Dashboard, Notificaciones, Prevención y Bienestar), planes y contacto.
+
+<a name="org-sequential"></a>
+**b) Organización secuencial** </br>
+Los flujos complejos se descomponen en pasos simples para evitar la sobrecarga cognitiva:
+* **Generación de reportes:** El usuario sigue una secuencia de selección de criterios: Visualización previa a confirmación y luego a exportación.
+* **Versión móvil:** Los procesos inician con una pantalla resumen que permite avanzar progresivamente hacia detalles específicos y comparativas de periodos.
+
+<a name="org-matrix"></a>
+**c) Organización matricial** </br>
+Diseñada específicamente para el perfil administrativo que requiere análisis cruzado de datos:
+* **Análisis multidimensional:** El sistema permite combinar filtros para identificar tendencias por usuario, fecha y área médica.
+* **Apoyo visual:** Se utilizan tablas detalladas y gráficos de calor para mostrar rápidamente relaciones entre la carga laboral y los focos de riesgo detectados.
+
+<a name="org-categorization"></a>
+**d) Sistemas de categorización** </br>
+* **Jerárquico (Por segmento objetivo):**
+    * **Administradores:** Control global mediante Dashboard General, Reportes, Gestión de Personal y Configuración de umbrales.
+    * **Personal Clínico:** Enfoque en el auto-monitoreo a través de "Mi Estado", "Mis Alertas" e "Historial".
+* **Cronológico:** Los registros de fatiga y anomalías se organizan temporalmente para permitir exploraciones por día, semana o mes.
+* **Por tópicos:** Las alertas se segmentan en categorías específicas como "Fatiga", "Anomalía de Salud" y "Turnos Extensos" para facilitar la respuesta inmediata.
+
+### 4.2.2. Labeling systems
+
+El sistema de etiquetado tiene como objetivo principal eliminar la ambigüedad, utilizando términos familiares tanto para el personal médico como para los gestores administrativos. Se han estandarizado las etiquetas para asegurar una navegación rápida, especialmente en situaciones de alta carga laboral.
+
+<a name="label-navigation"></a>
+**a) Etiquetas de navegación** </br>
+Estas etiquetas se encuentran en los menús principales y barras laterales para orientar al usuario sobre su ubicación actual:
+* **Landing page:** Inicio, Funciones, Planes, Soporte, Contáctanos e Ingresar.
+* **Dashboard administrativo:** Dashboard, Usuarios en Riesgo, Reportes, Eventos de Anomalías, Gestión de Personal y Configuración.
+* **Aplicación móvil (clínico):** Mi Estado, Historial, Alertas y Perfil.
+
+<a name="label-action"></a>
+**b) Etiquetas de acción** </br>
+Identifican las operaciones que el usuario puede ejecutar dentro de la plataforma:
+* **CTAs principales:** "Ver Planes", "Solicitar Demo", "Regístrate ahora", "Ingresar".
+* **Acciones operativas:** "Ver Detalle" (para profundizar en un registro), "Exportar Reporte" (para descarga en PDF/Excel) y "Actualizar Datos".
+* **Formularios:** "Enviar Mensaje", "Crear cuenta", "¿Olvidaste tu contraseña?".
+
+<a name="label-metadata"></a>
+**c) Etiquetas informativas y de estado** </br>
+Utilizadas para encabezados de métricas y estados de salud:
+* **Indicadores de riesgo:** "Nivel de Fatiga Promedio", "Alertas Activas", "Personal en Riesgo", "Normal", "Crítico".
+* **Métricas biométricas:** "Frecuencia Cardíaca", "Ritmo de Sueño", "Nivel de Estrés", "Puntaje de Fatiga".
+
+<a name="label-system"></a>
+**d) Mensajes de sistema y ayuda** </br>
+Etiquetas diseñadas para retroalimentar al usuario sobre procesos internos:
+* **Notificaciones:** "Alerta de fatiga detectada", "Sincronización exitosa", "Error de conexión con wearable".
+* **Ayuda/Soporte:** "Centro de ayuda", "Preguntas Frecuentes", "Términos y condiciones".
+
 ### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems.
-### 4.2.5. Navigation Systems.
+
+Las meta etiquetas permiten codificar y especificar metadatos en las páginas web del proyecto. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las utilizan para leer y analizar la estructura de la web. Así, facilitan tareas de indexación, mantenimiento del contenido y, sobre todo, mejoran el posicionamiento de nuestra landing page, dashboards y demás secciones en los motores de búsqueda.
+
+<a name="seo-encoding"></a>
+**Codificación de caracteres** </br>
+Se ha elegido el estándar `utf-8` porque permite una gestión eficiente y universal de todos los caracteres necesarios, tanto en español como en inglés, optimizando además el uso de memoria para la mayoría de casos comunes.
+
+<a name="seo-main-tags"></a>
+**Etiquetas principales utilizadas** </br>
+
+* **Title:** Permite definir el nombre visible de la pestaña y el identificador principal para indexación y búsquedas. En VitalWatch, se personaliza según la sección:
+  `<title>VitalWatch - Monitoreo de Fatiga para Profesionales de Salud</title>`
+
+* **Description:** Describe el objetivo y contenido de la página web. Sirve para mostrar un resumen en los resultados de búsqueda y cuando la página es compartida:
+  `<meta name="description" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">`
+
+* **Keywords:** Lista palabras relacionadas al propósito y alcance de la plataforma, ayudando a los buscadores en la categorización temática:
+  `<meta name="keywords" content="fatiga, salud laboral, vitalwatch, clínica, hospital, prevención, monitoreo, plataforma, turnos, bienestar, personal médico">`
+
+* **Author y copyright:** Se especifica el o los autores y derechos de autor del desarrollo:
+  `<meta name="author" content="Equipo VitaSync">`
+  `<meta name="copyright" content="Copyright Equipo VitaSync 2026" />`
+
+<a name="seo-example"></a>
+**Ejemplo completo de Meta Tags en una página principal del proyecto** </br>
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>VitalWatch - Monitoreo de Fatiga para Profesionales de Salud</title>
+  <meta name="description" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">
+  <meta name="keywords" content="fatiga, salud laboral, vitalwatch, clínica, hospital, prevención, monitoreo, plataforma, turnos, bienestar, personal médico">
+  <meta name="author" content="Equipo VitaSync">
+  <meta name="copyright" content="Copyright Equipo VitaSync 2026" />
+</head>
+<body>
+  </body>
+</html>
+```
+
+### 4.2.4. Searching systems
+
+El sistema de búsqueda de la plataforma no se limita a una barra de texto convencional, sino que emplea mecanismos de filtrado dinámico y búsqueda asistida para garantizar que la toma de decisiones sea rápida y precisa.
+
+<a name="search-keywords"></a>
+**a) Búsqueda por palabras clave** </br>
+Implementada principalmente en el Módulo de gestión de personal, permite a los administradores localizar perfiles específicos de manera instantánea:
+* **Criterios de búsqueda:** Nombre del médico, ID de empleado o código de especialidad.
+* **Ubicación:** Barra de búsqueda superior persistente en las secciones de "Gestión de Personal" y "Usuarios en Riesgo".
+
+<a name="search-filters"></a>
+**b) Sistemas de filtrado avanzado** </br>
+Debido al alto volumen de datos biométricos, el sistema permite reducir el ruido informativo mediante filtros técnicos:
+* **Filtros por atributos:** Selección por departamento (UCI, Emergencias, Consulta Externa), turno laboral y tipo de personal.
+* **Filtros por estado de riesgo:** Capacidad de aislar únicamente a los usuarios en estado "Crítico" o con "Alertas de anomalía" activas para priorizar la intervención.
+* **Filtros temporales:** Selector de rangos de fechas para el análisis de tendencias históricas y generación de reportes.
+
+<a name="search-support"></a>
+**c) Búsqueda asistida en soporte y FAQ** </br>
+En la landing page y el centro de ayuda, el sistema guía al usuario hacia la solución de problemas comunes:
+* **Navegación por categorías:** División clara entre soporte técnico de wearables, dudas sobre planes de suscripción y términos de privacidad.
+* **Resultados sugeridos:** Mientras el usuario escribe en el formulario de contacto o búsqueda de soporte, el sistema propone temas relacionados para agilizar la resolución.
+
+<a name="search-results"></a>
+**d) Visualización de resultados y retroalimentación** </br>
+* **Resultados en tiempo real:** Los listados de personal y reportes se actualizan automáticamente conforme se aplican los filtros.
+* **Estado de "Sin resultados":** En caso de búsquedas fallidas, el sistema ofrece sugerencias alternativas o accesos directos para registrar a un nuevo usuario o contactar a soporte.
+
+### 4.2.5. Navigation systems
+
+El sistema de navegación de **VitalWatch** se ha diseñado para garantizar que la transición entre secciones sea fluida y que el usuario siempre mantenga la noción de su ubicación dentro de la plataforma. Se emplean diferentes modelos de navegación adaptados al dispositivo y al rol del usuario.
+
+<a name="nav-global"></a>
+**a) Navegación global** </br>
+Es el nivel superior de navegación que permite moverse entre las áreas principales de la solución de forma persistente:
+* **Landing page:** Utiliza un menú de cabecera con enlaces a Inicio, Funciones, Planes, Términos, Contáctanos e Ingreso. Implementa una navegación vertical mediante anclajes internos (*anchors*) que dirigen al usuario a secciones específicas de la página de aterrizaje.
+* **Panel administrativo:** Se basa en una barra de navegación lateral (*sidebar*) persistente que contiene accesos directos al Dashboard General, Usuarios en Riesgo, Reportes, Eventos de Anomalías, Gestión de Personal y Configuración.
+* **Aplicación móvil (Personal Clínico):** Emplea una barra de navegación fija que permite el cambio rápido entre las vistas de "Mi Estado", "Historial", "Alertas" y "Perfil".
+
+<a name="nav-local"></a>
+**b) Navegación local y contextual** </br>
+Permite la exploración de contenidos específicos dentro de un módulo sin perder el contexto global:
+* **Accesos de profundización:** Uso de botones de acción directa como "Ver Detalle" en los listados de personal o alertas, permitiendo al usuario descender un nivel en la jerarquía de información para visualizar datos detallados.
+* **Navegación de retorno:** El sistema integra botones de retroceso y la posibilidad de volver al nivel superior de la jerarquía de forma sencilla, evitando que el usuario quede atrapado en vistas profundas.
+
+<a name="nav-secuencial"></a>
+**c) Navegación secuencial** </br>
+Diseñada para procesos que requieren una serie de pasos lógicos y ordenados:
+* **Flujo de gestión de reportes:** Dashboard → Sección de Reportes → Aplicación de Filtros → Visualización previa → Exportación.
+* **Flujo de atención de alertas:** Recepción de notificación → Vista de detalle de alerta → Revisión de historial del usuario afectado → Ejecución de acciones sugeridas (descanso/reprogramación).
+
+<a name="nav-suplementaria"></a>
+**d) Navegación suplementaria** </br>
+Proporciona vías alternativas para encontrar información o realizar acciones rápidas:
+* **Llamadas a la acción (CTAs):** Botones destacados como "Ver Planes" o "Solicitar Demo" distribuidos estratégicamente para motivar el flujo hacia el registro o contacto.
+* **Buscadores y accesos rápidos:** Permiten saltar directamente a perfiles de personal o eventos de anomalía específicos, funcionando como atajos de navegación para usuarios experimentados.
+
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
@@ -1084,13 +1396,190 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+
+En esta sección se presenta el Design-Level Event Storming desarrollado para VitalWatch, con el objetivo de refinar el dominio del problema e identificar con mayor nivel de detalle los eventos, comandos, políticas, agregados y bounded contexts del sistema. Esta etapa permitió mejorar la comprensión de los principales procesos y definir con mayor precisión las responsabilidades de cada parte del sistema.
+
+La sesión fue realizada de manera colaborativa en el programa miro a partir del Big Picture Event Storming previamente elaborado. Durante el proceso se identificaron los flujos principales del sistema, se definieron comandos, eventos de dominio y políticas, y posteriormente se agruparon en bounded contexts. Para mantener consistencia con los artefactos de arquitectura, la nomenclatura utilizada en los diagramas se encuentra en inglés.
+
+A continuación, se muestra la representación general del Design-Level Event Storming del sistema:
+
+<img src="Resources/Images/EventStorming/vitalwatch_eventstorming.jpg" alt="Design level event storming del funcionamiento de VitalWatch">
+<br><br>
+
+En conjunto, estos bounded contexts permiten representar el flujo completo del sistema, desde la captura y almacenamiento de datos biométricos, su análisis y detección de estados, hasta la generación de alertas y la gestión operativa y administrativa de la plataforma.
+
+A partir del análisis realizado, se identificaron bounded contexts que cumplen distintos roles dentro del sistema. Algunos representan el núcleo funcional de la solución, como State Analysis y Medical Rest Management, mientras que otros cumplen funciones de soporte, como Identity and Access Management y Subscription and Payment Management.
+
+A continuación, se describe cada bounded context de manera individual.
+
+  * **State Analysis:** Este bounded context se encarga de analizar los datos biométricos capturados por los dispositivos, con el fin de identificar si el estado del médico se encuentra dentro de niveles normales o si presenta valores críticos.<br><br>
+  <img src="Resources/Images/EventStorming/state_analysis.jpg" alt="Event Storming del bounded context de Análisis de Estado">
+
+  * **Biometric Data Management:** Este bounded context gestiona el almacenamiento, actualización y respaldo de los datos biométricos obtenidos desde los dispositivos, asegurando su persistencia y disponibilidad para su posterior análisis. <br><br>
+  <img src="Resources/Images/EventStorming/biometric_data.jpg" alt="Event Storming del bounded context de Gestión de Datos Biométricos">
+
+  * **Alerting and Notification Management:** Este bounded context se encarga de generar y enviar alertas y notificaciones cuando se detectan condiciones relevantes, permitiendo informar tanto al médico como a los administradores del sistema. <br><br>
+  <img src="Resources/Images/EventStorming/alerting_and_notification.jpg" alt="Event Storming del bounded context de Gestión de Alertas y Notificaciones">
+
+  * **Medical Rest Management:** Este bounded context gestiona la programación, modificación y validación de los periodos de descanso del personal médico, incluyendo recomendaciones basadas en el estado del usuario. <br><br>
+  <img src="Resources/Images/EventStorming/medical_rest.jpg" alt="Event Storming del bounded context de Gestión de Descansos Médicos">
+
+  * **Medical Shift Management:** Este bounded context administra la asignación, validación y reprogramación de turnos médicos, asegurando la disponibilidad del personal. <br><br>
+  <img src="Resources/Images/EventStorming/medical_shift.jpg" alt="Event Storming del bounded context de Gestión de Turnos Médicos">
+
+  * **Medical Device Management:** Este bounded context gestiona la vinculación de dispositivos médicos con las cuentas de usuario, así como la configuración de umbrales para el monitoreo. <br><br>
+  <img src="Resources/Images/EventStorming/medical_device.jpg" alt="Event Storming del bounded context de Gestión de Dispositivos Médicos">
+
+  * **Medical Staff Management:** Este bounded context permite la gestión del personal médico, incluyendo su registro y búsqueda dentro del sistema. <br><br>
+  <img src="Resources/Images/EventStorming/medical_staff.jpg" alt="Event Storming del bounded context de Gestión de Personal Médico">
+
+  * **Identity and Access Management:** Este bounded context se encarga de la creación, verificación y control de acceso de las cuentas de usuario dentro de la plataforma. <br><br>
+  <img src="Resources/Images/EventStorming/identity_and_access.jpg" alt="Event Storming del bounded context de Gestión de Identidad y Acceso">
+
+  * **Subscription and Payment Management:** Este bounded context gestiona los planes de suscripción, pagos y el acceso a funcionalidades del sistema según el estado de la suscripción. <br><br>
+  <img src="Resources/Images/EventStorming/subscription_and_payment.jpg" alt="Event Storming del bounded context de Suscripciones y Gestión de Pagos">
+
 ### 4.6.2. Software Architecture Context Diagram.
+
+<img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
+
+El diagrama de contexto muestra a VitalWatch como el sistema central y permite ver, de forma general, con quiénes interactúa y de qué servicios externos depende. En este caso, se observa la relación con el personal administrativo y el personal médico, así como con herramientas externas como Auth0, FCM, SendGrid, Google Calendar y Stripe, que apoyan funciones clave del sistema como autenticación, notificaciones, gestión de eventos y pagos.
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+<img src="Resources/Images/C4Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores."> <br>
+
+El diagrama de contenedores muestra cómo está organizado internamente el sistema VitalWatch, identificando sus principales componentes y cómo se comunican entre sí. Se puede ver que los usuarios interactúan a través de la Landing Page y la Web Application, las cuales consumen los servicios de la REST API, donde se concentra la lógica del negocio. A su vez, la API se encarga de comunicarse con la base de datos y con servicios externos para funcionalidades como autenticación, notificaciones, calendario y pagos.
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+### REST API
+
+<img src="Resources/Images/C4Diagrams/api_rest_component_diagram.png" alt="Diseño del diagrama de componentes de la Rest Api"> <br>
+
+El diagrama muestra la organización interna de la REST API, donde cada componente representa un bounded context del sistema. Se puede observar cómo interactúan entre sí y con servicios externos para implementar la lógica del negocio.
+
+### State Analysis
+
+<img src="Resources/Images/C4Diagrams/state_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Análisis de estado"> <br>
+
+El diagrama de componentes de Análisis de estado muestra cómo se estructura este módulo para procesar los datos biométricos y determinar el nivel de fatiga del personal médico.
+
+### Medical Rest Management
+
+<img src="Resources/Images/C4Diagrams/rest_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión del descanso médico"> <br>
+
+El diagrama de componentes de Gestión del descanso médico muestra cómo se administran los descansos del personal médico, incluyendo su programación, modificación y validación.
+
+### Alerting and Notification Management
+
+<img src="Resources/Images/C4Diagrams/alerting_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de alertas y notificaciones"> <br>
+
+El diagrama de componentes de Gestión de alertas y notificaciones muestra cómo el sistema genera y envía alertas a partir de los eventos detectados en otros módulos.
+
+### Biometric Data Management
+
+<img src="Resources/Images/C4Diagrams/biometric_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de datos biométricos"> <br>
+
+El diagrama de componentes de Gestión de datos biométricos muestra cómo se almacenan, actualizan y gestionan los datos provenientes de los dispositivos médicos.
+
+### Identity and Access Management
+
+<img src="Resources/Images/C4Diagrams/identity_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de identidad y acceso"> <br>
+
+El diagrama de componentes de Gestión de identidad y acceso muestra cómo se gestionan la autenticación, verificación y control de acceso dentro del sistema.
+
+### Medical Staff Management
+
+<img src="Resources/Images/C4Diagrams/staff_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de personal médico"> <br>
+
+El diagrama de componentes de Gestión de personal médico muestra cómo se administra la información del personal médico, incluyendo su registro y búsqueda.
+
+### Medical Device Management
+
+<img src="Resources/Images/C4Diagrams/device_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de dispositivos médicos"> <br>
+
+El diagrama de componentes de Gestión de dispositivos médicos muestra cómo se realiza la vinculación y configuración de los dispositivos utilizados por el sistema.
+
+### Subscription and Payment Management
+
+<img src="Resources/Images/C4Diagrams/subscription_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Suscripciones y gestión de pagos"> <br>
+
+El diagrama de componentes de Suscripciones y gestión de pagos muestra cómo se gestionan los planes, pagos y el acceso a funcionalidades de la plataforma.
+
+### Medical Shift Management
+
+<img src="Resources/Images/C4Diagrams/shift_component_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de turnos médicos"> <br>
+
+El diagrama de componentes de Gestión de turnos médicos muestra cómo se administran los horarios del personal médico, incluyendo asignación, validación y reprogramación.
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+
+### General Class Diagram
+
+<img src="Resources/Images/ClassDiagrams/ClassDiagrammComplete.png" alt="Diseño del diagrama de clases general"> <br>
+
+
+### Medical Rest Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalRestManagement.jpeg" alt="Diseño del package Medical Rest Management"> <br>
+</div>
+
+### Alerting and Notification Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/alertingAndNotificationManagement.jpeg" alt="Diseño del package Alerting and Notification Management"> <br>
+</div>
+
+
+### State Analysis
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/stateAnalysis.jpeg" alt="Diseño del package State Analysis"> <br>
+</div>
+
+
+### Medical Shift Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalShiftManagement.jpeg" alt="Diseño del package Medical Shift Management"> <br>
+</div>
+
+
+### Medical Staff Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalStaffManagement.jpeg" alt="Diseño del package Medical Staff Management"> <br>
+</div>
+
+
+### Medical Device Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalDeviceManagement.jpeg" alt="Diseño del package Medical Device Management"> <br>
+</div>
+
+
+### Subscription and Payment Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/subscriptionAndPaymentManagement.jpeg" alt="Diseño del package Subscription and Payment Management"> <br>
+</div>
+
+
+### Identity and Access Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/identityAndAccessManagement.jpeg" alt="Diseño del package Identity and Access Management"> <br>
+</div>
+
+
+### Biometric Data Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/biometricDataManagement.jpeg" alt="Diseño del package Biometric Data Management"> <br>
+</div>
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
+
+<img src="Resources/Images/DataBaseDiagrams/dataBaseDiagram_ERD.png" alt="Diseño del diagrama de base de datos realizado en formato ERD"> <br>
+
+
 
 ---
 # Capítulo V: Product Implementation, Validation & Deployment.
@@ -1131,7 +1620,7 @@ GitHub: Es una plataforma de desarrollo colaborativo basada en control de versio
  
 **Software Documentation**
 
-StarUML: Es una herramienta de modelado UML que permite crear distintos tipos de diagramas de software. Lo utilizamos para elaborar el diagrama de clases del proyecto. https://staruml.io/
+LucidChart: Es una herramienta de modelado UML que permite crear distintos tipos de diagramas de software. Lo utilizamos para elaborar el diagrama de clases del proyecto. https://www.lucidchart.com/
 
 GitHub: Es una plataforma de control de versiones y colaboración en línea. Lo utilizamos para redactar, organizar y dar seguimiento al informe completo del proyecto. https://github.com/
 
@@ -1212,6 +1701,13 @@ Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y t
 - Los nombres de las funciones deberán describir claramente la acción que realizan
 - Los comentarios solo se usarán cuando aporten claridad adicional a una lógica que no sea evidente
 
+**TypeScript:**
+
+- Los nombres de variables y funciones estarán en inglés y usarán camelCase
+- Las funciones deberán cumplir una sola responsabilidad
+- Los nombres de las funciones deberán mostrar de forma clara la acción que pretenden realizan
+- Los comentarios solo se usarán siguiendo DDD (JSDoc)
+
 **Angular:**
 
 - Los nombres de archivos seguirán el formato kebab-case
@@ -1256,24 +1752,83 @@ El primer sprint fue una  de las etapas importantes durante el desarrollo de Vit
 | Attendees | - Montes Zamora, Edgar Alexander Mauricio<br>- Güere Calero, Fernando Julio<br>- León Morales, Johan Yonel<br>- Garcia Villanueva, Leonardo Rafael<br>- Lozano Leon, Richard Enrique |
 | **Sprint Goal & User Stories**   |
 | Sprint 1 Goal | Contar con la primera versión funcional y desplegada de la landing page de VitalWatch, que nos permita presentar de forma clara la propuesta del producto, sus beneficios y la información principal dirigida hacia los segmentos objetivos. |
-| Sprint 1 Velocity |  |
-| Sum of Story Points | |
+| Sprint 1 Velocity | 25 |
+| Sum of Story Points | 25 |
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 En esta sección se determinan los aspectos más destacados que enmarcan el alcance del Sprint 1, con la finalidad de especificar quién de los integrantes asumió el rol de liderazgo en cada uno de los aspectos cuáles se integraron en calidad de colaboradores. Por lo que respecta a este sprint, los aspectos priorizados tuvieron que ver con la planificación y documentación de este instante de tiempo de trabajo, las guías de estilos, la información arquitectónica, el diseño de la landing page así como la base de análisis del dominio del problema para VitalWatch.
 
 | Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Style Guidelines Leader (L) / Collaborator (C) | Information Architecture Leader (L) / Collaborator (C) | Landing Page UI Design Leader (L) / Collaborator (C) | Landing Page Implementation Support Leader (L) / Collaborator (C) |
 |---|---|---|---|---|---|---|
-| Montes Zamora, Edgar Alexander Mauricio | Zenk10 | C | C | C | C | L |
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | C | C | C | L |
 | Güere Calero, Fernando Julio | FerG17 | C | C | L | C | C |
 | León Morales, Johan Yonel | TheCap213 | C | L | C | C | C |
 | Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
 | Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
 #### 5.2.1.3. Sprint Backlog 1.
+El Sprint Backlog 1 condensa las user stories que han sido previamente priorizadas y se utilizarán para el desarrollo de la primera versión en modo funcional de la landing page de la aplicación VitalWatch, donde en este Sprint todas las historias recogidas van orientadas a la presentación del producto, la navegación por secciones, la explicación de los beneficios de su uso, los planes de suscripción, el formulario de contacto, los términos de servicio, la adaptabilidad a los dispositivos móviles de la landing page y el acceso a las redes sociales ya que debe resultar, al margen de contenido, una versión inicial fácil de entender, accesible, útil y orientada a los segmentos objetivo.
+
+| Sprint # | Sprint 1 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US-01 | Primera impresión sobre el producto | T-01 | Implementación de hero section | Diseñar e implementar la sección principal de presentación de VitalWatch con mensaje inicial y llamada a la acción. | 5 | Leonardo Rafael Garcia Villanueva | Done |
+| US-02 | Navegación por secciones | T-02 | Implementación de barra de navegación | Desarrollar la barra de navegación superior con acceso a las secciones principales del landing page. | 4 | Johan Yonel León Morales | Done |
+| US-03 | Explicación detallada del producto | T-03 | Desarrollo de sección de funcionalidades | Implementar la sección donde se explica la propuesta de valor y las funcionalidades principales de VitalWatch. | 4 | Leonardo Rafael Garcia Villanueva | Done |
+| US-04 | Sección de beneficios de gestión | T-04 | Implementación de beneficios administrativos | Incorporar la sección orientada a los beneficios de gestión y supervisión para el personal administrativo. | 3 | Edgar Alexander Mauricio Montes Zamora | Done |
+| US-05 | Sección de beneficios para el personal clínico | T-05 | Implementación de beneficios clínicos | Desarrollar la sección de beneficios orientados al personal clínico dentro de la landing page. | 3 | Fernando Julio Güere Calero | Done |
+| US-06 | Sección de planes de suscripción | T-06 | Implementación de planes | Diseñar e integrar la sección de planes de suscripción con su información comparativa. | 4 | Leonardo Rafael Garcia Villanueva | Done |
+| US-07 | Formulario de contacto | T-07 | Desarrollo de formulario de contacto | Implementar el formulario de contacto con campos necesarios, validación básica y botón de envío. | 5 | Leonardo Rafael Garcia Villanueva | Done |
+| US-08 | Sección de términos de servicio | T-08 | Implementación de términos y condiciones | Agregar la sección de términos de servicio y privacidad en la landing page. | 2 | Richard Enrique Lozano Leon | Done |
+| US-09 | Diseño adaptable para móviles | T-09 | Ajustes responsive y menú móvil | Adaptar la landing page a dispositivos móviles e implementar menú hamburguesa para navegación. | 5 | Leonardo Rafael Garcia Villanueva | In-Process |
+| US-10 | Sección de redes sociales | T-10 | Integración de footer y redes sociales | Incorporar el pie de página con accesos a redes sociales y medios de contacto de VitaSync. | 2 | Fernando Julio Güere Calero | Done |
+
+**Board del Sprint 1 en Trello:**  
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 1.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Trello.png" alt="Board del Sprint 1 en Trello" width="900"/>
+  <br>
+  <i>Figura del Board del Sprint 1 de VitalWatch en Trello.</i>
+</p>
+
+**URL del board:**  
+https://trello.com/invite/b/69e27f8031ad60d5c5a41c17/ATTI59aefbac89f27b3ab14f825507386b3bEBDA493E/vitalwatch-sprint-1
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la primera version del landing page de VitalWatch, por lo tanto, los resultados de esta iteración pasaron a estar relacionados con la creación de la primera estructura inicial del producto, la creación de recursos visuales, la definición de las User Stories del landing page y la creación de wireframes y mockups y sus versiones desktop y mobile. Este sprint no contempló Web Applications y Web Services porque este sprint fue de la landing page.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 2bdb584 | feat: add resources folder with images and assets | - | 10/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 38015b1 | docs: add 10 user stories about the landing page | - | 14/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 71fcf70 | docs: add landing page wireframes for browser | - | 15/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 39591c0 | docs: add landing page mobile wireframes | - | 16/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | fa01d61 | docs: add landing page desktop and mobile mock ups | - | 16/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 1e2f71d | docs: fixed landing page UI images | - | 16/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 0a772ca | docs: fix mobile landing page login button | - | 20/04/2026 |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Sprint 1 se centró exclusivamente en la construcción de la primera versión funcional de la landing page de VitalWatch, por lo que no se generaron endpoints ni documentación asociada.
+
+Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas, capturas de interacción y commits relacionados con Web Services no aplica en este sprint y será desarrollada en iteraciones posteriores del proyecto.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con el landing page y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en la elaboración y actualización de los entregables correspondientes al Sprint 1.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Git1.png" alt="Analíticos de colaboración del equipo durante el Sprint 1 en GitHub" width="900"/>
+  <br>
+  <i>Analíticos de colaboración del equipo durante el Sprint 1 en GitHub.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Git2.png" alt="Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub" width="900"/>
+  <br>
+  <i>Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub.</i>
+</p>
+
 <!--## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
@@ -1281,8 +1836,13 @@ En esta sección se determinan los aspectos más destacados que enmarcan el alca
 ## 5.4. Video About-the-Product.-->
 ---
 # Conclusiones
+
+En la elaboración del proyecto VitalWatch, se abordó la problemática de la fatiga del personal clínico mediante un enfoque preventivo orientado al monitoreo y análisis de datos en tiempo real. A partir del análisis del contexto y la identificación de necesidades, se planteó una solución que permite visualizar el estado de fatiga, generar alertas y facilitar la toma de decisiones tanto para el personal administrativo como clínico.
+
+Además, se realizaron diferentes actividades como entrevistas a usuarios, análisis competitivo, definición de user stories y el uso de Domain Driven Design, lo que permitió identificar los bounded contexts y estructurar el sistema de manera clara mediante diagramas C4.
+
+Con esto se pudo validar que la solución propuesta responde a una necesidad real, mostrando que el monitoreo de fatiga y la generación de alertas pueden contribuir a una mejor gestión del personal y a la prevención de riesgos en el sector de salud.
+
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
-
-# Anexos
