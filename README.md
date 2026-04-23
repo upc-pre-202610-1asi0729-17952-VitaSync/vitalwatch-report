@@ -781,6 +781,28 @@ La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de pe
 En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cusco del MINSA, muestra que la gestión del personal se maneja principalmente en computadoras fijas y en el sistema interno de la institución, sin uso frecuente de laptops o celulares. El entrevistado indicó que la distribución de turnos se ajusta según la necesidad del centro, priorizando la demanda de los pacientes sobre la disponibilidad individual. Ante situaciones de fatiga o estrés, no existe un protocolo formal establecido, por lo que la intervención se realiza internamente con apoyo de personal de psicología y de salud. Además, señaló que una solución de software que pueda mostrar las alertas preventivas de salud del personal clínico, y que tenga buena seguridad en el manejo de datos y cumplimiento normativo sería algo ideal. Finalmente indicó que prefiere reportes en Excel para las auditorías internas.
 </div>
 
+
+
+<br>
+
+
+**Entrevista 3**
+<p align="center">
+  <img src="Resources/Images/Interview/EntrevistaSegmenteo1_N3.jpg" alt="Entrevista con Frank Carrillo"/>
+  <br/><i>Evidencia de entrevista: Susana Zegarra</i>
+</p>
+
+- **Nombre:** Susana Zegarra Fernandez
+- **Edad:** 43 años
+- **Residencia:** Lima
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h055_upc_edu_pe/IQAN0Esc_r7GRZtA4e1bjj-FAQhwmW-wZCgSJd0Gf98_sck?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p7S0ba)
+
+**Resumen de la entrevista:**
+<div align="justify">
+Se realiza una entrevista a la directora médica de un hospital regional en Arequipa, quien detalla los desafíos actuales en la gestión de personal y la organización de turnos. La especialista describe el fenómeno de la fatiga laboral crítica y la necesidad de contar con herramientas tecnológicas que permitan monitorear el cansancio del equipo en tiempo real. Se discute la importancia de implementar alertas preventivas y tableros de control que faciliten la toma de decisiones para redistribuir cargas de trabajo de manera eficiente. Finalmente, se subrayan requisitos técnicos clave como la seguridad de datos, la interoperabilidad con sistemas institucionales y la generación de reportes para auditorías de cumplimiento.
+</div>
+
+
 <br>
 
 #### Segmento 2: Personal clínico
