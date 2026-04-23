@@ -1473,6 +1473,11 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 </div>
 
 
+### Medical Shift Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalShiftManagement.jpeg" alt="Diseño del package Medical Shift Management"> <br>
+</div>
+
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
