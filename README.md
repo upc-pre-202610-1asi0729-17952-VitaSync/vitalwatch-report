@@ -1452,14 +1452,19 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 ### 4.7.1. Class Diagrams.
 
 ### General Class Diagram
+
 <img src="Resources/Images/ClassDiagrams/ClassDiagrammComplete.png" alt="Diseño del diagrama de clases general"> <br>
 
 
 ### Medical Rest Management
-<img src="Resources/Images/ClassDiagrams/medicalRestManagement.jpeg" alt="Diseño del diagrama de clases general"> <br>
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalRestManagement.jpeg" alt="Diseño del package Medical Rest Management"> <br>
+</div>
 
-
-
+### Medical Rest Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/alertingAndNotificationManagement.jpeg" alt="Diseño del package Alerting and Notification Management"> <br>
+</div>
 
 
 ## 4.8. Database Design.
