@@ -183,7 +183,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -220,7 +220,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
