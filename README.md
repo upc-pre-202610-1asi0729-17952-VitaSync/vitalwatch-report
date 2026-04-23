@@ -173,7 +173,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo de este oroyecto, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -210,7 +210,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo de este proyecto, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -1858,3 +1858,4 @@ Con esto se pudo validar que la solución propuesta responde a una necesidad rea
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
+  
