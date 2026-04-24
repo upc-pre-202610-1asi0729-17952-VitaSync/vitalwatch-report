@@ -1914,3 +1914,5 @@ Con esto se pudo validar que la solución propuesta responde a una necesidad rea
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
   
+# Anexos
+Video TB1: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgBwbarmIp83QpoTezzrT-J6AbklHDrqoSamg6BowepSMNE?e=C7Bcz8
