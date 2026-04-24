@@ -200,7 +200,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>A lo largo del proyecto utilizamos el aplicativo de Whatsapp, para coordinar y tener constancia de como iba avanzando el proyecto, adicional a esto en ciertos momentos se llegó a utilizar la aplicación de Discord, para poder mostrar en vivo y realizar partes en llamadas colaborativas. El uso de estas dos herramientas ayudó tanto a la información y comunicación como a la eficacia en la que se realizó el proyecto.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
