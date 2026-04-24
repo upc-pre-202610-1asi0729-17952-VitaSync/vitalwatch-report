@@ -1420,11 +1420,25 @@ En esta sección se detallan los esquemas de baja fidelidad, estructurados segú
 <br>
 <br>
 ### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.3. Web Applications Mock-ups.
-<a name="mock-up_web"></a>
-**Interfaces Web (Desktop)** </br>
-<img src="Resources/Images/MockUps/Login_mockup.png?raw=true" alt="Mock-up de inicio de sesión de la plataforma VitalWatch"/>
+
+**Flujo desde landing page a la página de login o register**
+<img src="Resources/Images/Wireflows/login_from_landing_page.png?raw=true" alt=""/>
 <br>
+
+**Flujo desde login hasta la página principal de la app**
+<img src="Resources/Images/Wireflows/login_to_app.png?raw=true" alt=""/>
+<br>
+
+**Flujo desde la página principal hacia la sección de alertas**
+<img src="Resources/Images/Wireflows/principal_menu_to_alerts.png?raw=true" alt=""/>
+<br>
+
+### 4.4.3. Web Applications Mock-ups.
+<img src="Resources/Images/WebApplicationMockups/login.png?raw=true" alt=""/>
+<br>
+<img src="Resources/Images/WebApplicationMockups/register.png?raw=true" alt=""/>
+<br>
+
 ### 4.4.4. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
@@ -1768,8 +1782,16 @@ Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y t
 
 ### 5.1.4. Software Deployment Configuration.
 
-
-
+<img src="Resources/Images/Deploy/deploy_1.png" alt="Primer paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_2.png" alt="Segundo paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_3.png" alt="Tercer paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_4.png" alt="Cuarto paso para deploy"/>
+<br>
+<img src="Resources/Images/Deploy/deploy_5.png" alt="Quinto paso para deploy"/>
+<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
