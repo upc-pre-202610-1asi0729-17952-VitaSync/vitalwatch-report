@@ -37,7 +37,8 @@
 | - | - | - | - |
 |1\.0|10/04/2026|Johan Yonel León Morales|Se agregó la estructura inicial del proyecto|
 |1\.1\.1|10/04/2026|Johan Yonel León Morales|Se agregaron los perfiles de los integrantes del equipo|
-|1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos 1, 2, 3, 4, un avance del capítulo 5 hasta el punto 5.2.1.8|
+|1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8|
+|1\.3\.0|23/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1|
 </div><br><br>
 
 
@@ -173,7 +174,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo de este oroyecto, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -200,7 +201,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>A lo largo del proyecto utilizamos el aplicativo de Whatsapp, para coordinar y tener constancia de como iba avanzando el proyecto, adicional a esto en ciertos momentos se llegó a utilizar la aplicación de Discord, para poder mostrar en vivo y realizar partes en llamadas colaborativas. El uso de estas dos herramientas ayudó tanto a la información y comunicación como a la eficacia en la que se realizó el proyecto.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -210,7 +211,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo de este proyecto, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -1390,17 +1391,34 @@ Proporciona vías alternativas para encontrar información o realizar acciones r
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
-<img src="Resources/Images/WebApplicationWireframes/login.png?raw=true" alt=""/>
+En esta sección se detallan los esquemas de baja fidelidad, estructurados según el entorno de visualización para garantizar una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles.
+
+<a name="wireframes-web"></a>
+**Interfaces Web (Desktop)** </br>
+<img src="Resources/Images/Wireframes/Registro_wireframe.png?raw=true" alt="Wireframe de registro en formato web de VitalWatch"/>
 <br>
-<img src="Resources/Images/WebApplicationWireframes/register.png?raw=true" alt=""/>
+<img src="Resources/Images/Wireframes/Login_wireframe.png?raw=true" alt="Wireframe de inicio de sesión en formato web de VitalWatch"/>
 <br>
-<img src="Resources/Images/WebApplicationWireframes/main.png?raw=true" alt=""/>
+<img src="Resources/Images/Wireframes/Segmento_admin_wireframe.png?raw=true" alt="Wireframe del dashboard administrativo en formato web de VitalWatch"/>
 <br>
-<img src="Resources/Images/WebApplicationWireframes/alerts_1.png?raw=true" alt=""/>
+<img src="Resources/Images/Wireframes/Segmento_clinico_wireframe.png?raw=true" alt="Wireframe de gestión clínica en formato web de VitalWatch"/>
 <br>
-<img src="Resources/Images/WebApplicationWireframes/alerts_2.png?raw=true" alt=""/>
+<img src="Resources/Images/Wireframes/Alerta_segmento_admin_wireframe.png?raw=true" alt="Wireframe de alerta al administrador en formato web de VitalWatch"/>
 <br>
 
+<a name="wireframes-mobile"></a>
+**Interfaces Móviles** </br>
+<img src="Resources/Images/Wireframes/Registro_mobile_wireframe.png?raw=true" alt="Wireframe de registro en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Login_mobile_wireframe.png?raw=true" alt="Wireframe de inicio de sesión en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_admin_mobile_wireframe.png?raw=true" alt="Wireframe del dashboard administrativo en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_clinico_mobile_wireframe_1.png?raw=true" alt="Wireframe de monitoreo clínico (vista 1) en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_clinico_mobile_wireframe_2.png?raw=true" alt="Wireframe de monitoreo clínico (vista 2) en formato móvil de VitalWatch"/>
+<br>
+<br>
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 **Flujo desde landing page a la página de login o register**
@@ -1895,3 +1913,4 @@ Con esto se pudo validar que la solución propuesta responde a una necesidad rea
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
+  
