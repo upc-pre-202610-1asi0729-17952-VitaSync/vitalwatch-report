@@ -37,7 +37,8 @@
 | - | - | - | - |
 |1\.0|10/04/2026|Johan Yonel León Morales|Se agregó la estructura inicial del proyecto|
 |1\.1\.1|10/04/2026|Johan Yonel León Morales|Se agregaron los perfiles de los integrantes del equipo|
-|1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos 1, 2, 3, 4, un avance del capítulo 5 hasta el punto 5.2.1.8|
+|1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8|
+|1\.3\.0|23/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al avanze 1|
 </div><br><br>
 
 
