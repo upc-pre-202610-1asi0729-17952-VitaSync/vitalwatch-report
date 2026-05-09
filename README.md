@@ -133,6 +133,15 @@ URL de Repositorio del Project Report: https://github.com/upc-pre-202610-1asi072
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-1)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
  <!-- - [5.3 Validation Interviews.](#53-validation-interviews)
     - [5.3.1 Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -164,74 +173,74 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 	<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
-        <b>AV1</b><p>Durante el desarrollo del proyecto, fui el encargado de analizar y realizar diagramas en base a las entrevistas realizadas, de los cuales se pudo obtener información importante de lo que querían nuestro segmentos objetivo, adicional a esto me encargué de realizar los diagramas tanto de clases como de base de datos, además, estuve coordinando con todo el grupo para tener una optima comunicación, solicitar feedback de mis avances y estar de acuerdo con el trabajo.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>Durante el desarrollo de este avance, fui el encargado de analizar y realizar diagramas en base a las entrevistas realizadas, de los cuales se pudo obtener información importante de lo que querían nuestro segmentos objetivo, adicional a esto me encargué de realizar los diagramas tanto de clases como de base de datos, además, estuve coordinando con todo el grupo para tener una optima comunicación, solicitar feedback de mis avances y estar de acuerdo con el trabajo.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
-        <b>AV1</b><p>A lo largo del desarrollo, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>A lo largo del desarrollo de este avance, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
-        <b>AV1</b><p>Durante el desarrollo de este oroyecto, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>Durante el desarrollo de este avance, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
-        <b>AV1</b><p>Durante el desarrollo del proyecto participé en reuniones grupales presenciales en la universidad y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>Durante el desarrollo del avance tuve una participación constante en reuniones grupales presenciales en la universidad con el equipo y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
+        <b>TB1</b><p>En el desarrollo de este avance continué participando de forma activa en reuniones grupales presenciales en la universidad y en reuniones virtuales vía Google Meet, donde compartí mis análisis y propuestas para corregir las observaciones realizadas al avance anterior, así como también, compartí mis avances para recibir sugerencias y ayudé a coordinar y determinar las tareas necesarias para la elaboración de esta entrega.</p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
           <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>El grupo llevó a cabo reuniones presenciales y virtuales en las que se comunicaron diferentes ideas, se resolvieron dudas y se tomaron decisiones de manera conjunta con una comunicación oral clara y efectiva, permitiendo la comprensión entre los integrantes y contribuyendo al cumplimiento de los objetivos del proyecto.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>TB1</b><p>En este avance, el equipo continuó realizando reuniones presenciales y llamadas grupales mediante Google Meet, donde se analizaron y se propusieron las correcciones para las observaciones realizadas al avance anterior. Además, durante estas reuniones, el equipo propuso ideas, sugerencias y coordinaron actividades relacionadas con el nuevo avance del proyecto.</p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       </td>
     </tr>
     <tr>
       <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
-        <b>AV1</b><p>A lo largo del proyecto utilizamos el aplicativo de Whatsapp, para coordinar y tener constancia de como iba avanzando el proyecto, adicional a esto en ciertos momentos se llegó a utilizar la aplicación de Discord, para poder mostrar en vivo y realizar partes en llamadas colaborativas. El uso de estas dos herramientas ayudó tanto a la información y comunicación como a la eficacia en la que se realizó el proyecto.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>A lo largo de este avance utilizamos el aplicativo de Whatsapp, para coordinar y tener constancia de como iba avanzando el proyecto, adicional a esto en ciertos momentos se llegó a utilizar la aplicación de Discord, para poder mostrar en vivo y realizar partes en llamadas colaborativas. El uso de estas dos herramientas ayudó tanto a la información y comunicación como a la eficacia en la que se realizó el proyecto.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
-        <b>AV1</b><p>Durante el desarrollo del proyecto, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>Durante el desarrollo de este avance, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
-        <b>AV1</b><p>Durante el desarrollo de este proyecto, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>Durante el desarrollo de este avance, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
-        <b>AV1</b><p>En el desarrollo del proyecto, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>En el desarrollo de este entregable, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
+        <b>TB1</b><p>Durante el desarrollo de este avance continué utilizando WhatsApp para mantener una comunicación constante por escrito con los miembros del equipo, donde compartí mis avances para recibir sugerencias y ayudé a coordinar las actividades relacionadas con las correcciones del avance anterior y la elaboración de este avance, así como también comuniqué mis sugerencias y respondí algunas dudas de forma clara y directa.</p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
-        <b>AV1</b><p>Durante el desarrollo del proyecto, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>AV1</b><p>Durante el desarrollo de este avance, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
+        <b>TB1</b><p></p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
 		  <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>El grupo utilizó aplicaciones de mensajería como WhatsApp y Discord para coordinar actividades, resolver dudas y organizar el trabajo de manera eficiente. La comunicación fue clara y oportuna para todos los integrantes, lo que permitió una adecuada gestión de tareas y el cumplimiento del avance del proyecto.</p>
-        <!--<b>TP1</b><p></p>
-        <b>AV2</b><p></p>
-        <b>TF1</b><p></p>-->
+        <b>TB1</b><p>En este entregable, el equipo mantuvo una comunicación constante por escrito mediante WhatsApp, por donde se compartieron avances, sugerencias, se resolvieron dudas y se coordinaron actividades relacionadas con las correcciones del avance anterior y el desarrollo del nuevo avance. Además, se asignaron las tareas y los plazos para cada integrante del equipo.</p>
+        <!--<b>AV2</b><p></p>
+        <b>TB2</b><p></p>-->
       </td>
     </tr>
   </tbody>
@@ -1895,6 +1904,52 @@ Para documentar los avances de este Sprint, utilizamos GitHub como medio princip
   <br>
   <i>Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub.</i>
 </p>
+
+
+### 5.2.2. Sprint 2
+
+
+
+#### 5.2.2.1. Sprint Planning 2.
+
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+
+
+#### 5.2.2.3. Sprint Backlog 1.
+
+
+
+**Board del Sprint 1 en Trello:**  
+
+
+
+
+**URL del board:**  
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+
 
 <!--## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
