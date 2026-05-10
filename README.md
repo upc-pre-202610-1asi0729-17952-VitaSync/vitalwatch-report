@@ -1398,6 +1398,33 @@ Pertenece a `Staff Recovery` y gestiona las recomendaciones de descanso, aceptac
 + **AuditTrail:**  
 Pertenece a `Audit & Compliance` y registra las decisiones críticas del sistema, manteniendo trazabilidad sobre riesgos, incidentes, acciones del supervisor y bloqueos de turno.
 
+#### 4.6.1.11 Bounded Contexts
+
+<img src="Resources/Images/EventStorming/bounded_contexts.jpg" alt="Diseño del event storming por bounded contexts."> <br>
+
+A partir del Design-Level Event Storming, se definieron los bounded contexts principales de VitalWatch. Cada contexto delimita una responsabilidad específica del dominio y evita mezclar reglas de negocio que pertenecen a procesos distintos.
+
++ **Subscription & Plan Management:**  
+Gestiona los planes de pago, la activación de suscripciones y la habilitación de funcionalidades según el plan contratado por el hospital.
+
++ **Identity & Access Management:**  
+Administra el registro de usuarios, invitaciones, autenticación, asignación de roles y control de acceso dentro de una cuenta hospitalaria.
+
++  **Clinical Risk Assessment:**  
+Procesa datos biométricos del personal médico, calcula el puntaje de fatiga y determina niveles de riesgo clínico.
+
++ **Incident & Escalation Management:**  
+Gestiona incidentes generados por riesgos clínicos, incluyendo alertas al supervisor, reconocimiento del riesgo y escalamiento al director médico.
+
++ **Shift Coordination:**  
+Evalúa turnos críticos, detecta sobrecarga, bloquea asignaciones riesgosas y permite coordinar reemplazos para mantener la continuidad operacional.
+
++ **Staff Recovery:**  
+Gestiona recomendaciones de descanso, notificaciones al personal médico y seguimiento de los planes de recuperación.
+
++ **Audit & Compliance:**  
+Registra decisiones críticas, acciones relevantes y eventos auditables para mantener trazabilidad institucional y generar reportes de cumplimiento.
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 <img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
