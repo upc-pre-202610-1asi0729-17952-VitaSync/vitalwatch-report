@@ -1771,6 +1771,8 @@ Pertenece a `Audit & Compliance` y registra las decisiones críticas del sistema
 
 <img src="Resources/Images/EventStorming/bounded_contexts.jpg" alt="Diseño del event storming por bounded contexts."> <br>
 
+Enlace: https://miro.com/app/board/uXjVHfjcSSw=/
+
 A partir del Design-Level Event Storming, se definieron los bounded contexts principales de VitalWatch. Cada contexto delimita una responsabilidad específica del dominio y evita mezclar reglas de negocio que pertenecen a procesos distintos.
 
 + **Subscription & Plan Management:**  
