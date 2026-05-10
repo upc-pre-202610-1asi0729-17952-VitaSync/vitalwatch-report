@@ -1480,48 +1480,317 @@ En esta sección se detallan los esquemas de baja fidelidad, estructurados segú
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+#### 4.6.1.1. Event Storming Notation Guide.
 
-En esta sección se presenta el Design-Level Event Storming desarrollado para VitalWatch, con el objetivo de refinar el dominio del problema e identificar con mayor nivel de detalle los eventos, comandos, políticas, agregados y bounded contexts del sistema. Esta etapa permitió mejorar la comprensión de los principales procesos y definir con mayor precisión las responsabilidades de cada parte del sistema.
+Para la elaboración del Design-Level Event Storming de VitalWatch se utilizó una notación visual basada en colores, con el propósito de diferenciar actores, comandos, eventos, políticas, agregados, vistas de consulta y sistemas externos dentro del flujo de dominio.
 
-La sesión fue realizada de manera colaborativa en el programa miro a partir del Big Picture Event Storming previamente elaborado. Durante el proceso se identificaron los flujos principales del sistema, se definieron comandos, eventos de dominio y políticas, y posteriormente se agruparon en bounded contexts. Para mantener consistencia con los artefactos de arquitectura, la nomenclatura utilizada en los diagramas se encuentra en inglés.
+| Element | Color | Descripción |
+|---|---|---|
+| Actor | Amarillo | Rol de usuario que ejecuta acciones dentro del sistema. |
+| Command | Azul | Intención o acción que desencadena un evento. |
+| Domain Event | Naranja | Hecho relevante que ya ocurrió en el dominio. |
+| Policy | Morado | Regla de negocio que reacciona ante eventos. |
+| Aggregate | Amarillo claro | Objeto de dominio que protege reglas e invariantes. |
+| Read Model | Verde | Vista de consulta usada para apoyar decisiones. |
+| External System | Rosado | Servicio externo integrado con VitalWatch. | 
 
-A continuación, se muestra la representación general del Design-Level Event Storming del sistema:
+<br>
+<img src="Resources/Images/EventStorming/notation_guide.jpg" alt="Guía de notación para el Event Storming de diseño de VitalWatch"/>
 
-<img src="Resources/Images/EventStorming/vitalwatch_eventstorming.jpg" alt="Design level event storming del funcionamiento de VitalWatch">
-<br><br>
+#### 4.6.1.2. Domain Event Discovery
 
-En conjunto, estos bounded contexts permiten representar el flujo completo del sistema, desde la captura y almacenamiento de datos biométricos, su análisis y detección de estados, hasta la generación de alertas y la gestión operativa y administrativa de la plataforma.
+<img src="Resources/Images/EventStorming/domain_event_discovery.jpg" alt="Diseño del diagrama de descubrimiento de eventos de dominio."> <br>
 
-A partir del análisis realizado, se identificaron bounded contexts que cumplen distintos roles dentro del sistema. Algunos representan el núcleo funcional de la solución, como State Analysis y Medical Rest Management, mientras que otros cumplen funciones de soporte, como Identity and Access Management y Subscription and Payment Management.
+En esta fase inicial, el objetivo fue reconocer los hechos importantes que ocurren dentro del sistema y que permiten representar el dominio desde una perspectiva orientada a prevención de riesgo clínico, continuidad operacional hospitalaria y gestión segura del personal médico.
 
-A continuación, se describe cada bounded context de manera individual.
+Los eventos fueron agrupados en siete bounded contexts:
 
-  * **State Analysis:** Este bounded context se encarga de analizar los datos biométricos capturados por los dispositivos, con el fin de identificar si el estado del médico se encuentra dentro de niveles normales o si presenta valores críticos.<br><br>
-  <img src="Resources/Images/EventStorming/state_analysis.jpg" alt="Event Storming del bounded context de Análisis de Estado">
++ **Subscription & Plan Management:**  
+Gestiona la selección del plan, confirmación del pago, activación de la suscripción y habilitación de funcionalidades contratadas.
 
-  * **Biometric Data Management:** Este bounded context gestiona el almacenamiento, actualización y respaldo de los datos biométricos obtenidos desde los dispositivos, asegurando su persistencia y disponibilidad para su posterior análisis. <br><br>
-  <img src="Resources/Images/EventStorming/biometric_data.jpg" alt="Event Storming del bounded context de Gestión de Datos Biométricos">
++ **Identity & Access Management:**  
+Administra el registro, autenticación, invitaciones, asignación de roles y control de acceso de los usuarios dentro de la cuenta hospitalaria.
 
-  * **Alerting and Notification Management:** Este bounded context se encarga de generar y enviar alertas y notificaciones cuando se detectan condiciones relevantes, permitiendo informar tanto al médico como a los administradores del sistema. <br><br>
-  <img src="Resources/Images/EventStorming/alerting_and_notification.jpg" alt="Event Storming del bounded context de Gestión de Alertas y Notificaciones">
++ **Clinical Risk Assessment:**  
+Procesa datos biométricos, calcula el nivel de fatiga y detecta riesgos clínicos o condiciones extremas en el personal médico.
 
-  * **Medical Rest Management:** Este bounded context gestiona la programación, modificación y validación de los periodos de descanso del personal médico, incluyendo recomendaciones basadas en el estado del usuario. <br><br>
-  <img src="Resources/Images/EventStorming/medical_rest.jpg" alt="Event Storming del bounded context de Gestión de Descansos Médicos">
++ **Incident & Escalation Management:**  
+Gestiona la apertura de incidentes, asignación de prioridad, alertas al supervisor y escalamiento al director médico cuando no existe respuesta oportuna.
 
-  * **Medical Shift Management:** Este bounded context administra la asignación, validación y reprogramación de turnos médicos, asegurando la disponibilidad del personal. <br><br>
-  <img src="Resources/Images/EventStorming/medical_shift.jpg" alt="Event Storming del bounded context de Gestión de Turnos Médicos">
++ **Shift Coordination:**  
+Evalúa turnos críticos, detecta sobrecarga, bloquea asignaciones riesgosas y permite sugerir reemplazos para mantener la continuidad operativa.
 
-  * **Medical Device Management:** Este bounded context gestiona la vinculación de dispositivos médicos con las cuentas de usuario, así como la configuración de umbrales para el monitoreo. <br><br>
-  <img src="Resources/Images/EventStorming/medical_device.jpg" alt="Event Storming del bounded context de Gestión de Dispositivos Médicos">
++ **Staff Recovery:**  
+Gestiona recomendaciones de descanso, notificación al personal médico y seguimiento de la aceptación o rechazo del plan de recuperación.
 
-  * **Medical Staff Management:** Este bounded context permite la gestión del personal médico, incluyendo su registro y búsqueda dentro del sistema. <br><br>
-  <img src="Resources/Images/EventStorming/medical_staff.jpg" alt="Event Storming del bounded context de Gestión de Personal Médico">
++ **Audit & Compliance:**  
+Registra decisiones críticas, acciones del supervisor, bloqueos de turno y reportes de cumplimiento para asegurar trazabilidad institucional.
 
-  * **Identity and Access Management:** Este bounded context se encarga de la creación, verificación y control de acceso de las cuentas de usuario dentro de la plataforma. <br><br>
-  <img src="Resources/Images/EventStorming/identity_and_access.jpg" alt="Event Storming del bounded context de Gestión de Identidad y Acceso">
+#### 4.6.1.3. Operational Event Flows
 
-  * **Subscription and Payment Management:** Este bounded context gestiona los planes de suscripción, pagos y el acceso a funcionalidades del sistema según el estado de la suscripción. <br><br>
-  <img src="Resources/Images/EventStorming/subscription_and_payment.jpg" alt="Event Storming del bounded context de Suscripciones y Gestión de Pagos">
+<img src="Resources/Images/EventStorming/operational_event_flows.jpg" alt="Diseño del diagrama de flujos operativos de eventos."> <br>
+
+En esta etapa, los eventos identificados previamente fueron organizados en secuencias operativas para representar cómo evoluciona cada proceso dentro de VitalWatch. A diferencia de la fase inicial, aquí se define un orden lógico entre eventos, permitiendo visualizar cómo una acción o condición del dominio puede desencadenar nuevos procesos dentro del sistema.
+
+Los flujos fueron organizados según los bounded contexts definidos:
+
++ **Subscription & Plan Management:**  
+Representa el flujo comercial inicial del hospital, desde la selección del plan hasta la activación de la suscripción y habilitación de funcionalidades. También contempla la restricción de acceso cuando la suscripción expira.
+
++ **Identity & Access Management:**  
+Describe el proceso de incorporación de usuarios mediante invitaciones. El administrador hospitalario invita a los usuarios, estos aceptan la invitación, completan su registro, reciben un rol y acceden al sistema según sus permisos.
+
++ **Clinical Risk Assessment:**  
+Muestra cómo VitalWatch recibe datos biométricos, calcula el puntaje de fatiga y actualiza el nivel de riesgo. A partir de esta evaluación, el sistema puede detectar fatiga elevada, anomalías biométricas o riesgo extremo.
+
++ **Incident & Escalation Management:**  
+Representa el flujo de gestión de incidentes cuando se detecta un riesgo clínico. El incidente se abre, se asigna prioridad y se alerta al supervisor. Si el supervisor no responde oportunamente, el riesgo se escala al director médico.
+
++ **Shift Coordination:**  
+Describe el proceso de evaluación de turnos críticos. Cuando se identifica un riesgo extremo o una sobrecarga, VitalWatch puede bloquear el turno, sugerir un reemplazo y apoyar la redistribución de la carga laboral.
+
++ **Staff Recovery:**  
+Representa el flujo de recuperación del personal médico. El sistema identifica la necesidad de descanso, emite una recomendación, notifica al profesional y registra si el plan fue aceptado o rechazado.
+
++ **Audit & Compliance:**  
+Funciona como un flujo transversal. Registra evaluaciones de riesgo, decisiones críticas, acciones del supervisor y bloqueos de turno, manteniendo trazabilidad para reportes de cumplimiento.
+
+#### 4.6.1.4. Friction and Risk Points
+
+<img src="Resources/Images/EventStorming/friction_and_risk_points.jpg" alt="Diseño del diagrama de puntos de fricción y riesgo."> <br>
+
+En esta etapa, se identificaron los principales puntos de fricción que pueden afectar los procesos operativos y administrativos de VitalWatch. Estos puntos representan situaciones donde el flujo puede retrasarse, generar errores o requerir mayor atención por parte de los usuarios responsables.
+
+Los principales friction and risk points identificados fueron:
+
++ **Payment Confirmation Delay:**  
+Puede ocurrir cuando la confirmación del pago de la suscripción tarda o falla, retrasando la activación del servicio para el hospital.
+
++ **Invitation Acceptance Friction:**  
+Se presenta cuando un usuario invitado no comprende el proceso de aceptación o intenta registrarse sin estar vinculado a una cuenta hospitalaria.
+
++ **Incomplete Biometric Data:**  
+Ocurre cuando los datos biométricos recibidos son incompletos, desactualizados o inconsistentes, afectando el cálculo del puntaje de fatiga.
+
++ **Risk Misclassification:**  
+Puede generarse cuando el sistema clasifica incorrectamente el nivel de riesgo, provocando alertas innecesarias o la omisión de un caso crítico.
+
++ **Supervisor Response Delay:**  
+Se produce cuando el supervisor clínico no atiende oportunamente una alerta de riesgo, retrasando la intervención preventiva.
+
++ **Escalation Delay:**  
+Aparece cuando un incidente crítico no escala a tiempo al director médico luego de que el supervisor no responde.
+
++ **Replacement Not Available:**  
+Se presenta cuando el sistema bloquea un turno riesgoso, pero no existe un reemplazo disponible para mantener la continuidad operativa.
+
++ **Unresolved Recovery Refusal:**  
+Ocurre cuando el personal médico rechaza una recomendación de descanso y el rechazo queda pendiente de seguimiento.
+
++ **Missing Audit Evidence:**  
+Se genera cuando una decisión crítica, acción del supervisor o bloqueo de turno no queda correctamente registrada en el historial de auditoría.
+
+#### 4.6.1.5. Critical Decision Events
+
+<img src="Resources/Images/EventStorming/critical_decision_events.jpg" alt="Diseño del diagrama de eventos de decisión crítica."> <br>
+
+En esta etapa, se identificaron los eventos que representan puntos clave de decisión dentro de VitalWatch. Estos eventos marcan cambios importantes en el flujo del sistema, ya que pueden activar procesos críticos como apertura de incidentes, escalamiento, bloqueo de turnos, recuperación del personal o generación de evidencia institucional.
+
+Los principales critical decision events identificados fueron:
+
++ **SubscriptionActivated:**  
+Indica que la suscripción del hospital se encuentra activa y que el sistema puede habilitar las funcionalidades correspondientes al plan contratado.
+
++ **RoleAssigned:**  
+Define el nivel de acceso del usuario dentro de la cuenta hospitalaria, permitiendo diferenciar responsabilidades entre administrador, personal médico, supervisor clínico y director médico.
+
++ **ClinicalRiskDetected:**  
+Marca el momento en que VitalWatch identifica un riesgo clínico a partir de los datos biométricos y el nivel de fatiga calculado.
+
++ **ExtremeRiskDetected:**  
+Representa una condición crítica que puede activar procesos de bloqueo de turno o evaluación de asignaciones riesgosas.
+
++ **RiskIncidentOpened:**  
+Convierte un riesgo detectado en un incidente formal que debe ser gestionado por el personal responsable.
+
++ **SupervisorResponseTimedOut:**  
+Indica que el supervisor clínico no respondió dentro del tiempo esperado, por lo que el sistema debe activar un proceso de escalamiento.
+
++ **RiskEscalated:**  
+Señala que el incidente fue elevado a una autoridad superior, como el director médico, para asegurar atención oportuna.
+
++ **ShiftBlocked:**  
+Representa una acción preventiva para evitar que un médico en riesgo sea asignado a un turno o procedimiento crítico.
+
++ **ShiftReassigned:**  
+Confirma que la carga médica fue reasignada para mantener la continuidad operacional del hospital.
+
++ **RecoveryPlanRejected:**  
+Indica que el personal médico rechazó una recomendación de descanso, por lo que el sistema debe registrar esta decisión.
+
++ **RecoveryConfirmed:**  
+Confirma que el proceso de recuperación fue completado satisfactoriamente.
+
++ **AuditLogUpdated:**  
+Consolida la trazabilidad de las decisiones críticas tomadas dentro del sistema.
+
+#### 4.6.1.6. Actor and System Commands
+
+<img src="Resources/Images/EventStorming/actor_and_system_commands.jpg" alt="Diseño del diagrama de comandos impulsados por actores y el sistema"> <br>
+
+En esta etapa, se identificaron los comandos que permiten desencadenar eventos dentro de VitalWatch. Estos comandos representan acciones intencionales que pueden ser ejecutadas directamente por los actores del sistema o disparadas automáticamente por políticas de negocio.
+
+Para mantener claridad en el modelo, los comandos se clasificaron en dos tipos: comandos ejecutados por usuarios y comandos ejecutados como respuesta automática del sistema ante eventos del dominio.
+
++ **Subscription & Plan Management:**  
+Este contexto agrupa los comandos relacionados con la selección del plan, confirmación de pago y activación de funcionalidades contratadas. El `Hospital Administrator` ejecuta comandos como `SelectSubscriptionPlan` y `ConfirmSubscriptionPayment`, mientras que el sistema puede ejecutar `ActivateSubscription`, `EnablePlanFeatures` y `RestrictFeatureAccess` según el estado de la suscripción.
+
++ **Identity & Access Management:**  
+Incluye los comandos necesarios para registrar usuarios, aceptar invitaciones, asignar roles y controlar accesos. El `Hospital Administrator` puede ejecutar `RegisterHospitalAdministrator`, `InviteUser` y `AssignUserRole`. Los demás usuarios pueden ejecutar `AcceptInvitation`, `CompleteUserRegistration`, `SignIn`, `RequestAccess` y `SignOut`. En caso de permisos inválidos, el sistema puede ejecutar `RejectUnauthorizedAccess`.
+
++ **Clinical Risk Assessment:**  
+Contiene los comandos encargados de procesar datos biométricos y evaluar el nivel de riesgo clínico. El `Medical Staff` puede iniciar la sincronización mediante `SyncBiometricData`. A partir de ello, el sistema ejecuta comandos como `CalculateFatigueScore`, `UpdateRiskLevel`, `DetectFatigueThreshold`, `DetectBiometricAnomaly`, `DetectClinicalRisk` y `DetectExtremeRisk`.
+
++ **Incident & Escalation Management:**  
+Este contexto reúne los comandos relacionados con la apertura, atención y escalamiento de incidentes. El sistema puede ejecutar `OpenRiskIncident`, `AssignIncidentPriority`, `AlertSupervisor`, `MarkSupervisorResponseTimeout`, `EscalateRisk` y `NotifyMedicalDirector`. Por su parte, el `Clinical Supervisor` y el `Medical Director` pueden ejecutar comandos como `AcknowledgeRisk`, `ResolveIncident`, `ReviewEscalatedRisk`, `ResolveEscalatedIncident` y `CloseIncident`.
+
++ **Shift Coordination:**  
+Agrupa los comandos orientados a evaluar turnos críticos, bloquear asignaciones riesgosas y reasignar carga médica. El `Clinical Supervisor` puede ejecutar `EvaluateCriticalShift`, `RequestShiftReassignment` y `ReassignShift`. El `Medical Director` puede autorizar decisiones críticas mediante `AuthorizeShiftReassignment`. Además, el sistema puede ejecutar `DetectShiftOverload`, `BlockShift`, `SuggestReplacement` y `RedistributeWorkload`.
+
++ **Staff Recovery:**  
+Este contexto contiene comandos asociados a la recomendación y seguimiento de recuperación del personal médico. El `Clinical Supervisor` puede ejecutar `IssueRecoveryRecommendation`, `SuggestRestPeriod` y `ConfirmRecovery`. El `Medical Staff` puede ejecutar `AcceptRecoveryPlan` o `RejectRecoveryPlan`. El sistema puede complementar el flujo con `DetectRecoveryNeed`, `NotifyMedicalStaff` y `RecordRecoveryRejection`.
+
++ **Audit & Compliance:**  
+Incluye comandos destinados a registrar evidencia y generar trazabilidad institucional. La mayoría son ejecutados automáticamente por políticas de auditoría, como `RecordRiskAssessment`, `RecordCriticalDecision`, `RecordSupervisorAction`, `RecordShiftBlocking` y `UpdateAuditLog`. Finalmente, el `Hospital Administrator` o el `Medical Director` pueden ejecutar `GenerateComplianceReport` para consultar evidencia consolidada.
+
+#### 4.6.1.7. Business Policies and Automated Reactions
+
+<img src="Resources/Images/EventStorming/business_policies_and_automated_reactions.jpg" alt="Diseño del diagrama de políticas de negocio y reacciones automatizadas."> <br>
+
+En esta etapa, se definieron las políticas de negocio que permiten que VitalWatch reaccione automáticamente ante eventos relevantes del dominio. Estas políticas representan reglas que conectan eventos con nuevos comandos, permitiendo automatizar decisiones como activación de suscripciones, cálculo de riesgo, apertura de incidentes, escalamiento, bloqueo de turnos y registro de auditoría.
+
++ **Subscription & Plan Management:**  
+Las políticas de este contexto controlan la activación del servicio según el estado de pago y suscripción. `PaidSubscriptionConfirmedPolicy` permite activar la suscripción después de confirmar el pago, `ActiveSubscriptionFeaturePolicy` habilita las funcionalidades del plan contratado y `ExpiredSubscriptionRestrictionPolicy` restringe el acceso cuando la suscripción vence.
+
++ **Identity & Access Management:**  
+Este contexto usa políticas para validar el acceso de los usuarios según sus roles. `RoleBasedAccessPolicy` permite conceder acceso después de asignar un rol, mientras que `PermissionValidationPolicy` verifica si el usuario tiene permisos suficientes para ejecutar una acción dentro del sistema.
+
++ **Clinical Risk Assessment:**  
+Las políticas de este contexto procesan los datos biométricos y determinan el nivel de riesgo. `FatigueScoreEvaluationPolicy` calcula el puntaje de fatiga, `RiskLevelClassificationPolicy` clasifica el nivel de riesgo, `FatigueThresholdPolicy` detecta umbrales excedidos, `BiometricAnomalyPolicy` identifica anomalías y `ExtremeRiskPolicy` reconoce condiciones críticas.
+
++ **Incident & Escalation Management:**  
+Este contexto aplica políticas para gestionar incidentes clínicos. `DetectedRiskIncidentPolicy` abre un incidente cuando se detecta riesgo clínico, `IncidentPriorityPolicy` asigna su prioridad, `SupervisorNotificationPolicy` alerta al supervisor, `SupervisorTimeoutPolicy` detecta falta de respuesta y `UnattendedRiskEscalationPolicy` escala el caso al director médico.
+
++ **Shift Coordination:**  
+Las políticas de este contexto apoyan la continuidad operacional. `UnsafeShiftDetectionPolicy` detecta asignaciones riesgosas, `CriticalShiftBlockingPolicy` bloquea turnos críticos, `ReplacementSelectionPolicy` sugiere reemplazos disponibles y `WorkloadRedistributionPolicy` actualiza la distribución de carga laboral.
+
++ **Staff Recovery:**  
+Este contexto utiliza políticas para gestionar la recuperación del personal médico. `RecoveryNeedPolicy` detecta la necesidad de descanso, `RecoveryNotificationPolicy` notifica al personal médico sobre recomendaciones de recuperación y `RecoveryRefusalTrackingPolicy` registra el rechazo de un plan de recuperación.
+
++ **Audit & Compliance:**  
+Las políticas de auditoría registran evidencia de eventos críticos. `RiskAssessmentAuditPolicy`, `CriticalDecisionAuditPolicy`, `SupervisorActionAuditPolicy` y `ShiftBlockingAuditPolicy` guardan trazabilidad de decisiones importantes. Finalmente, `AuditTrailSynchronizationPolicy` actualiza el historial de auditoría para mantener evidencia institucional consolidada.
+
+#### 4.6.1.8. Decision Support Read Models
+
+<img src="Resources/Images/EventStorming/read_models.jpg" alt="Diseño del diagrama de read models de soporte a la decisión."> <br>
+
+En esta etapa, se identificaron los read models necesarios para que los usuarios de VitalWatch puedan consultar información relevante y tomar decisiones dentro del sistema. Estas vistas no representan la lógica principal del dominio, sino proyecciones de información generadas a partir de los eventos, comandos y políticas previamente definidos.
+
++ **Subscription & Plan Management:**  
+Incluye vistas como `Subscription Plan View`, `Active Subscription Summary` y `Available Features View`, que permiten al `Hospital Administrator` revisar el plan contratado, el estado de la suscripción y las funcionalidades disponibles.
+
++ **Identity & Access Management:**  
+Considera read models como `User Management View`, `Role Assignment View` y `Access Status View`, utilizados para visualizar usuarios invitados, cuentas registradas, roles asignados y permisos activos dentro de la cuenta hospitalaria.
+
++ **Clinical Risk Assessment:**  
+Contiene vistas como `Personal Risk Status View`, `Clinical Risk Dashboard` y `Biometric Data Summary`. Estas permiten al personal médico consultar su propio estado de riesgo y a los supervisores revisar indicadores de fatiga o riesgo clínico.
+
++ **Incident & Escalation Management:**  
+Incluye `Incident Management View`, `Supervisor Alert Queue` y `Escalated Incident View`, que permiten gestionar incidentes abiertos, alertas pendientes y casos escalados al director médico.
+
++ **Shift Coordination:**  
+Utiliza vistas como `Shift Risk View`, `Replacement Suggestions View` y `Workload Distribution View`, orientadas a revisar turnos críticos, reemplazos sugeridos y redistribución de carga laboral.
+
++ **Staff Recovery:**  
+Considera `Recovery Recommendation View` y `Recovery Status View`, que permiten al personal médico revisar recomendaciones de descanso y al supervisor monitorear la aceptación, rechazo o confirmación de recuperación.
+
++ **Audit & Compliance:**  
+Incluye `Audit Log View` y `Compliance Report View`, destinadas a consultar registros de auditoría, decisiones críticas y reportes de cumplimiento institucional.
+
+#### 4.6.1.9. Integrated External Services
+
+<img src="Resources/Images/EventStorming/integrated_external_services.jpg" alt="Diseño del diagrama de servicios externos integrados."> <br>
+
+En esta etapa, se identificaron los sistemas externos que interactúan con VitalWatch para complementar sus procesos principales. Estos servicios permiten cubrir funcionalidades relacionadas con pagos, autenticación, envío de correos y simulación de datos biométricos.
+
++ **Stripe Sandbox:**  
+Se utiliza para simular el pago de suscripciones de los planes contratados por el hospital. Este servicio se relaciona con el flujo de `Subscription & Plan Management`, especialmente entre el comando `ConfirmSubscriptionPayment` y el evento `SubscriptionPaymentConfirmed`.
+
++ **Firebase Authentication:**  
+Permite gestionar el registro, inicio de sesión y cierre de sesión de los usuarios. Este sistema externo apoya al contexto de `Identity & Access Management`, principalmente en eventos como `UserRegistered`, `UserAuthenticated` y `UserLoggedOut`.
+
++ **Resend Email API:**  
+Se utiliza para enviar correos relacionados con invitaciones, alertas y notificaciones importantes. Participa en procesos como `UserInvited`, `SupervisorAlerted`, `MedicalDirectorNotified` y `MedicalStaffNotified`.
+
++ **Mock Biometric API:**  
+Representa una API simulada basada en datos JSON, desplegada para la entrega del proyecto. Esta API permite obtener información biométrica y operacional del personal médico, sirviendo como fuente de datos para eventos como `BiometricDataReceived`.
+
+#### 4.6.1.10. Domain Aggregates and Responsibility Boundaries
+
+<img src="Resources/Images/EventStorming/domain_aggregates.jpg" alt="Diseño del diagrama de aggregates y límites de responsabilidad."> <br>
+
+En esta etapa, se identificaron los aggregates principales de VitalWatch. Cada aggregate representa un objeto de dominio encargado de proteger reglas, validar cambios de estado y mantener la consistencia dentro de su bounded context.
+
++ **Subscription:**  
+Pertenece a `Subscription & Plan Management` y controla la selección del plan, activación de la suscripción, habilitación de funcionalidades y restricción de acceso cuando la suscripción expira.
+
++ **HospitalWorkspace:**  
+Pertenece a `Identity & Access Management` y representa el espacio institucional del hospital. Gestiona invitaciones, roles y accesos de los usuarios vinculados a una cuenta hospitalaria.
+
++ **UserAccount:**  
+También pertenece a `Identity & Access Management` y representa la cuenta individual del usuario. Controla el registro, autenticación y cierre de sesión.
+
++ **RiskAssessment:**  
+Pertenece a `Clinical Risk Assessment` y centraliza la evaluación de datos biométricos. Permite calcular el puntaje de fatiga, actualizar el nivel de riesgo y detectar condiciones clínicas relevantes.
+
++ **RiskIncident:**  
+Pertenece a `Incident & Escalation Management` y gestiona el ciclo de vida de un incidente, desde su apertura hasta su resolución o escalamiento al director médico.
+
++ **ShiftAssignment:**  
+Pertenece a `Shift Coordination` y controla la evaluación de turnos críticos, bloqueo de asignaciones riesgosas, sugerencia de reemplazos y redistribución de carga laboral.
+
++ **RecoveryPlan:**  
+Pertenece a `Staff Recovery` y gestiona las recomendaciones de descanso, aceptación o rechazo del plan y confirmación de recuperación del personal médico.
+
++ **AuditTrail:**  
+Pertenece a `Audit & Compliance` y registra las decisiones críticas del sistema, manteniendo trazabilidad sobre riesgos, incidentes, acciones del supervisor y bloqueos de turno.
+
+#### 4.6.1.11 Bounded Contexts
+
+<img src="Resources/Images/EventStorming/bounded_contexts.jpg" alt="Diseño del event storming por bounded contexts."> <br>
+
+A partir del Design-Level Event Storming, se definieron los bounded contexts principales de VitalWatch. Cada contexto delimita una responsabilidad específica del dominio y evita mezclar reglas de negocio que pertenecen a procesos distintos.
+
++ **Subscription & Plan Management:**  
+Gestiona los planes de pago, la activación de suscripciones y la habilitación de funcionalidades según el plan contratado por el hospital.
+
++ **Identity & Access Management:**  
+Administra el registro de usuarios, invitaciones, autenticación, asignación de roles y control de acceso dentro de una cuenta hospitalaria.
+
++  **Clinical Risk Assessment:**  
+Procesa datos biométricos del personal médico, calcula el puntaje de fatiga y determina niveles de riesgo clínico.
+
++ **Incident & Escalation Management:**  
+Gestiona incidentes generados por riesgos clínicos, incluyendo alertas al supervisor, reconocimiento del riesgo y escalamiento al director médico.
+
++ **Shift Coordination:**  
+Evalúa turnos críticos, detecta sobrecarga, bloquea asignaciones riesgosas y permite coordinar reemplazos para mantener la continuidad operacional.
+
++ **Staff Recovery:**  
+Gestiona recomendaciones de descanso, notificaciones al personal médico y seguimiento de los planes de recuperación.
+
++ **Audit & Compliance:**  
+Registra decisiones críticas, acciones relevantes y eventos auditables para mantener trazabilidad institucional y generar reportes de cumplimiento.
 
 ### 4.6.2. Software Architecture Context Diagram.
 
