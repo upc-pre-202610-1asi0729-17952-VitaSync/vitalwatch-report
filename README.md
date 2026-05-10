@@ -1267,6 +1267,35 @@ Confirma que el proceso de recuperación fue completado satisfactoriamente.
 + **AuditLogUpdated:**  
 Consolida la trazabilidad de las decisiones críticas tomadas dentro del sistema.
 
+#### 4.6.1.6 Actor and System Commands
+
+<img src="Resources/Images/EventStorming/actor_and_system_commands.jpg" alt="Diseño del diagrama de comandos impulsados por actores"> <br>
+
+En esta etapa, se identificaron los comandos que permiten desencadenar eventos dentro de VitalWatch. Estos comandos representan acciones intencionales que pueden ser ejecutadas directamente por los actores del sistema o disparadas automáticamente por políticas de negocio.
+
+Para mantener claridad en el modelo, los comandos se clasificaron en dos tipos: comandos ejecutados por usuarios y comandos ejecutados como respuesta automática del sistema ante eventos del dominio.
+
++ **Subscription & Plan Management:**  
+Este contexto agrupa los comandos relacionados con la selección del plan, confirmación de pago y activación de funcionalidades contratadas. El `Hospital Administrator` ejecuta comandos como `SelectSubscriptionPlan` y `ConfirmSubscriptionPayment`, mientras que el sistema puede ejecutar `ActivateSubscription`, `EnablePlanFeatures` y `RestrictFeatureAccess` según el estado de la suscripción.
+
++ **Identity & Access Management:**  
+Incluye los comandos necesarios para registrar usuarios, aceptar invitaciones, asignar roles y controlar accesos. El `Hospital Administrator` puede ejecutar `RegisterHospitalAdministrator`, `InviteUser` y `AssignUserRole`. Los demás usuarios pueden ejecutar `AcceptInvitation`, `CompleteUserRegistration`, `SignIn`, `RequestAccess` y `SignOut`. En caso de permisos inválidos, el sistema puede ejecutar `RejectUnauthorizedAccess`.
+
++ **Clinical Risk Assessment:**  
+Contiene los comandos encargados de procesar datos biométricos y evaluar el nivel de riesgo clínico. El `Medical Staff` puede iniciar la sincronización mediante `SyncBiometricData`. A partir de ello, el sistema ejecuta comandos como `CalculateFatigueScore`, `UpdateRiskLevel`, `DetectFatigueThreshold`, `DetectBiometricAnomaly`, `DetectClinicalRisk` y `DetectExtremeRisk`.
+
++ **Incident & Escalation Management:**  
+Este contexto reúne los comandos relacionados con la apertura, atención y escalamiento de incidentes. El sistema puede ejecutar `OpenRiskIncident`, `AssignIncidentPriority`, `AlertSupervisor`, `MarkSupervisorResponseTimeout`, `EscalateRisk` y `NotifyMedicalDirector`. Por su parte, el `Clinical Supervisor` y el `Medical Director` pueden ejecutar comandos como `AcknowledgeRisk`, `ResolveIncident`, `ReviewEscalatedRisk`, `ResolveEscalatedIncident` y `CloseIncident`.
+
++ **Shift Coordination:**  
+Agrupa los comandos orientados a evaluar turnos críticos, bloquear asignaciones riesgosas y reasignar carga médica. El `Clinical Supervisor` puede ejecutar `EvaluateCriticalShift`, `RequestShiftReassignment` y `ReassignShift`. El `Medical Director` puede autorizar decisiones críticas mediante `AuthorizeShiftReassignment`. Además, el sistema puede ejecutar `DetectShiftOverload`, `BlockShift`, `SuggestReplacement` y `RedistributeWorkload`.
+
++ **Staff Recovery:**  
+Este contexto contiene comandos asociados a la recomendación y seguimiento de recuperación del personal médico. El `Clinical Supervisor` puede ejecutar `IssueRecoveryRecommendation`, `SuggestRestPeriod` y `ConfirmRecovery`. El `Medical Staff` puede ejecutar `AcceptRecoveryPlan` o `RejectRecoveryPlan`. El sistema puede complementar el flujo con `DetectRecoveryNeed`, `NotifyMedicalStaff` y `RecordRecoveryRejection`.
+
++ **Audit & Compliance:**  
+Incluye comandos destinados a registrar evidencia y generar trazabilidad institucional. La mayoría son ejecutados automáticamente por políticas de auditoría, como `RecordRiskAssessment`, `RecordCriticalDecision`, `RecordSupervisorAction`, `RecordShiftBlocking` y `UpdateAuditLog`. Finalmente, el `Hospital Administrator` o el `Medical Director` pueden ejecutar `GenerateComplianceReport` para consultar evidencia consolidada.
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 <img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
