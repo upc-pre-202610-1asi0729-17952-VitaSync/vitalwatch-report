@@ -1837,7 +1837,8 @@ El Container Diagram detalla la estructura principal de VitalWatch a nivel de co
 ### 4.6.4. Software Architecture Components Diagrams.
 
 ### 4.6.4.1. Frontend Components Diagram
-#### 4.6.4.1.1. VitalWatch Single Page Application
+
++ **SPA Component Diagram** <br>
 
 <img src="Resources/Images/C4-Diagrams/Frontend/container_spa_diagram.png" alt="Diseño del diagrama de componentes del frontend de VitalWatch"/> <br>
 
@@ -1890,6 +1891,62 @@ Este diagrama muestra el módulo de auditoría y cumplimiento. Permite consultar
 <img src="Resources/Images/C4-Diagrams/Frontend/shared_module_components.png" alt="Diseño del diagrama de componentes del módulo compartido del frontend"/> <br>
 
 Este diagrama representa el módulo compartido del frontend. Centraliza elementos reutilizables como layout, navegación, componentes visuales, servicios comunes, tipos compartidos e infraestructura HTTP utilizada por los demás módulos de VitalWatch.
+
+### 4.6.4.2. Backend Components Diagram
+
++ **REST API Component Diagram** <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/container_restapi_diagram.png" alt="Diseño del diagrama de componentes del backend de VitalWatch"/> <br>
+
+Este diagrama muestra la organización general del backend de VitalWatch. La REST API recibe las solicitudes desde la SPA y las distribuye hacia los bounded contexts del sistema, los cuales gestionan la lógica de negocio, acceso a base de datos e integraciones externas.
+
++ **Identity & Access Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/iam_components.png" alt="Diseño del diagrama de componentes del módulo de Identity & Access Management del backend"/> <br>
+
+Este diagrama representa el contexto encargado de usuarios, invitaciones, roles y permisos. Sus componentes procesan solicitudes de autenticación y acceso, validan reglas del dominio y se integran con Firebase Authentication y Resend Email API.
+
++ **Subscription & Plan Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/subscription_components.png" alt="Diseño del diagrama de componentes del módulo de Subscription & Plan Management del backend"/> <br>
+
+Este diagrama muestra el contexto responsable de planes, pagos y suscripciones. Sus componentes gestionan la activación del plan, el acceso a funcionalidades y la integración con Stripe Sandbox para validar pagos.
+
++ **Clinical Risk Assessment**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/clinical_risk_components.png" alt="Diseño del diagrama de componentes del módulo de Clinical Risk Assessment del backend"/> <br>
+
+Este diagrama representa el contexto encargado de procesar datos biométricos, calcular el puntaje de fatiga y determinar niveles de riesgo clínico. También registra información relacionada con evaluaciones de riesgo en la base de datos.
+
++ **Incident & Escalation Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/incident_components.png" alt="Diseño del diagrama de componentes del módulo de Incident & Escalation Management del backend"/> <br>
+
+Este diagrama muestra el contexto que gestiona incidentes de riesgo, alertas al supervisor, escalamiento al director médico y cierre de incidentes. Además, utiliza Resend Email API para enviar notificaciones importantes.
+
++ **Shift Coordination**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/coordination_components.png" alt="Diseño del diagrama de componentes del módulo de Shift Coordination del backend"/> <br>
+
+Este diagrama representa el contexto encargado de turnos críticos, bloqueos preventivos, sugerencias de reemplazo y redistribución de carga médica. Sus componentes permiten proteger la continuidad operacional del hospital.
+
++ **Staff Recovery**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/staff_components.png" alt="Diseño del diagrama de componentes del módulo de Staff Recovery del backend"/> <br>
+
+Este diagrama muestra el contexto responsable de recomendaciones de descanso y planes de recuperación. Gestiona aceptación, rechazo o confirmación del plan, y puede enviar notificaciones mediante Resend Email API.
+
++ **Audit & Compliance**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/audit_components.png" alt="Diseño del diagrama de componentes del módulo de Audit & Compliance del backend"/> <br>
+
+Este diagrama representa el contexto encargado de registrar decisiones críticas, acciones relevantes y reportes de cumplimiento. Su objetivo es mantener trazabilidad institucional sobre los eventos importantes del sistema.
+
++ **Shared Kernel**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/shared_kernel_components.png" alt="Diseño del diagrama de componentes del módulo compartido del backend"/> <br>
+
+Este diagrama muestra los elementos compartidos del backend, como tipos base, value objects, eventos de dominio, excepciones y contratos comunes. Estos elementos son reutilizados por los bounded contexts sin centralizar su lógica de negocio.
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
