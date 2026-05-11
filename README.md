@@ -1843,6 +1843,12 @@ El Container Diagram detalla la estructura principal de VitalWatch a nivel de co
 
 Este diagrama muestra la organización interna del frontend de VitalWatch. La Web App carga la aplicación Angular, que se apoya en un Shared Module para navegación, servicios comunes y componentes reutilizables. Cada bounded context del frontend representa un módulo funcional independiente que consume endpoints de la REST API.
 
++ **Identity and Access Management** <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/iam_components.png" alt="Diseño del diagrama de componentes del módulo de Identity and Access Management"/> <br>
+
+Este diagrama muestra el módulo de Identity & Access Management en el frontend. Se encarga de las vistas de login, registro, invitaciones, roles y control de acceso, organizando su lógica en capas de presentación, aplicación, dominio e infraestructura.
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
