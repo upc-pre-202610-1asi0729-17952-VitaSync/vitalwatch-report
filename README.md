@@ -2396,11 +2396,16 @@ La segunda versión del Sprint Backlog, es decir la iteración que aquí describ
 | TS-03 | Integración de evaluaciones de fatiga mediante REST API | T2-07 | Estructura de integración para evaluaciones | Preparar la lógica inicial de integración para la consulta de evaluaciones de fatiga en la Web Application. | 4 | Lozano Leon, Richard Enrique | Done |
 
 **Board del Sprint 2 en Trello:**  
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 2.
 
-
-
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Trello 2.png" alt="Board del Sprint 1 en Trello" width="900"/>
+  <br>
+  <i>Figura del Board del Sprint 2 de VitalWatch en Trello.</i>
+</p>
 
 **URL del board:**  
+https://trello.com/invite/b/6a00b9d179bdb6064d662339/ATTI4fc75e1cda72c884cfbf255d6b31a9886DC3D8F3/vitalwatch-sprint-2
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
