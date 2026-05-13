@@ -182,7 +182,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, fui el encargado de analizar y realizar diagramas en base a las entrevistas realizadas, de los cuales se pudo obtener información importante de lo que querían nuestro segmentos objetivo, adicional a esto me encargué de realizar los diagramas tanto de clases como de base de datos, además, estuve coordinando con todo el grupo para tener una optima comunicación, solicitar feedback de mis avances y estar de acuerdo con el trabajo.</p>
-        <b>TB1</b><p></p>
+        <b>TB1</b><p>Durante el desarrollo de este entregable, participé activamente en reuniones presenciales y virtuales con el equipo, donde expliqué las modificaciones realizadas en los diagramas de clases y base de datos a partir de los cambios en los bounded contexts. Además, colaboré en la coordinación de ideas relacionadas con el diseño en Figma y el desarrollo del website y web application, comunicando observaciones y propuestas de mejora de manera clara para facilitar la comprensión y organización del equipo.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
@@ -193,7 +193,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
-        <b>TB1</b><p></p>
+        <b>TB1</b><p>Durante este entregable, participé en reuniones grupales donde expuse las correcciones realizadas en el Event Storming y en el diagrama C4, explicando los cambios efectuados en la arquitectura y estructura del sistema. Asimismo, colaboré en el desarrollo de la web application, manteniendo una comunicación constante con el equipo para coordinar tareas, resolver dudas y asegurar una adecuada integración de los avances realizados.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
@@ -203,7 +203,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
-        <b>TB1</b><p></p>
+        <b>TB1</b><p>Durante el desarrollo de este entregable, participé en reuniones de coordinación grupal donde expliqué las modificaciones realizadas en la documentación del Sprint 2 y la redefinición del Product Backlog. Asimismo, compartí observaciones relacionadas con la corrección de mockups en Figma y colaboré en la toma de decisiones del equipo mediante una comunicación clara y organizada durante las reuniones presenciales y virtuales.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
           <br>
@@ -220,7 +220,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p>A lo largo de este avance utilizamos el aplicativo de Whatsapp, para coordinar y tener constancia de como iba avanzando el proyecto, adicional a esto en ciertos momentos se llegó a utilizar la aplicación de Discord, para poder mostrar en vivo y realizar partes en llamadas colaborativas. El uso de estas dos herramientas ayudó tanto a la información y comunicación como a la eficacia en la que se realizó el proyecto.</p>
-        <b>TB1</b><p></p>
+       <b>TB1</b><p>Durante el desarrollo de este entregable, mantuve una comunicación constante mediante WhatsApp y Discord para coordinar las modificaciones realizadas en los diagramas de clases y base de datos según los cambios en los bounded contexts. Asimismo, compartí avances relacionados con el diseño en Figma y el desarrollo del website y web application, permitiendo recibir retroalimentación del equipo y asegurar una adecuada organización de las tareas.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
@@ -230,7 +230,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
-        <b>TB1</b><p></p>
+        <h3>León Morales, Johan Yonel</h3>
+<b>TB1</b><p>Durante la elaboración de este entregable, utilicé herramientas de comunicación escrita como WhatsApp y Discord para coordinar las correcciones del Event Storming y del diagrama C4, así como para compartir avances relacionados con el desarrollo de la web application. Además, atendí consultas y brindé sugerencias al equipo de manera clara y organizada para facilitar el cumplimiento de las actividades propuestas.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
@@ -240,7 +241,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
-        <b>TB1</b><p></p>
+        <b>TB1</b><p>Durante este entregable, mantuve comunicación escrita constante con el equipo mediante WhatsApp para coordinar la documentación del Sprint 2, la redefinición del Product Backlog y las correcciones realizadas en algunos mockups de Figma. Asimismo, compartí avances, resolví dudas y propuse mejoras relacionadas con la organización y desarrollo del proyecto, contribuyendo a una coordinación eficiente entre los integrantes.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
 		  <br>
