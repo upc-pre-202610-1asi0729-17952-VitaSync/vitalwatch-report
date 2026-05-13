@@ -1206,24 +1206,24 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 En esta sección podremos encontrar el logo de VitalWatch a la izquierda, acompañado del menú de navegación principal (*Inicio*, *Funciones*, *Planes*, *Términos*, *Contáctanos*) y el boton de acción *Ingreso* a la derecha. El fondo es de color azul claro *#65A8FB* y los botones de un azul un poco mas oscuro *#1678F2* destacar las acciones principales.
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/WebStyles/Header.png?raw=true" alt="Imagen referencial del header"/> 
-<img src="Resources/Images/StyleGuidelines/WebStyles/Header_Responsive.png?raw=true" alt="Imagen referencial del header en diseño responsive"/> 
+<img src="Resources/Images/StyleWebGuides/header.png" alt="Imagen referencial del header"/> 
+<img src="Resources/Images/StyleWebGuides/header-mobile.png" alt="Imagen referencial del header en diseño responsive"/> 
 <div align="justify"> <br>
 
 **Sección Principal** <br>
 La sección principal de la landing page está diseñada para captar la atención del usuario desde el primer momento, mostrando un título llamativo, una breve descripción del servicio y un botón de acción principal junto a un recurso visual ilustrativo. En su adaptación responsive, la composición se ajusta a un formato vertical propio de dispositivos móviles, conservando la claridad del mensaje y la facilidad de interacción.
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/WebStyles/Main_Section.png?raw=true" alt="Imagen referencial del header" width="70.8%"/>
-<img src="Resources/Images/StyleGuidelines/WebStyles/Main_Section_Responsive.png?raw=true" alt="Imagen referencial del header" width="17%"/>
+<img src="Resources/Images/StyleWebGuides/hero.png" alt="Imagen referencial del hero" width="70.8%"/>
+<img src="Resources/Images/StyleWebGuides/hero-mobile.png" alt="Imagen referencial del hero" width="17%"/>
 <div align="justify"> <br>
 
 **Footer**<br>
 El footer de la landing page reúne la información complementaria de la plataforma, incluyendo la identidad visual de la marca, enlaces a redes sociales, acceso a términos y condiciones y datos de contacto. En la versión web, estos elementos se distribuyen de manera horizontal para aprovechar el espacio y mantener un orden visual equilibrado, mientras que, en la versión responsive, se reorganizan verticalmente para facilitar la lectura y conservar la claridad y accesibilidad del contenido en dispositivos móviles.
 
 <div align="center">
-<img src="Resources/Images/StyleGuidelines/WebStyles/Footer.png?raw=true" alt="Imagen referencial del header""/>
-<img src="Resources/Images/StyleGuidelines/WebStyles/Footer_Responsive.png?raw=true" alt="Imagen referencial del header" width="20%"/>
+<img src="Resources/Images/StyleWebGuides/footer.png" alt="Imagen referencial del header"/>
+<img src="Resources/Images/StyleWebGuides/header-mobile.png" alt="Imagen referencial del header" width="20%"/>
 <div align="justify"> <br>
 
 ## 4.2. Information Architecture.
@@ -1393,124 +1393,415 @@ Proporciona vías alternativas para encontrar información o realizar acciones r
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
-<img src="Resources/Images/Wireframes/landing_page_browser_1.png?raw=true" alt="Wireframe de inicio de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/Wireframes/landing_page_browser_2.png?raw=true" alt="Wireframe de funciones de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/Wireframes/landing_page_browser_3.png?raw=true" alt="Wireframe de planes de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/Wireframes/landing_page_browser_4.png?raw=true" alt="Wireframe de términos de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/Wireframes/landing_page_browser_5.png?raw=true" alt="Wireframe de contacto de la landing page de VitalWatch"/>
+<img src="Resources/Images/LandingWireframe/1.png"/>
 <br>
+<img src="Resources/Images/LandingWireframe/2.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/3.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/4.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/5.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/6.png"/>
+<br> 
 
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_1.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/LandingWireframe/1m.png"/>
 <br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_2.png?raw=true" alt="Wireframe de funciones en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_3.png?raw=true" alt="Wireframe de planes en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_4.png?raw=true" alt="Wireframe de términos en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_5.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_6.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_7.png?raw=true" alt="Wireframe de funciones en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_8.png?raw=true" alt="Wireframe de planes en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_9.png?raw=true" alt="Wireframe de términos en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/landing_page_browser_mobile_10.png?raw=true" alt="Wireframe de contacto en formato móvil de la landing page de VitalWatch"/>
-<br>
+<img src="Resources/Images/LandingWireframe/2m.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/3m.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/4m.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/5m.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/6m.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/7m.png"/>
+<br> 
+<img src="Resources/Images/LandingWireframe/8m.png"/>
+<br> 
 
 ### 4.3.2. Landing Page Mock-up.
 
-<img src="Resources/Images/MockUps/landing_page_browser_1.png?raw=true" alt="Mock-up de inicio de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/MockUps/landing_page_browser_2.png?raw=true" alt="Mock-up de funciones de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/MockUps/landing_page_browser_3.png?raw=true" alt="Mock-up de planes de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/MockUps/landing_page_browser_4.png?raw=true" alt="Mock-up de términos de la landing page de VitalWatch"/>
-<br> 
-<img src="Resources/Images/MockUps/landing_page_browser_5.png?raw=true" alt="Mock-up de contacto de la landing page de VitalWatch"/>
+<img src="Resources/Images/LandingMockUp/1.png"/>
 <br>
+<img src="Resources/Images/LandingMockUp/2.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/3.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/4.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/5.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/6.png"/>
+<br> 
 
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_1.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
+<img src="Resources/Images/LandingMockUp/1m.png"/>
 <br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_2.png?raw=true" alt="Mock-up de funciones en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_3.png?raw=true" alt="Mock-up de planes en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_4.png?raw=true" alt="Mock-up de términos en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_5.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_6.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_7.png?raw=true" alt="Mock-up de funciones en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_8.png?raw=true" alt="Mock-up de planes en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_9.png?raw=true" alt="Mock-up de términos en formato móvil de la landing page de VitalWatch"/>
-<br>
-<img src="Resources/Images/MockUps/landing_page_browser_mobile_10.png?raw=true" alt="Mock-up de contacto en formato móvil de la landing page de VitalWatch"/>
-<br>
+<img src="Resources/Images/LandingMockUp/2m.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/3m.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/4m.png"/>
+<br> 
+<img src="Resources/Images/LandingMockUp/5m.png"/>
+<br> 
+
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 En esta sección se detallan los esquemas de baja fidelidad, estructurados según el entorno de visualización para garantizar una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles.
 
-<a name="wireframes-web"></a>
 **Interfaces Web (Desktop)** </br>
-<img src="Resources/Images/Wireframes/Registro_wireframe.png?raw=true" alt="Wireframe de registro en formato web de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/Login_wireframe.png?raw=true" alt="Wireframe de inicio de sesión en formato web de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/Segmento_admin_wireframe.png?raw=true" alt="Wireframe del dashboard administrativo en formato web de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/Segmento_clinico_wireframe.png?raw=true" alt="Wireframe de gestión clínica en formato web de VitalWatch"/>
-<br>
-<img src="Resources/Images/Wireframes/Alerta_segmento_admin_wireframe.png?raw=true" alt="Wireframe de alerta al administrador en formato web de VitalWatch"/>
+
+Rol de supervisor hospitalario:
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/main.png"/>
 <br>
 
-<a name="wireframes-mobile"></a>
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/alerts.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/anomalies.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/personal-risk.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/register-action.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/logout.png"/>
+<br>
+
 **Interfaces Móviles** </br>
-<img src="Resources/Images/Wireframes/Registro_mobile_wireframe.png?raw=true" alt="Wireframe de registro en formato móvil de VitalWatch"/>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/main-mobile.png"/>
 <br>
-<img src="Resources/Images/Wireframes/Login_mobile_wireframe.png?raw=true" alt="Wireframe de inicio de sesión en formato móvil de VitalWatch"/>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/alerts-mobile.png"/>
 <br>
-<img src="Resources/Images/Wireframes/Segmento_admin_mobile_wireframe.png?raw=true" alt="Wireframe del dashboard administrativo en formato móvil de VitalWatch"/>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/anomalies-mobile.png"/>
 <br>
-<img src="Resources/Images/Wireframes/Segmento_clinico_mobile_wireframe_1.png?raw=true" alt="Wireframe de monitoreo clínico (vista 1) en formato móvil de VitalWatch"/>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/personal-risk-mobile.png"/>
 <br>
-<img src="Resources/Images/Wireframes/Segmento_clinico_mobile_wireframe_2.png?raw=true" alt="Wireframe de monitoreo clínico (vista 2) en formato móvil de VitalWatch"/>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/register-action-mobile.png"/>
 <br>
+
+<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/logout-mobile.png"/>
 <br>
+
+Rol de personal clínico:
+
+**Interfaces Web (Desktop)** </br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-alerts.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-history.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-status.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/recover.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/logout.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-alerts-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-history-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-status-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/recover-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/ClinicWireframe/logout-mobile.png"/>
+<br>
+
+Rol de médico director:
+
+**Interfaces Web (Desktop)** </br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/alerts.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-units.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-unit-detail.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/register-action.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/logout.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/alerts-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-units-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-unit-detail-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/register-action-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/DirectorWireframe/logout-mobile.png"/>
+<br>
+
+Rol de administrador:
+
+**Interfaces Web (Desktop)** </br>
+
+<img src="Resources/Images/WebAppWireframes/AdminWireframe/main.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/AdminWireframe/audit.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/AdminWireframe/config.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppWireframes/AdminWireframe/main-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/AdminWireframe/audit-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppWireframes/AdminWireframe/config-mobile.png"/>
+<br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-**Flujo desde landing page a la página de login o register**
-<img src="Resources/Images/Wireflows/login_from_landing_page.png?raw=true" alt=""/>
+Rol de supervisor hospitalario:
+User goal: Tener un resumen del estado de los trabajadores
+<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/workers-status.png"/>
 <br>
 
-**Flujo desde login hasta la página principal de la app**
-<img src="Resources/Images/Wireflows/login_to_app.png?raw=true" alt=""/>
+User goal: Tomar acción sobre un caso de personal en riesgo
+<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/take-action.png"/>
 <br>
 
-**Flujo desde la página principal hacia la sección de alertas**
-<img src="Resources/Images/Wireflows/principal_menu_to_alerts.png?raw=true" alt=""/>
+User goal: Informarme sobre posibles problemas en el estado de salud de los trabajadores
+<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/health-prevention.png"/>
+<br>
+
+User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
+<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/logout.png"/>
+<br>
+
+Rol de personal clínico:
+User goal: Saber mi estado de fatiga y mis datos biométricos
+<img src="Resources/Images/WebAppWireflows/ClinicWireflow/my-status.png"/>
+<br>
+
+User goal: Saber si tengo un nivel de fátiga muy elevado o un posible problema de salud
+<img src="Resources/Images/WebAppWireflows/ClinicWireflow/my-fatigue.png"/>
+<br>
+
+User goal: Saber cuánta fatiga suelo tener en mis turnos de trabajo
+<img src="Resources/Images/WebAppWireflows/ClinicWireflow/my-turns.png"/>
+<br>
+
+User goal: Descansar cuando tengo demasiada fatiga sin perjudicar a mis pacientes
+<img src="Resources/Images/WebAppWireflows/ClinicWireflow/replacement.png"/>
+<br>
+
+User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
+<img src="Resources/Images/WebAppWireflows/ClinicWireflow/logout.png"/>
+<br>
+
+Rol de médico director:
+User goal: Saber que alertas de riesgo fueron escaladas a mi área
+<img src="Resources/Images/WebAppWireflows/DirectorWireflow/escaled-alerts.png"/>
+<br>
+
+User goal: Atender las alertas que fueron escaladas
+<img src="Resources/Images/WebAppWireflows/DirectorWireflow/attend-alerts.png"/>
+<br>
+
+User goal: Saber el nivel de sobrecarga laboral de las unidades médicas de mi institución
+<img src="Resources/Images/WebAppWireflows/DirectorWireflow/units-overwork.png"/>
+<br>
+
+User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
+<img src="Resources/Images/WebAppWireflows/DirectorWireflow/logout.png"/>
+<br>
+
+Rol de administrador:
+User goal: Invitar a los trabajadores médicos de mi institución a la plataforma
+<img src="Resources/Images/WebAppWireflows/AdminWireflow/invitation.png"/>
+<br>
+
+User goal: Revisar y corroborar que las acciones tomadas para los casos de riesgo hayan sido pertinentes y coherentes
+<img src="Resources/Images/WebAppWireflows/AdminWireflow/audit.png"/>
+<br>
+
+User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
+<img src="Resources/Images/WebAppWireflows/AdminWireflow/logout.png"/>
 <br>
 
 ### 4.4.3. Web Applications Mock-ups.
-<img src="Resources/Images/WebApplicationMockups/login.png?raw=true" alt=""/>
-<br>
-<img src="Resources/Images/WebApplicationMockups/register.png?raw=true" alt=""/>
+
+**Interfaces Web (Desktop)** </br>
+
+Rol de supervisor hospitalario:
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/main.png"/>
 <br>
 
-### 4.4.4. Web Applications User Flow Diagrams.
-## 4.5. Web Applications Prototyping.
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/alerts.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/anomalies.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/personal-risk.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/register-action.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/logout.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/main-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/alerts-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/anomalies-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/personal-risk-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/register-action-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/SupervisorMock/logout-mobile.png"/>
+<br>
+
+Rol de personal clínico:
+
+**Interfaces Web (Desktop)** </br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/my-alerts.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/my-history.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/my-status.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/recover.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/logout.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/my-alerts-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/my-history-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/my-status-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/recover-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/ClinicMock/logout-mobile.png"/>
+<br>
+
+Rol de médico director:
+
+**Interfaces Web (Desktop)** </br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/alerts.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/medical-units.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/medic-unit-detail.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/register-action.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/logout.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/alerts-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/medical-units-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/medic-unit-detail-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/register-action-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/DirectorMock/logout-mobile.png"/>
+<br>
+
+Rol de administrador:
+
+**Interfaces Web (Desktop)** </br>
+
+<img src="Resources/Images/WebAppMockUps/AdminMock/main.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/AdminMock/audit.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/AdminMock/logout.png"/>
+<br>
+
+**Interfaces Móviles** </br>
+
+<img src="Resources/Images/WebAppMockUps/AdminMock/main-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/AdminMock/audit-mobile.png"/>
+<br>
+
+<img src="Resources/Images/WebAppMockUps/AdminMock/logout-mobile.png"/>
+<br>
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 #### 4.6.1.1. Event Storming Notation Guide.
@@ -2438,4 +2729,5 @@ Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales d
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
   
 # Anexos
-Video TB1: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgBwbarmIp83QpoTezzrT-J6AbklHDrqoSamg6BowepSMNE?e=C7Bcz8
+Video AV1: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgBwbarmIp83QpoTezzrT-J6AbklHDrqoSamg6BowepSMNE?e=C7Bcz8
+Video TB1: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgB6HSQU3u5cRrcy7yZNoZyZAaeCVvAmAM8UagL8WS3JHMQ?e=N3p0cN
