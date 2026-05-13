@@ -2245,59 +2245,47 @@ Este diagrama muestra los elementos compartidos del backend, como tipos base, va
 
 ### General Class Diagram
 
-<img src="Resources/Images/ClassDiagrams/ClassDiagrammComplete.png" alt="Diseño del diagrama de clases general"> <br>
+<img src="Resources/Images/ClassDiagrams/ClassDiagrammComplete.jpg" alt="Diseño del diagrama de clases general"> <br>
 
 
-### Medical Rest Management
+### Audit & Compliance
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/medicalRestManagement.jpeg" alt="Diseño del package Medical Rest Management"> <br>
+<img src="Resources/Images/ClassDiagrams/Audit&Compliance.png" alt="Diseño del package Audit & Compliance"> <br>
 </div>
 
-### Alerting and Notification Management
+### Clinical Risk Assessment
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/alertingAndNotificationManagement.jpeg" alt="Diseño del package Alerting and Notification Management"> <br>
-</div>
-
-
-### State Analysis
-<div align="center">
-<img src="Resources/Images/ClassDiagrams/stateAnalysis.jpeg" alt="Diseño del package State Analysis"> <br>
+<img src="Resources/Images/ClassDiagrams/ClinicalRiskAssessment.png" alt="Diseño del package Clinical Risk Assessment"> <br>
 </div>
 
 
-### Medical Shift Management
+### Identity & AccessManagement
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/medicalShiftManagement.jpeg" alt="Diseño del package Medical Shift Management"> <br>
+<img src="Resources/Images/ClassDiagrams/Identity&AccessManagement.png" alt="Diseño del package Identity & AccessManagement"> <br>
 </div>
 
 
-### Medical Staff Management
+### Incident & Escalation Management
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/medicalStaffManagement.jpeg" alt="Diseño del package Medical Staff Management"> <br>
+<img src="Resources/Images/ClassDiagrams/Incident&EscalationManagement.png" alt="Diseño del package Incident & Escalation Management"> <br>
 </div>
 
 
-### Medical Device Management
+### Shift Coordination
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/medicalDeviceManagement.jpeg" alt="Diseño del package Medical Device Management"> <br>
+<img src="Resources/Images/ClassDiagrams/ShiftCoordination.png" alt="Diseño del package Shift Coordination"> <br>
 </div>
 
 
-### Subscription and Payment Management
+### Staff Recovery
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/subscriptionAndPaymentManagement.jpeg" alt="Diseño del package Subscription and Payment Management"> <br>
+<img src="Resources/Images/ClassDiagrams/StaffRecovery.png" alt="Diseño del package Staff Recovery"> <br>
 </div>
 
 
-### Identity and Access Management
+### Subscription & Plan Management
 <div align="center">
-<img src="Resources/Images/ClassDiagrams/identityAndAccessManagement.jpeg" alt="Diseño del package Identity and Access Management"> <br>
-</div>
-
-
-### Biometric Data Management
-<div align="center">
-<img src="Resources/Images/ClassDiagrams/biometricDataManagement.jpeg" alt="Diseño del package Biometric Data Management"> <br>
+<img src="Resources/Images/ClassDiagrams/Subscription&PlanManagement.png" alt="Diseño del package SSubscription & Plan Management"> <br>
 </div>
 
 
@@ -2352,8 +2340,6 @@ LucidChart: Es una herramienta de modelado UML que permite crear distintos tipos
 GitHub: Es una plataforma de control de versiones y colaboración en línea. Lo utilizamos para redactar, organizar y dar seguimiento al informe completo del proyecto. https://github.com/
 
 Structurizr: Es una herramienta para modelado de arquitectura de software mediante el enfoque C4. Lo utilizamos para construir los diagramas de arquitectura C4 del proyecto. https://structurizr.com/
-
-ERD-Editor: Es una herramienta en línea para diseñar diagramas de bases de datos. Lo utilizamos para elaborar el diagrama de la base de datos de nuestro proyecto. https://erd-editor.io/
 
 ### 5.1.2. Source Code Management.
 
