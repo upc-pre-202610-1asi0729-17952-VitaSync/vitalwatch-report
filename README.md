@@ -1709,6 +1709,338 @@ User flow: Iniciar sesión y acceder al panel correspondiente
 
 **Description:** Permite autenticarse y ser redirigido al panel según el rol.
 
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_1.png"/>
+<br>
+<img src="Resources/Images/Mockups/login.png"/>
+<br>
+
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
+<br>
+
+User flow: Consultar resumen general del centro
+
+**Description:** Permite revisar indicadores generales y detectar prioridades.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_2.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin1.png"/>
+<br>
+
+**Happy path:** El administrador entra al panel, revisa tarjetas de indicadores, observa personal en riesgo y equipos activos, y detecta si hay un caso prioritario.
+
+**Unhappy paths:** No cargan datos o la vista aparece vacía.
+<br>
+
+User flow: Gestionar personal clínico
+
+**Description:** Permite consultar y revisar la información visible del personal.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_3.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin2.png"/>
+<br>
+
+**Happy path:** El administrador visualiza el listado, busca o filtra un usuario y revisa sus datos.
+
+**Unhappy paths:** No hay coincidencias o falla la carga del listado.
+<br>
+
+User flow: Gestionar equipos clínicos
+
+**Description:** Permite crear y revisar equipos de trabajo.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_4.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin3.png"/>
+<br>
+
+**Happy path:** El administrador ve los equipos existentes, crea uno nuevo, asigna miembros o supervisor y guarda los cambios.
+
+**Unhappy paths:** Falta información obligatoria o falla el registro.
+<br>
+
+User flow: Enviar invitaciones de usuarios
+
+**Description:** Permite registrar invitaciones para nuevos usuarios.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_5.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin4.png"/>
+<br>
+
+**Happy path:** El administrador ingresa un correo, selecciona un rol, envía la invitación y revisa su estado.
+
+**Unhappy paths:** Correo inválido o error al registrar la invitación.
+<br>
+
+User flow: Consultar suscripción y pagos
+
+**Description:** Permite revisar plan activo, estado y pagos.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_6.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin5.png"/>
+<br>
+
+**Happy path:** El administrador revisa el plan actual, el estado y el historial de pagos.
+
+**Unhappy paths:** No hay suscripción activa o la información no carga.
+<br>
+
+User flow: Revisar reportes globales
+
+**Description:** Permite visualizar indicadores y resúmenes del centro.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_7.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin6.png"/>
+<br>
+
+**Happy path:** El administrador revisa indicadores generales, consulta resúmenes por personal y por equipos, y analiza resultados.
+
+**Unhappy paths:** Reporte vacío o fallo de consulta.
+<br>
+
+User flow: Revisar auditoría del sistema
+
+**Description:** Permite revisar eventos registrados en la plataforma.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_8.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin7.png"/>
+<br>
+
+**Happy path:** El administrador revisa eventos, aplica filtros y ve el detalle de un evento.
+
+**Unhappy paths:** No hay eventos o el filtro no aplica.
+<br>
+
+User flow: Actualizar configuración de cuenta
+
+**Description:** Permite revisar y actualizar los datos de la cuenta.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_9.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin8.png"/>
+<br>
+
+**Happy path:** El administrador revisa sus datos, edita la información y guarda los cambios.
+
+**Unhappy paths:** Errores de validación o fallo al guardar.
+<br>
+
+Rol: Supervisor médico / director médico
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Description:** Permite autenticarse y ser redirigido al panel según el rol.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_1.png"/>
+<br>
+<img src="Resources/Images/Mockups/login.png"/>
+<br>
+
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
+<br>
+
+User flow: Consultar resumen del turno
+
+**Description:** Permite observar el estado general del equipo asignado.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_2.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor1.png"/>
+<br>
+
+**Happy path:** El supervisor revisa los indicadores del turno, la fatiga del equipo y las alertas activas, y detecta si hay algo prioritario.
+
+**Unhappy paths:** El panel no carga o no hay información disponible.
+<br>
+
+User flow: Revisar personal en riesgo
+
+**Description:** Permite revisar el personal con mayor nivel de riesgo.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_3.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor2.png"/>
+<br>
+
+**Happy path:** El supervisor revisa el listado, selecciona un colaborador y consulta sus detalles.
+
+**Unhappy paths:** No hay resultados o no se carga el detalle.
+<br>
+
+User flow: Gestionar alertas clínicas
+
+**Description:** Permite revisar alertas activas y su detalle.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_4.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor3.png"/>
+<br>
+
+**Happy path:** El supervisor revisa las alertas activas, selecciona una alerta, consulta el detalle y la resuelve si corresponde.
+
+**Unhappy paths:** No hay alertas o falla al abrir el detalle.
+<br>
+
+User flow: Revisar anomalías biométricas
+
+**Description:** Permite consultar anomalías biométricas registradas.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_5.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor4.png"/>
+<br>
+
+**Happy path:** El supervisor revisa las anomalías, selecciona una y consulta su detalle.
+
+**Unhappy paths:** No hay anomalías o no se puede abrir el detalle.
+<br>
+
+User flow: Registrar acciones preventivas
+
+**Description:** Permite registrar y revisar acciones preventivas.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_6.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor5.png"/>
+<br>
+
+**Happy path:** El supervisor crea una nueva acción preventiva, completa el formulario, guarda la acción y revisa las registradas.
+
+**Unhappy paths:** Faltan datos o falla el registro.
+<br>
+
+User flow: Programar turnos del equipo
+
+**Description:** Permite programar y revisar turnos del personal.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_7.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor6.png"/>
+<br>
+
+**Happy path:** El supervisor crea un nuevo turno, selecciona personal, define horario, guarda el turno y revisa los turnos programados.
+
+**Unhappy paths:** Conflicto de disponibilidad o faltan datos.
+<br>
+
+User flow: Actualizar configuración de cuenta
+
+**Description:** Permite revisar y editar los datos de la cuenta.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_8.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor7.png"/>
+<br>
+
+**Happy path:** El supervisor revisa sus datos, los edita y guarda los cambios.
+
+**Unhappy paths:** Error de validación o fallo al guardar.
+<br>
+
+User persona: Personal clínico
+
+Rol: Personal clínico
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Description:** Permite autenticarse y ser redirigido al panel según el rol.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_1.png"/>
+<br>
+<img src="Resources/Images/Mockups/login.png"/>
+<br>
+
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
+<br>
+
+User flow: Consultar estado de salud
+
+**Description:** Permite revisar indicadores principales y recomendaciones.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_2.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor1.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa sus indicadores, consulta recomendaciones y alertas, y revisa la recomendación si hay una alerta.
+
+**Unhappy paths:** Datos no cargados o acceso sin sesión.
+<br>
+
+User flow: Revisar signos vitales
+
+**Description:** Permite consultar gráficos e historial de mediciones.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_3.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor2.png"/>
+<br>
+
+**Happy path:** El personal clínico ve los gráficos, revisa el historial y analiza tendencias.
+
+**Unhappy paths:** No hay registros o falla la carga.
+<br>
+
+User flow: Consultar mis turnos
+
+**Description:** Permite revisar turnos actuales, próximos e historial.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_4.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor3.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa su turno actual, los próximos turnos y el historial.
+
+**Unhappy paths:** No tiene turnos asignados o hay error de carga.
+<br>
+
+User flow: Revisar recuperación
+
+**Description:** Permite consultar el estado de recuperación y acciones pendientes.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_5.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor4.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa su estado de recuperación, consulta recomendaciones y revisa acciones pendientes.
+
+**Unhappy paths:** No hay acciones o la vista no carga.
+<br>
+
+User flow: Actualizar configuración de cuenta
+
+**Description:** Permite revisar y actualizar la información de la cuenta.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_6.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor5.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa sus datos, los edita y guarda los cambios.
+
+**Unhappy paths:** Errores de validación o fallo al guardar.
+<br>
+
+User persona: Administradores y Directores Médicos
+
+Rol: Administrador
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Description:** Permite autenticarse y ser redirigido al panel según el rol.
+
 **Imagen del user flow:**
 
 <img src="Resources/Images/Mockups/roladmin/userflow_admin_1.png"/>
