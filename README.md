@@ -40,6 +40,7 @@
 |1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8|
 |1\.3\.0|23/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1|
 |1\.4\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se corrigieron las observaciones realizadas a los capítulos I, II, III, IV y se añadió el Sprint 2 en el capítulo V|
+|2\.0\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se modificó la landing page, frontend y se añadió el Sprint 3 en el capítulo V|
 </div><br><br>
 
 
@@ -1303,8 +1304,8 @@ Se ha elegido el estándar `utf-8` porque permite una gestión eficiente y unive
 * **Title:** Permite definir el nombre visible de la pestaña y el identificador principal para indexación y búsquedas. En VitalWatch, se personaliza según la sección:
   `<title>VitalWatch - Monitoreo de Fatiga para Profesionales de Salud</title>`
 
-* **Description:** Describe el objetivo y contenido de la página web. Sirve para mostrar un resumen en los resultados de búsqueda y cuando la página es compartida:
-  `<meta name="description" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">`
+* **Descripcion:** Describe el objetivo y contenido de la página web. Sirve para mostrar un resumen en los resultados de búsqueda y cuando la página es compartida:
+  `<meta name="Descripcion" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">`
 
 * **Keywords:** Lista palabras relacionadas al propósito y alcance de la plataforma, ayudando a los buscadores en la categorización temática:
   `<meta name="keywords" content="fatiga, salud laboral, vitalwatch, clínica, hospital, prevención, monitoreo, plataforma, turnos, bienestar, personal médico">`
@@ -1322,7 +1323,7 @@ Se ha elegido el estándar `utf-8` porque permite una gestión eficiente y unive
 <head>
   <meta charset="utf-8">
   <title>VitalWatch - Monitoreo de Fatiga para Profesionales de Salud</title>
-  <meta name="description" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">
+  <meta name="Descripcion" content="Plataforma inteligente para el monitoreo, reporte y análisis de la fatiga en clínicas y hospitales. Optimiza la salud laboral y la seguridad del paciente con tecnología avanzada.">
   <meta name="keywords" content="fatiga, salud laboral, vitalwatch, clínica, hospital, prevención, monitoreo, plataforma, turnos, bienestar, personal médico">
   <meta name="author" content="Equipo VitaSync">
   <meta name="copyright" content="Copyright Equipo VitaSync 2026" />
@@ -1451,356 +1452,588 @@ Proporciona vías alternativas para encontrar información o realizar acciones r
 
 
 ## 4.4. Web Applications UX/UI Design.
+
 ### 4.4.1. Web Applications Wireframes.
-En esta sección se detallan los esquemas de baja fidelidad, estructurados según el entorno de visualización para garantizar una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles.
 
-**Interfaces Web (Desktop)** </br>
+Rol de administrador:
 
-Rol de supervisor hospitalario:
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/main.png"/>
+<img src="Resources/Images/Wireframes/roladmin/admin_1.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_2.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_3.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_4.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_5.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_6.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_7.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_8.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_9.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_10.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_11.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_12.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/admin_13.png"/>
 <br>
 
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/alerts.png"/>
+Rol de supervisor médico / director médico:
+
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_1.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/anomalies.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_2.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/personal-risk.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_3.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/register-action.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_4.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/logout.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_5.png"/>
 <br>
-
-**Interfaces Móviles** </br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/main-mobile.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_6.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/alerts-mobile.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_7.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/anomalies-mobile.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_8.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/personal-risk-mobile.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_9.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/register-action-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/SupervisorWireframe/logout-mobile.png"/>
+<img src="Resources/Images/Wireframes/rolsupervisor/supervisor_10.png"/>
 <br>
 
 Rol de personal clínico:
 
-**Interfaces Web (Desktop)** </br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-alerts.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_1.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-history.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_2.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-status.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_3.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/recover.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_4.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/logout.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_5.png"/>
 <br>
-
-**Interfaces Móviles** </br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-alerts-mobile.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_6.png"/>
 <br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-history-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/my-status-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/recover-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/ClinicWireframe/logout-mobile.png"/>
-<br>
-
-Rol de médico director:
-
-**Interfaces Web (Desktop)** </br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/alerts.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-units.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-unit-detail.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/register-action.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/logout.png"/>
-<br>
-
-**Interfaces Móviles** </br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/alerts-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-units-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/medic-unit-detail-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/register-action-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/DirectorWireframe/logout-mobile.png"/>
-<br>
-
-Rol de administrador:
-
-**Interfaces Web (Desktop)** </br>
-
-<img src="Resources/Images/WebAppWireframes/AdminWireframe/main.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/AdminWireframe/audit.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/AdminWireframe/config.png"/>
-<br>
-
-**Interfaces Móviles** </br>
-
-<img src="Resources/Images/WebAppWireframes/AdminWireframe/main-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/AdminWireframe/audit-mobile.png"/>
-<br>
-
-<img src="Resources/Images/WebAppWireframes/AdminWireframe/config-mobile.png"/>
+<img src="Resources/Images/Wireframes/roldoctor/doctor_7.png"/>
 <br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-Rol de supervisor hospitalario:
-User goal: Tener un resumen del estado de los trabajadores
-<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/workers-status.png"/>
+Rol de administrador:
+
+User goal: Ingresar a la plataforma VitalWatch
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_1.png"/>
 <br>
 
-User goal: Tomar acción sobre un caso de personal en riesgo
-<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/take-action.png"/>
+User goal: Ver un resumen general del centro para identificar riesgo, alertas y operación clínica
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_2.png"/>
 <br>
 
-User goal: Informarme sobre posibles problemas en el estado de salud de los trabajadores
-<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/health-prevention.png"/>
+User goal: Revisar reportes globales para analizar el desempeño operativo y preventivo del centro
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_3.png"/>
 <br>
 
-User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
-<img src="Resources/Images/WebAppWireflows/SupervisorWireflow/logout.png"/>
+User goal: Gestionar el personal clínico para actualizar roles, estados y asignaciones
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_4.png"/>
+<br>
+
+User goal: Gestionar los equipos clínicos para asignar supervisores y miembros
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_5.png"/>
+<br>
+
+User goal: Administrar invitaciones para registrar nuevos usuarios en la plataforma
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_6.png"/>
+<br>
+
+User goal: Revisar la suscripción activa y el historial de pagos del centro
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_7.png"/>
+<br>
+
+User goal: Revisar la auditoría del sistema para validar trazabilidad de acciones y cambios
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_8.png"/>
+<br>
+
+User goal: Actualizar la configuración de cuenta para mantener datos personales vigentes
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_9.png"/>
+<br>
+
+Rol de supervisor médico / director médico:
+
+User goal: Ingresar a la plataforma VitalWatch
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_1.png"/>
+<br>
+
+User goal: Ver un resumen del turno para conocer el estado general del equipo asignado
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_2.png"/>
+<br>
+
+User goal: Revisar el personal en riesgo para priorizar seguimiento inmediato
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_3.png"/>
+<br>
+
+User goal: Gestionar alertas clínicas para revisarlas y cerrarlas cuando corresponda
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_4.png"/>
+<br>
+
+User goal: Revisar anomalías biométricas para identificar eventos fuera de rango
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_5.png"/>
+<br>
+
+User goal: Registrar acciones preventivas para dar seguimiento a los casos atendidos
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_6.png"/>
+<br>
+
+User goal: Administrar turnos del equipo para organizar la operación diaria
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_7.png"/>
+<br>
+
+User goal: Actualizar la configuración personal para mantener sus datos al día
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_8.png"/>
 <br>
 
 Rol de personal clínico:
-User goal: Saber mi estado de fatiga y mis datos biométricos
-<img src="Resources/Images/WebAppWireflows/ClinicWireflow/my-status.png"/>
+
+User goal: Ingresar a la plataforma VitalWatch
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_1.png"/>
 <br>
 
-User goal: Saber si tengo un nivel de fátiga muy elevado o un posible problema de salud
-<img src="Resources/Images/WebAppWireflows/ClinicWireflow/my-fatigue.png"/>
+User goal: Ver su estado de salud actual para saber si debe bajar la carga o pedir apoyo
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_2.png"/>
 <br>
 
-User goal: Saber cuánta fatiga suelo tener en mis turnos de trabajo
-<img src="Resources/Images/WebAppWireflows/ClinicWireflow/my-turns.png"/>
+User goal: Revisar sus signos vitales para entender la evolución de sus biométricos
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_3.png"/>
 <br>
 
-User goal: Descansar cuando tengo demasiada fatiga sin perjudicar a mis pacientes
-<img src="Resources/Images/WebAppWireflows/ClinicWireflow/replacement.png"/>
+User goal: Consultar sus turnos para gestionar asistencia e inicio o cierre de jornada
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_4.png"/>
 <br>
 
-User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
-<img src="Resources/Images/WebAppWireflows/ClinicWireflow/logout.png"/>
+User goal: Revisar su recuperación para seguir las recomendaciones preventivas indicadas
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_5.png"/>
 <br>
 
-Rol de médico director:
-User goal: Saber que alertas de riesgo fueron escaladas a mi área
-<img src="Resources/Images/WebAppWireflows/DirectorWireflow/escaled-alerts.png"/>
-<br>
-
-User goal: Atender las alertas que fueron escaladas
-<img src="Resources/Images/WebAppWireflows/DirectorWireflow/attend-alerts.png"/>
-<br>
-
-User goal: Saber el nivel de sobrecarga laboral de las unidades médicas de mi institución
-<img src="Resources/Images/WebAppWireflows/DirectorWireflow/units-overwork.png"/>
-<br>
-
-User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
-<img src="Resources/Images/WebAppWireflows/DirectorWireflow/logout.png"/>
-<br>
-
-Rol de administrador:
-User goal: Invitar a los trabajadores médicos de mi institución a la plataforma
-<img src="Resources/Images/WebAppWireflows/AdminWireflow/invitation.png"/>
-<br>
-
-User goal: Revisar y corroborar que las acciones tomadas para los casos de riesgo hayan sido pertinentes y coherentes
-<img src="Resources/Images/WebAppWireflows/AdminWireflow/audit.png"/>
-<br>
-
-User goal: Cerrar mi sesión para que nadie más pueda entrar a mi cuenta por seguridad 
-<img src="Resources/Images/WebAppWireflows/AdminWireflow/logout.png"/>
+User goal: Actualizar la configuración de cuenta para mantener sus datos personales vigentes
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_6.png"/>
 <br>
 
 ### 4.4.3. Web Applications Mock-ups.
 
-**Interfaces Web (Desktop)** </br>
+User persona: Administradores y Directores Médicos
 
-Rol de supervisor hospitalario:
+Rol: Administrador
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/main.png"/>
+<img src="Resources/Images/Mockups/roladmin/admin_1.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_2.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_3.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_4.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_5.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_6.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_7.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_8.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_9.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_10.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_11.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_12.png"/>
+<br>
+<img src="Resources/Images/Mockups/roladmin/admin_13.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/alerts.png"/>
+Rol: Supervisor médico / director médico
+
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_1.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_2.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_3.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_4.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_5.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_6.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_7.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_8.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_9.png"/>
+<br>
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor_10.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/anomalies.png"/>
+User persona: Personal clínico
+
+Rol: Personal clínico
+
+<img src="Resources/Images/Mockups/roldoctor/doctor_1.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor_2.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor_3.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor_4.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor_5.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor_6.png"/>
+<br>
+<img src="Resources/Images/Mockups/roldoctor/doctor_7.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/personal-risk.png"/>
+### 4.4.4. Web Applications User Flow Diagrams.
+
+User persona: Administradores y Directores Médicos
+
+Rol: Administrador
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Descripcion:** Permite autenticarse y ser redirigido al panel según el rol.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_1.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_1.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/register-action.png"/>
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/logout.png"/>
+User flow: Consultar resumen general del centro
+
+**Descripcion:** Permite revisar indicadores generales y detectar prioridades.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_2.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_2.png"/>
 <br>
 
-**Interfaces Móviles** </br>
+**Happy path:** El administrador entra al panel, revisa tarjetas de indicadores, observa personal en riesgo y equipos activos, y detecta si hay un caso prioritario.
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/main-mobile.png"/>
+**Unhappy paths:** No cargan datos o la vista aparece vacía.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/alerts-mobile.png"/>
+User flow: Gestionar personal clínico
+
+**Descripcion:** Permite consultar y revisar la información visible del personal.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_3.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_3.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/anomalies-mobile.png"/>
+**Happy path:** El administrador visualiza el listado, busca o filtra un usuario y revisa sus datos.
+
+**Unhappy paths:** No hay coincidencias o falla la carga del listado.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/personal-risk-mobile.png"/>
+User flow: Gestionar equipos clínicos
+
+**Descripcion:** Permite crear y revisar equipos de trabajo.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_4.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_4.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/register-action-mobile.png"/>
+**Happy path:** El administrador ve los equipos existentes, crea uno nuevo, asigna miembros o supervisor y guarda los cambios.
+
+**Unhappy paths:** Falta información obligatoria o falla el registro.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/SupervisorMock/logout-mobile.png"/>
+User flow: Enviar invitaciones de usuarios
+
+**Descripcion:** Permite registrar invitaciones para nuevos usuarios.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_5.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_5.png"/>
 <br>
 
-Rol de personal clínico:
+**Happy path:** El administrador ingresa un correo, selecciona un rol, envía la invitación y revisa su estado.
 
-**Interfaces Web (Desktop)** </br>
-
-<img src="Resources/Images/WebAppMockUps/ClinicMock/my-alerts.png"/>
+**Unhappy paths:** Correo inválido o error al registrar la invitación.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/my-history.png"/>
+User flow: Consultar suscripción y pagos
+
+**Descripcion:** Permite revisar plan activo, estado y pagos.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_6.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_6.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/my-status.png"/>
+**Happy path:** El administrador revisa el plan actual, el estado y el historial de pagos.
+
+**Unhappy paths:** No hay suscripción activa o la información no carga.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/recover.png"/>
+User flow: Revisar reportes globales
+
+**Descripcion:** Permite visualizar indicadores y resúmenes del centro.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_7.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_7.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/logout.png"/>
+**Happy path:** El administrador revisa indicadores generales, consulta resúmenes por personal y por equipos, y analiza resultados.
+
+**Unhappy paths:** Reporte vacío o fallo de consulta.
 <br>
 
-**Interfaces Móviles** </br>
+User flow: Revisar auditoría del sistema
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/my-alerts-mobile.png"/>
+**Descripcion:** Permite revisar eventos registrados en la plataforma.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_8.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_8.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/my-history-mobile.png"/>
+**Happy path:** El administrador revisa eventos, aplica filtros y ve el detalle de un evento.
+
+**Unhappy paths:** No hay eventos o el filtro no aplica.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/my-status-mobile.png"/>
+User flow: Actualizar configuración de cuenta
+
+**Descripcion:** Permite revisar y actualizar los datos de la cuenta.
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_9.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roladmin/wireflow_admin_9.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/recover-mobile.png"/>
+**Happy path:** El administrador revisa sus datos, edita la información y guarda los cambios.
+
+**Unhappy paths:** Errores de validación o fallo al guardar.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/ClinicMock/logout-mobile.png"/>
+Rol: Supervisor médico / director médico
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Descripcion:** Permite autenticarse y ser redirigido al panel según el rol.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_1.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_1.png"/>
 <br>
 
-Rol de médico director:
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
 
-**Interfaces Web (Desktop)** </br>
-
-<img src="Resources/Images/WebAppMockUps/DirectorMock/alerts.png"/>
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/medical-units.png"/>
+User flow: Consultar resumen del turno
+
+**Descripcion:** Permite observar el estado general del equipo asignado.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_2.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_2.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/medic-unit-detail.png"/>
+**Happy path:** El supervisor revisa los indicadores del turno, la fatiga del equipo y las alertas activas, y detecta si hay algo prioritario.
+
+**Unhappy paths:** El panel no carga o no hay información disponible.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/register-action.png"/>
+User flow: Revisar personal en riesgo
+
+**Descripcion:** Permite revisar el personal con mayor nivel de riesgo.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_3.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_3.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/logout.png"/>
+**Happy path:** El supervisor revisa el listado, selecciona un colaborador y consulta sus detalles.
+
+**Unhappy paths:** No hay resultados o no se carga el detalle.
 <br>
 
-**Interfaces Móviles** </br>
+User flow: Gestionar alertas clínicas
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/alerts-mobile.png"/>
+**Descripcion:** Permite revisar alertas activas y su detalle.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_4.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_4.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/medical-units-mobile.png"/>
+**Happy path:** El supervisor revisa las alertas activas, selecciona una alerta, consulta el detalle y la resuelve si corresponde.
+
+**Unhappy paths:** No hay alertas o falla al abrir el detalle.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/medic-unit-detail-mobile.png"/>
+User flow: Revisar anomalías biométricas
+
+**Descripcion:** Permite consultar anomalías biométricas registradas.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_5.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_5.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/register-action-mobile.png"/>
+**Happy path:** El supervisor revisa las anomalías, selecciona una y consulta su detalle.
+
+**Unhappy paths:** No hay anomalías o no se puede abrir el detalle.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/DirectorMock/logout-mobile.png"/>
+User flow: Registrar acciones preventivas
+
+**Descripcion:** Permite registrar y revisar acciones preventivas.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_6.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_6.png"/>
 <br>
 
-Rol de administrador:
+**Happy path:** El supervisor crea una nueva acción preventiva, completa el formulario, guarda la acción y revisa las registradas.
 
-**Interfaces Web (Desktop)** </br>
-
-<img src="Resources/Images/WebAppMockUps/AdminMock/main.png"/>
+**Unhappy paths:** Faltan datos o falla el registro.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/AdminMock/audit.png"/>
+User flow: Programar turnos del equipo
+
+**Descripcion:** Permite programar y revisar turnos del personal.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_7.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_7.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/AdminMock/logout.png"/>
+**Happy path:** El supervisor crea un nuevo turno, selecciona personal, define horario, guarda el turno y revisa los turnos programados.
+
+**Unhappy paths:** Conflicto de disponibilidad o faltan datos.
 <br>
 
-**Interfaces Móviles** </br>
+User flow: Actualizar configuración de cuenta
 
-<img src="Resources/Images/WebAppMockUps/AdminMock/main-mobile.png"/>
+**Descripcion:** Permite revisar y editar los datos de la cuenta.
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_8.png"/>
+<br>
+<img src="Resources/Images/Wireframes/rolsupervisor/wireflow_supervisor_8.png"/>
 <br>
 
-<img src="Resources/Images/WebAppMockUps/AdminMock/audit-mobile.png"/>
+**Happy path:** El supervisor revisa sus datos, los edita y guarda los cambios.
+
+**Unhappy paths:** Error de validación o fallo al guardar.
 <br>
 
-<img src="Resources/Images/WebAppMockUps/AdminMock/logout-mobile.png"/>
+User persona: Personal clínico
+
+Rol: Personal clínico
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Descripcion:** Permite autenticarse y ser redirigido al panel según el rol.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_1.png"/>
 <br>
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_1.png"/>
+<br>
+
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
+<br>
+
+User flow: Consultar estado de salud
+
+**Descripcion:** Permite revisar indicadores principales y recomendaciones.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_2.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_2.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa sus indicadores, consulta recomendaciones y alertas, y revisa la recomendación si hay una alerta.
+
+**Unhappy paths:** Datos no cargados o acceso sin sesión.
+<br>
+
+User flow: Revisar signos vitales
+
+**Descripcion:** Permite consultar gráficos e historial de mediciones.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_3.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_3.png"/>
+<br>
+
+**Happy path:** El personal clínico ve los gráficos, revisa el historial y analiza tendencias.
+
+**Unhappy paths:** No hay registros o falla la carga.
+<br>
+
+User flow: Consultar mis turnos
+
+**Descripcion:** Permite revisar turnos actuales, próximos e historial.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_4.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_4.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa su turno actual, los próximos turnos y el historial.
+
+**Unhappy paths:** No tiene turnos asignados o hay error de carga.
+<br>
+
+User flow: Revisar recuperación
+
+**Descripcion:** Permite consultar el estado de recuperación y acciones pendientes.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_5.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_5.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa su estado de recuperación, consulta recomendaciones y revisa acciones pendientes.
+
+**Unhappy paths:** No hay acciones o la vista no carga.
+<br>
+
+User flow: Actualizar configuración de cuenta
+
+**Descripcion:** Permite revisar y actualizar la información de la cuenta.
+
+<img src="Resources/Images/Mockups/roldoctor/userflow_doctor_6.png"/>
+<br>
+<img src="Resources/Images/Wireframes/roldoctor/wireflow_doctor_6.png"/>
+<br>
+
+**Happy path:** El personal clínico revisa sus datos, los edita y guarda los cambios.
+
+**Unhappy paths:** Errores de validación o fallo al guardar.
+<br>
+
+## 4.5. Web Applications Prototyping.
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
@@ -2364,7 +2597,7 @@ Además, tendremos ramas como soporte adicional, y las convenciones que tendremo
 
 **Commits:** El formato que tendrá será: 
 
-"Type (scope): description of modification"
+"Type (scope): Descripcion of modification"
 
 "Descripción detallada opcional de las modificaciones"
 
@@ -2499,7 +2732,7 @@ El Sprint Backlog 1 condensa las user stories que han sido previamente priorizad
 | Sprint # | Sprint 1 |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| Id | Title | Id | Title | Descripcion | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 | US-01 | Primera impresión sobre el producto | T-01 | Implementación de hero section | Diseñar e implementar la sección principal de presentación de VitalWatch con mensaje inicial y llamada a la acción. | 5 | Leonardo Rafael Garcia Villanueva | Done |
 | US-02 | Navegación por secciones | T-02 | Implementación de barra de navegación | Desarrollar la barra de navegación superior con acceso a las secciones principales del landing page. | 4 | Johan Yonel León Morales | Done |
 | US-03 | Explicación detallada del producto | T-03 | Desarrollo de sección de funcionalidades | Implementar la sección donde se explica la propuesta de valor y las funcionalidades principales de VitalWatch. | 4 | Leonardo Rafael Garcia Villanueva | Done |
@@ -2664,7 +2897,7 @@ La segunda versión del Sprint Backlog, es decir la iteración que aquí describ
 | Sprint # | Sprint 2 |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| Id | Title | Id | Title | Descripcion | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 | US-07 | Formulario de contacto | T2-01 | Mejora del formulario de contacto | Ajustar la estructura y validación del formulario de contacto del landing page para mejorar la interacción del usuario. | 4 | Güere Calero, Fernando Julio | Done |
 | US-09 | Diseño adaptable para móviles | T2-02 | Ajustes responsive del landing page | Mejorar la adaptación de la landing page a dispositivos móviles y optimizar la navegación en pantallas pequeñas. | 4 | León Morales, Johan Yonel | Done |
 | US-11 | Identificación de personal con riesgo clínico crítico | T2-03 | Vista de personal en riesgo crítico | Desarrollar una vista inicial que permita identificar rápidamente al personal con fatiga crítica. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
