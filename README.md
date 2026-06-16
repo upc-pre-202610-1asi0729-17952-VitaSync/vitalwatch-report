@@ -2927,7 +2927,29 @@ https://trello.com/invite/b/6a00b9d179bdb6064d662339/ATTI4fc75e1cda72c884cfbf255
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+Durante este sprint, el equipo trabajó en la implementación inicial de la Web Application de VitalWatch, tomando como base la estructura del proyecto Angular y la construcción de vistas principales para los roles del sistema. El avance se enfocó en configurar el entorno frontend, integrar Angular Material, habilitar internacionalización, implementar autenticación básica y desarrollar vistas para supervisor y personal médico.
 
+La siguiente tabla presenta los commits más relevantes registrados en el repositorio `vitalwatch-webapp` durante el sprint. Estos commits evidencian el avance técnico alcanzado en la implementación de la aplicación web y sus principales módulos funcionales.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| vitalwatch-webapp | main | `2359061` | `chore: initial angular project setup` | Created the initial Angular project structure for the VitalWatch web application. | 2026-05-11 |
+| vitalwatch-webapp | main | `dda70b2` | `chore: update package.json.` | Updated project dependencies and scripts required for frontend development. | 2026-05-11 |
+| vitalwatch-webapp | main | `b60b325` | `chore: integrate angular material and update styles` | Integrated Angular Material and updated the base visual styles of the application. | 2026-05-11 |
+| vitalwatch-webapp | main | `1fdad3c` | `feat: i18n configured.` | Configured internationalization support for the web application. | 2026-05-11 |
+| vitalwatch-webapp | main | `9e3ef58` | `feat(iam): login/registration added.` | Implemented login and registration views for the Identity and Access Management module. | 2026-05-13 |
+| vitalwatch-webapp | main | `a26119a` | `feat: add VitalWatch views` | Added the main views for the VitalWatch web application. | 2026-05-13 |
+| vitalwatch-webapp | main | `f15270e` | `feat: supervisor structure was added.` | Added the base structure for supervisor-related views and navigation. | 2026-05-13 |
+| vitalwatch-webapp | main | `f2aa3bd` | `feat(supervisor): dashboard added.` | Implemented the supervisor dashboard view. | 2026-05-13 |
+| vitalwatch-webapp | main | `c5d2cc1` | `feat(supervisor): risk-staff added.` | Added the supervisor view for monitoring staff risk information. | 2026-05-13 |
+| vitalwatch-webapp | main | `efea252` | `feat(supervisor): alerts and register-actions added.` | Implemented supervisor alerts and action registration views. | 2026-05-13 |
+| vitalwatch-webapp | main | `b82384a` | `feat(supervisor): settings added.` | Added the settings view for supervisor users. | 2026-05-13 |
+| vitalwatch-webapp | main | `883fa2e` | `feat(medical-staff): my alerts added.` | Implemented the medical staff alerts view. | 2026-05-13 |
+| vitalwatch-webapp | main | `b0ac07f` | `feat(medical-staff): my history added.` | Added the historical information view for medical staff users. | 2026-05-13 |
+| vitalwatch-webapp | main | `8f5604c` | `feat(medical-staff): recovery added.` | Implemented the recovery view for medical staff users. | 2026-05-13 |
+| vitalwatch-webapp | main | `c196d8b` | `feat(medical-staff): settings added.` | Added the settings view for medical staff users. | 2026-05-13 |
+
+Estos commits demuestran que el sprint permitió construir una primera versión funcional de la aplicación web. El trabajo se concentró en preparar la base técnica del proyecto, configurar herramientas visuales y de internacionalización, implementar el flujo inicial de autenticación y desarrollar vistas principales para los roles de supervisor y personal médico.
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
