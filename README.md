@@ -151,11 +151,11 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
- <!-- - [5.3 Validation Interviews.](#53-validation-interviews)
+ - [5.3 Validation Interviews.](#53-validation-interviews)
     - [5.3.1 Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3 Evaluaciones Según Heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4 Video About-the-Product](#54-video-about-the-product) -->
+  - [5.4 Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2971,11 +2971,55 @@ Es decir, aunque aún no existe una implementación final de servicios, el Sprin
 
 
 
-<!--## 5.3. Validation Interviews.
+## 5.3. Validation Interviews.
+
+#### Segmento 1: Personal administrativo de clínicas y hospitales
+Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de la plataforma web **VitalWatch** desde la perspectiva del personal encargado de la gestión de recursos humanos y la continuidad operacional del centro de salud. Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, ajustándose al progreso entregado por el equipo de desarrollo y a la disponibilidad coordinada con los entrevistados. Se recogerá el feedback de cada participante respecto al uso del panel administrativo y de supervisión, enfocándose en las funcionalidades orientadas al monitoreo del nivel de fatiga y la gestión preventiva de turnos dentro del flujo operativo hospitalario.
+
+##### Objetivos de la Entrevista:
+1) Validar la experiencia de usuario (UX) y la interfaz de usuario (UI) del panel de administración y supervisión (*Dashboard General* y *Resumen de Turno*), evaluando si el usuario comprende la arquitectura de navegación y puede acceder de forma intuitiva a los indicadores de riesgo del personal.
+
+2) Evaluar si VitalWatch ofrece una propuesta de valor diferencial frente a otros sistemas convencionales de gestión hospitalaria, y si las funcionalidades base relacionadas a la visualización de la fatiga acumulada satisfacen las necesidades operativas de la supervisión médica.
+
+##### Criterios de Evaluación:
+- Evaluar si el usuario (Admin / Supervisor) puede navegar por la aplicación web con facilidad y familiarizarse con el dashboard general del sistema.
+- Medir el tiempo que toma al usuario comprender los indicadores resumen (*personal activo, en riesgo, alertas clínicas activas*) presentados en el panel principal.
+- Evaluar la comprensión del cálculo del *Fatigue Score* (Nivel de Fatiga) como herramienta para la toma de decisiones preventivas.
+- Evaluar si el supervisor puede identificar y acceder a la sección de *Personal en Riesgo* desde el menú lateral sin ambigüedades.
+- Evaluar si el usuario comprende el proceso de registro de una *Nueva acción preventiva* (como pausas o descansos obligatorios), incluyendo los campos requeridos del formulario.
+- Evaluar si el supervisor puede consultar las sugerencias de reemplazos operacionales y gestionar la redistribución laboral de manera intuitiva ante un bloqueo de turno.
+
+*Se considerarán los siguientes User Flows*:
+* **Rol Administrador / Supervisor:** Consultar resumen general del centro y gestionar asignaciones del personal clínico.
+
+#### Segmento 2: Personal clinico
+Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de **VitalWatch** desde la perspectiva del personal clínico que se encuentra expuesto a guardias y jornadas de alta exigencia (*Clinical Staff*). Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, variando según el progreso propuesto por el equipo de desarrollo y la coordinación con los entrevistados. Se recogerá el feedback de cada participante en el uso de la aplicación web (vista médica), con especial énfasis en las funcionalidades de auto-monitoreo de salud, recepción de alertas vibratorias/visuales de fatiga y control de recuperación clínica.
+
+##### Objetivos de la Entrevista:
+1) Validar la experiencia de usuario (UX) y la interfaz de usuario (UI) del módulo *Mi Estado de Salud*, evaluando si el médico o enfermero comprende la arquitectura de navegación y puede acceder de manera intuitiva al monitoreo de sus propios signos vitales e historial de riesgo.
+
+2) Evaluar si VitalWatch representa un beneficio real para el cuidado del bienestar del profesional durante su jornada y si el módulo de recomendaciones de descanso y solicitudes de relevo cubre satisfactoriamente sus necesidades de protección frente al burnout y errores clínicos.
+
+##### Criterios de Evaluación:
+- Evaluar si el personal clínico puede navegar por su panel personalizado con facilidad y comprender el estado actual de su nivel de riesgo.
+- Medir el tiempo que toma al usuario sincronizar sus datos biométricos y comprender las gráficas de evolución temporal (*Frecuencia cardíaca, cortisol, ritmo de sueño*).
+- Evaluar la comprensión de la propuesta de valor de la solución, en especial respecto al respaldo legal/técnico que proporcionan las alertas para justificar un descanso obligatorio.
+- Evaluar si el usuario puede identificar y acceder a la sección de *Mis Turnos* y *Mi Recuperación* desde el panel principal sin ambigüedades.
+- Evaluar si el médico comprende los indicadores resumen de su estado de recuperación y sabe cómo interpretar las recomendaciones preventivas automáticas generadas por el sistema.
+- Evaluar si el usuario puede realizar una *Solicitud de relevo preventivo* de manera intuitiva cuando el sistema detecta que ha superado el umbral seguro de fatiga.
+
+*Se considerarán los siguientes User Flows*:
+* **Rol Personal Clínico (Médico / Enfermero):** Monitoreo individual y gestión de bienestar clínico.
+
+
 ### 5.3.1. Diseño de Entrevistas.
+
 ### 5.3.2. Registro de Entrevistas.
+
 ### 5.3.3. Evaluaciones según heurísticas.
-## 5.4. Video About-the-Product.-->
+
+## 5.4. Video About-the-Product.
+
 ---
 # Conclusiones
 
