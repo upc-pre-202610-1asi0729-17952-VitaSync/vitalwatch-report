@@ -2973,6 +2973,7 @@ Es decir, aunque aún no existe una implementación final de servicios, el Sprin
 
 ## 5.3. Validation Interviews.
 
+### 5.3.1. Diseño de Entrevistas.
 #### Segmento 1: Personal administrativo de clínicas y hospitales
 Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de la plataforma web **VitalWatch** desde la perspectiva del personal encargado de la gestión de recursos humanos y la continuidad operacional del centro de salud. Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, ajustándose al progreso entregado por el equipo de desarrollo y a la disponibilidad coordinada con los entrevistados. Se recogerá el feedback de cada participante respecto al uso del panel administrativo y de supervisión, enfocándose en las funcionalidades orientadas al monitoreo del nivel de fatiga y la gestión preventiva de turnos dentro del flujo operativo hospitalario.
 
@@ -2991,6 +2992,8 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 
 *Se considerarán los siguientes User Flows*:
 * **Rol Administrador / Supervisor:** Consultar resumen general del centro y gestionar asignaciones del personal clínico.
+  
+---
 
 #### Segmento 2: Personal clinico
 Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de **VitalWatch** desde la perspectiva del personal clínico que se encuentra expuesto a guardias y jornadas de alta exigencia (*Clinical Staff*). Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, variando según el progreso propuesto por el equipo de desarrollo y la coordinación con los entrevistados. Se recogerá el feedback de cada participante en el uso de la aplicación web (vista médica), con especial énfasis en las funcionalidades de auto-monitoreo de salud, recepción de alertas vibratorias/visuales de fatiga y control de recuperación clínica.
@@ -3011,10 +3014,175 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 *Se considerarán los siguientes User Flows*:
 * **Rol Personal Clínico (Médico / Enfermero):** Monitoreo individual y gestión de bienestar clínico.
 
-
-### 5.3.1. Diseño de Entrevistas.
-
 ### 5.3.2. Registro de Entrevistas.
+**PRIMER SEGMENTO OBJETIVO (Personal administrativo de clínicas y hospitales)** <br>
+**Userflow**: Rol Administrador / Supervisor
+
+<u>Entrevista 1:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 2:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 3:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+---
+
+**SEGUNDO SEGMENTO OBJETIVO (Personal clinico)** <br>
+**Userflow**: Rol Personal Clínico (Médico / Enfermero)
+
+<u>Entrevista 1:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 2:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 3:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+
+
+
+
+
+
+
+
+
+
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
