@@ -3020,28 +3020,28 @@ Para las entrevistas de validación se evaluará la usabilidad, viabilidad y efi
 
 <u>Entrevista 1:</u>
 
-Entrevistador:
+Entrevistador: Fernando Julio Güere Calero
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Distrito:** 
-- **Timing:** 
+- **Nombre: Yeny Edith** 
+- **Apellidos: Calero Orbezo** 
+- **Edad: 52 años** 
+- **Distrito: Chaclacayo** 
+- **Timing: 7:10** 
 
 <p align="center">
-  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+  <img src="Resources/Images/Interview/Entrevista_S1_Open.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Yeny Calero </i>
 </p>
 
-**Resumen descriptivo:**
+**Resumen descriptivo**
 
 <div align="justify">
-Resumen de la entrevista
+La entrevista de validación realizada a Yeny Calero, de 52 años, ofreció un respaldo altamente positivo al despliegue de la landing page y la aplicación web de VitalWatch. Tras interactuar con la plataforma, la participante evaluó el sistema de manera global, manifestando que percibe la propuesta como una herramienta muy completa y sólida para los objetivos de prevención de fatiga en el sector salud. Durante la sesión, resaltó de forma recurrente la calidad y estética del diseño de las interfaces, valorando la claridad visual y la organización de los elementos dentro del panel. Aunque su retroalimentación se centró en impresiones generales más que en la evaluación de flujos técnicos específicos, demostró un alto nivel de satisfacción y confianza en la solución; como conclusión del proceso, afirmó con entusiasmo que promocionaría y compartiría activamente la aplicación con otros colegas del entorno de gestión hospitalaria, validando el valor integral de la herramienta y su fuerte potencial de recomendación dentro de su segmento operativo.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD3RzQVjdrNTIvJk3g6Zw65Adqs5ZMHcWd1vxrnB7ODMjc?e=TDuKfx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <u>Entrevista 2:</u>
 
@@ -3100,28 +3100,28 @@ Resumen de la entrevista
 
 <u>Entrevista 1:</u>
 
-Entrevistador:
+Entrevistador: Fernando Julio Güere Calero
 
 Datos del entrevistado
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 
-- **Distrito:** 
-- **Timing:** 
+- **Nombre: Yeny Edith** 
+- **Apellidos: Güere Calero** 
+- **Edad: 24 años** 
+- **Distrito: Chaclacayo** 
+- **Timing: 7:54** 
 
 <p align="center">
-  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
-  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+  <img src="Resources/Images/Interview/Entrevista_S2_Open.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Alejandra Güere </i>
 </p>
 
 **Resumen descriptivo:**
 
 <div align="justify">
-Resumen de la entrevista
+La entrevista de validación realizada a Alejandra Güere, de 24 años, demostró la viabilidad y el alto valor percibido de la aplicación web de VitalWatch desde la perspectiva del personal clínico. Tras interactuar con su panel personalizado, la participante resaltó de inmediato la calidad del diseño de la interfaz y la fluidez en su funcionalidad general, calificando la herramienta como sumamente intuitiva para el día a día en las guardias. Asimismo, enfatizó la enorme importancia de contar con secciones dedicadas específicamente al monitoreo y manejo de valores críticos biométricos como la frecuencia cardíaca, el nivel de cortisol y el ritmo de sueño, elementos que consideró indispensables para anticiparse al colapso físico. Finalmente, validó que la presentación visual de estas métricas facilita la comprensión inmediata de su propio estado de salud, mostrando una alta disposición para adoptar el sistema y recomendándolo como un respaldo esencial para el bienestar y la seguridad de sus colegas en el entorno hospitalario.
 </div>
 
-***Enlace del video:*** [Ver grabación aquí]()
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQAZItC86M_AS54dEx9sS7_oAYrUTJaM7cIzy4E2dK6rK5Q?e=EzCm2k&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <u>Entrevista 2:</u>
 
