@@ -2978,6 +2978,19 @@ Es decir, aunque aún no existe una implementación final de servicios, el Sprin
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con la Web Application y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en el desarrollo e integración de los módulos del frontend correspondientes al Sprint 2.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Insight_sprint_2.png" alt="Analisis de colaboración del equipo durante el Sprint 2 en GitHub" width="900"/>
+  <br>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Insight_front_2.png" alt="Analisis de colaboración del equipo durante el Sprint 2 en GitHub" width="900"/>
+  <br>
+  <i>Analisis de colaboración del equipo durante el Sprint 2 en GitHub.</i>
+</p>
+
 ### 5.2.3. Sprint 3
 
 El Sprint 3 marcó el inicio del desarrollo del Web Service de VitalWatch, la capa de backend de la solución. Durante esta iteración el equipo se concentró en la construcción de la RESTful API con Spring Boot, implementando los principales bounded contexts del sistema: Gestión de Identidad y Acceso (IAM), Monitoreo de Fatiga y Alertas Preventivas. Paralelamente se actualizó la Web Application para integrarla con los endpoints desarrollados y se realizó el despliegue conjunto de los tres componentes de la solución: Landing Page, Web Application y Web Service; con el objetivo de contar con una primera versión operativa del producto completo accesible en entorno de producción.
@@ -3122,6 +3135,19 @@ La documentación completa de cada endpoint (incluyendo esquemas de request/resp
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con el Web Service y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en la implementación del backend, la exposición de endpoints REST y la preparación del entorno de despliegue correspondientes al Sprint 3.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/insight_sprint_3.png" alt="Analisis de colaboración del equipo durante el Sprint 3 en GitHub" width="900"/>
+  <br>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/insight_back_3.png" alt="Analisis de colaboración del equipo durante el Sprint 3 en GitHub" width="900"/>
+  <br>
+  <i>Analisis de colaboración del equipo durante el Sprint 3 en GitHub.</i>
+</p>
 
 
 ## 5.3. Validation Interviews.
