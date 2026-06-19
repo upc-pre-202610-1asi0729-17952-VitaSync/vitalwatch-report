@@ -221,7 +221,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
         <b>TB1</b><p>Durante el desarrollo de este entregable, participé en reuniones de coordinación grupal donde expliqué las modificaciones realizadas en la documentación del Sprint 2 y la redefinición del Product Backlog. Asimismo, compartí observaciones relacionadas con la corrección de mockups en Figma y colaboré en la toma de decisiones del equipo mediante una comunicación clara y organizada durante las reuniones presenciales y virtuales.</p>
         <b>AV2</b>Durante el desarrollo de este avance, participé en las coordinaciones del equipo explicando los cambios necesarios para alinear el backend con el frontend, especialmente en la compatibilidad de endpoints, pruebas con Swagger y validación de respuestas mediante códigos 200, 201 y 204. Asimismo, comuniqué de manera clara los problemas encontrados durante el proceso de integración y despliegue en Azure, como errores de configuración, conexión con la base de datos y restricciones de regiones, aportando propuestas de solución y facilitando que el equipo comprendiera el estado real del proyecto para tomar decisiones ordenadas.<p></p>
-        <!--<<b>TB2</b><p></p>-->
+        <!--<b>TB2</b><p></p>-->
           <br>
       </td>
       <td colspan="3">
