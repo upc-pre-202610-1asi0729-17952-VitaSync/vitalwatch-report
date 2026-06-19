@@ -142,7 +142,7 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
@@ -151,10 +151,11 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#522-sprint-3)
+    - [5.2.3. Sprint 3](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
  - [5.3 Validation Interviews.](#53-validation-interviews)
     - [5.3.1 Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -3035,6 +3036,38 @@ Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las ta
 
 **URL del board:**  
 [Enlace del Trello para el Spring 3](https://trello.com/invite/b/6a3477e47266b2a1ab91694b/ATTI145bc31fe6087748eb7097d95ea705ee9552EA33/vitalwatch-sprint-3)
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+Durante este sprint, el equipo inició y completó el desarrollo del Web Service de VitalWatch utilizando Spring Boot y una arquitectura orientada al dominio (DDD). Se construyeron múltiples bounded contexts (Profiles, IAM, Clinical Risk, Incidents, Shifts, Staff Recovery y Audit) cada uno estructurado en sus capas de dominio, aplicación, infraestructura e interfaces REST. En paralelo, se habilitó la integración con el frontend Angular mediante la exposición de endpoints compatibles con los contratos del cliente, la configuración de CORS y la preparación del entorno de despliegue con Docker y perfil de producción.
+
+La siguiente tabla presenta los commits más relevantes registrados en el repositorio `vitalwatch-platform` durante el sprint. Estos commits evidencian el avance técnico alcanzado en la implementación de la API REST y su preparación para el despliegue en producción.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| vitalwatch-platform | main | `ce2f785` | `chore: initial commit.` | Initial project setup for the VitalWatch platform backend using Spring Boot and Maven. | 2026-06-13 |
+| vitalwatch-platform | main | `34e40c4` | `feat: configure project base and shared context.` | Set up the base project structure and shared bounded context configuration, including common domain primitives. | 2026-06-13 |
+| vitalwatch-platform | main | `86d0e01` | `feat(iam): add identity and access domain base.` | Defined the domain model for the Identity and Access Management bounded context, including aggregates and entities. | 2026-06-13 |
+| vitalwatch-platform | main | `007f133` | `feat(iam): add identity and access interfaces layer.` | Implemented REST controllers and DTOs for the IAM bounded context, enabling user registration and authentication operations. | 2026-06-13 |
+| vitalwatch-platform | main | `68dab01` | `feat(profiles): add profile interfaces layer.` | Implemented REST controllers and endpoints for managing staff profiles, enabling CRUD operations from the frontend. | 2026-06-13 |
+| vitalwatch-platform | main | `bd400e6` | `feat(clinical-risk): add clinical risk domain base.` | Defined the domain model for the clinical risk bounded context, including aggregates, entities and domain events. | 2026-06-13 |
+| vitalwatch-platform | main | `a24108e` | `feat(clinical-risk): add clinical risk interfaces layer.` | Implemented REST endpoints for clinical risk management, exposing fatigue-related data to the frontend. | 2026-06-13 |
+| vitalwatch-platform | main | `2a9f95e` | `feat(staff-recovery): add staff recovery domain base.` | Defined the domain model for the staff recovery bounded context, handling preventive rest and recovery plans. | 2026-06-13 |
+| vitalwatch-platform | main | `45343cf` | `feat(staff-recovery): add recovery interfaces layer.` | Implemented REST controllers and endpoints for staff recovery management. | 2026-06-13 |
+| vitalwatch-platform | main | `581221c` | `feat(audit): add audit and compliance domain base.` | Defined the domain model for the audit and compliance bounded context, including audit trail aggregates. | 2026-06-13 |
+| vitalwatch-platform | main | `04066c1` | `feat(audit): add audit interfaces layer.` | Implemented REST controllers and endpoints for the audit and compliance bounded context. | 2026-06-13 |
+| vitalwatch-platform | main | `06a003d` | `docs: readme` | Added README documentation for the vitalwatch-platform backend repository. | 2026-06-18 |
+| vitalwatch-platform | feature/backend-frontend-integration | `6645f28` | `chore(cors): allow frontend origins.` | Configured CORS policy to allow cross-origin requests from the Angular frontend application. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `fca5386` | `chore(deploy): prepare production profile and openapi server.` | Configured the Spring production profile and OpenAPI server base URL in preparation for cloud deployment. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `fc892df` | `chore(deploy): add docker configuration.` | Added Dockerfile and container configuration to enable deployment of the Web Service in a cloud environment. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `b1a6c79` | `feat(frontend-compat): add clinical risk endpoints.` | Exposed clinical risk management endpoints with response contracts compatible with the Angular frontend. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `5994d47` | `feat(frontend-compat): add clinical alerts and anomalies endpoints.` | Exposed clinical alerts and anomalies endpoints for integration with the alerts module of the web application. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `70cbd22` | `fix(frontend-compat): support frontend login contract.` | Adjusted the authentication endpoint response to match the login contract expected by the Angular frontend. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `ea082ac` | `chore(config): add production cors configuration.` | Added final production-ready CORS configuration to ensure secure cross-origin communication between frontend and backend. | 2026-06-18 |
+| vitalwatch-platform | feature/backend-frontend-integration | `cf1abe8` | `fix(frontend-compat): polish final frontend contract fields.` | Final adjustments to API response fields to ensure full compatibility with all Angular frontend data contracts. | 2026-06-18 |
+
+Estos commits demuestran que durante el Sprint 3 se construyó la primera versión funcional del Web Service de VitalWatch. El trabajo comenzó con la configuración del proyecto base y la implementación progresiva de los bounded contexts del sistema aplicando arquitectura por capas (dominio, aplicación, infraestructura e interfaces REST). En la etapa final del sprint se habilitó la integración con el frontend mediante la exposición de endpoints compatibles con los contratos del cliente Angular, la configuración de CORS y la preparación del entorno de despliegue con Docker y perfil de producción, dejando el Web Service listo para ser consumido desde la Web Application.
+
 
 
 ## 5.3. Validation Interviews.
