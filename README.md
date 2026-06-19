@@ -3011,7 +3011,7 @@ Durante el Sprint 2 se logró desarrollar una primera versión funcional de la W
 	<i>Aplicación Web desplegada de VitalWatch.</i>
 </p>
 
-Link de la landing paeg: https://vitalwatch.space/
+Link de la Landing Page: https://vitalwatch.space/
 <br>
 Link de la Aplicación Web: https://app.vitalwatch.space/sign-in
 
@@ -3592,6 +3592,7 @@ Aplicar validaciones tanto en el frontend como en el backend. Se recomienda incl
   <br>
 	<i>Video About the Product </i>
 </p>
+Link: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgCcuJFjnGKrQ6nYthpsDOFnATTrUjCwC2XvUDZjsiCvU4A?e=TUcdLF
 
 ---
 # Conclusiones
@@ -3608,10 +3609,19 @@ La adopción de Domain Driven Design como base arquitectónica resultó clave pa
 
 Finalmente, el proceso de integración entre el frontend Angular y el Web Service de Spring Boot evidenció la importancia de definir los contratos de la API con anticipación y de mantener una comunicación técnica constante entre los miembros del equipo. La configuración de CORS, la gestión de variables de entorno, el uso de Docker para el despliegue y la validación de respuestas mediante Swagger UI fueron aspectos que reforzaron las competencias técnicas del equipo en el desarrollo de software orientado a entornos reales. VitalWatch se presenta, al cierre de esta etapa, como una solución viable, documentada y desplegada, con potencial de escalar hacia una plataforma de monitoreo clínico de mayor alcance.
 
+# Recomendaciones
+
+Se recomienda incorporar en futuras iteraciones la autenticación basada en roles con mayor granularidad, de modo que los permisos de acceso a los endpoints del Web Service reflejen con precisión las responsabilidades de cada perfil (administrador, supervisor y personal médico) garantizando así la seguridad de los datos clínicos gestionados por la plataforma. Asimismo, se sugiere implementar pruebas automatizadas de integración que validen la comunicación entre el frontend Angular y el backend Spring Boot, reduciendo el riesgo de regresiones durante el crecimiento del sistema.
+
+Para maximizar el impacto clínico de VitalWatch, se recomienda explorar la incorporación de modelos de análisis predictivo sobre los datos biométricos registrados, con el fin de anticipar situaciones de riesgo antes de que se materialicen en alertas críticas. Del mismo modo, sería valioso llevar a cabo sesiones de validación con personal clínico real en entornos hospitalarios, recogiendo retroalimentación directa sobre la usabilidad del dashboard y la pertinencia de los indicadores de fatiga mostrados, lo que permitiría orientar las siguientes versiones del producto hacia una experiencia más alineada con los flujos de trabajo reales del sector salud.
+
+# About The Team
+Video: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgCCZVN_f5IHRIybOiqCzNuTAa0rvwjN48m2RQ2K-gJXFks?e=QRrE9Y
 
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
   
 # Anexos
-Video AV2: 
+Video AV2: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgAmOqtc-IdIRLyfVrOc7WaZAeUNf2FbsEagRgpKq9oU3G0?e=8R57oD
+
