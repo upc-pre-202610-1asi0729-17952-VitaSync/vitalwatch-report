@@ -3302,14 +3302,104 @@ Para documentar los avances de este Sprint, utilizamos GitHub como medio princip
 
 ### 5.2.4. Sprint 4
 
+El Sprint 4 representó el cierre del desarrollo funcional de VitalWatch, consolidando los bounded contexts pendientes del Web Service, la estabilización de la Web Application y la preparación de la plataforma para su versión final desplegada. Durante esta iteración el equipo se enfocó en completar la gestión avanzada de identidad y accesos (roles, invitaciones institucionales), el monitoreo clínico y operacional (evaluaciones de riesgo, acciones preventivas, reemplazos de turnos, auditoría), la simulación de dispositivos IoT wearables, y la integración final del frontend con los módulos de suscripciones y facturación, dejando los tres componentes de la solución (Landing Page, Web Application y Web Service) completamente integrados y operativos en producción.
+
 #### 5.2.4.1. Sprint Planning 4.
+
+| Campo | Detalle |
+|---|---|
+| **Sprint #** | Sprint 4 |
+| **Sprint Planning Background** | **Date:** 2026-06-20 <br> **Time:** 09:00 PM <br> **Location:** Reunión virtual realizada a través de Discord |
+| **Prepared By** | Güere Calero, Fernando Julio |
+| **Attendees (to planning meeting)** | Montes Zamora, Edgar Alexander Mauricio <br> Güere Calero, Fernando Julio <br> León Morales, Johan Yonel <br> Garcia Villanueva, Leonardo Rafael <br> Lozano Leon, Richard Enrique |
+|**Sprint Goal & User Stories**|
+|**Sprint 3 Review Summary**|Durante el Sprint 3 se logró desarrollar y desplegar la primera versión funcional del Web Service de VitalWatch con Spring Boot, implementando los bounded contexts de Gestión de Identidad, Monitoreo de Fatiga y Alertas Preventivas, e integrando la Web Application con los endpoints reales del backend en producción.|
+|**Sprint 3 Retrospective Summary**|Como parte de la retrospectiva del Sprint 3, el equipo reconoció como acierto la separación por bounded contexts bajo arquitectura DDD, lo que facilitó la integración progresiva con el frontend. Como área de mejora se identificó la necesidad de anticipar la simulación de datos de dispositivos IoT y reforzar la cobertura de endpoints de auditoría antes del cierre del proyecto.|
+|**Sprint 4 Goal**|Nuestro enfoque está en completar los bounded contexts pendientes del Web Service de VitalWatch (gestión avanzada de roles e invitaciones institucionales, riesgo clínico, acciones preventivas, turnos y reemplazos, auditoría y simulación de datos IoT wearables) y estabilizar la integración de la Web Application con los módulos de suscripciones, facturación y autenticación. Creemos que esto brindará a administradores, supervisores y personal clínico una plataforma completa y operativa. Esto se confirmará cuando todos los endpoints pendientes respondan exitosamente, la Web Application refleje el flujo completo de invitación, suscripción y monitoreo clínico, y los tres componentes de VitalWatch queden desplegados en su versión final de producción.|
+| **Sprint 4 Velocity** | 35 |
+| **Sum of Story Points** | 35 |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
+En esta sección se determinan los aspectos prioritarios que enmarcan el alcance del Sprint 4, especificando el integrante del equipo que asumió el rol de liderazgo en cada aspecto y quiénes actuaron como colaboradores. Para este sprint los aspectos priorizados son: la planificación y documentación del sprint, el desarrollo del bounded context de Gestión de Identidad y Acceso avanzada (roles e invitaciones institucionales), el desarrollo de los bounded contexts de Riesgo Clínico, Acciones Preventivas, Turnos y Auditoría en el backend, la integración final del frontend Angular con los módulos de suscripciones, facturación y autenticación, y la simulación de dispositivos IoT wearables junto con la estabilización del despliegue en la nube.
+
+| Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation<br>L/C | IAM Roles & Invitations Management<br>L/C | Clinical, Staff, Shift & Audit Backend<br>L/C | Frontend Billing & Subscriptions Integration<br>L/C | IoT Simulation & Cloud Deployment Stabilization<br>L/C |
+|---|---|---|---|---|---|---|
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | L | C | C | C |
+| Güere Calero, Fernando Julio | FerG17 | L | C | C | C | C |
+| León Morales, Johan Yonel | TheCap213 | C | C | C | L | C |
+| Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | L | C | C |
+| Lozano Leon, Richard Enrique | AikoLz | C | C | C | C | L |
 
 #### 5.2.4.3. Sprint Backlog 4.
 
+El Sprint Backlog 4 consolida las user stories y technical stories priorizadas para el cierre del desarrollo del Web Service de VitalWatch y la estabilización final de la Web Application. En esta iteración el equipo se enfocó en completar los bounded contexts de Gestión de Identidad y Acceso avanzada (roles institucionales e invitaciones), Riesgo Clínico, Acciones Preventivas, Turnos y Reemplazos, y Auditoría, empleando Spring Boot y Java como tecnologías base. Se contempló además la simulación de datos de dispositivos IoT wearables, la integración final del frontend Angular con los módulos de suscripciones y facturación, la alineación del flujo de invitaciones entre frontend y backend, y la estabilización de la interfaz responsive de la Web Application. Al cierre del sprint, los tres componentes de la solución (Landing Page, Web Application y Web Service) deben quedar en su versión final desplegados y operativos.
+
+| User Story | Title | Work Item / Task Id | Title | Descripción | Story Points | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US-26 | Asignación de roles hospitalarios | T4-01 | Implementación de endpoints de asignación y actualización de roles | Desarrollar el endpoint PATCH `/api/v1/role-assignments/{id}` y GET `/api/v1/users` para consultar usuarios institucionales junto con su rol asignado, permitiendo al administrador controlar el acceso según responsabilidades hospitalarias. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| US-25 | Invitación de usuarios hospitalarios | T4-02 | Implementación de endpoints de invitaciones institucionales | Desarrollar los endpoints POST y GET `/api/v1/user-invitations` para el registro y consulta de invitaciones institucionales, incluyendo el servicio de envío de correos mediante Resend y el manejo de estado cuando el reenvío se encuentra deshabilitado. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| US-27 | Bloqueo preventivo de asignaciones médicas críticas | T4-03 | Implementación de endpoint de riesgo clínico y validación de bloqueo | Desarrollar el endpoint de evaluación de riesgo clínico que impida asignar trabajadores con fatiga extrema a procedimientos o jornadas médicas críticas, exponiendo la lógica de validación mediante la API REST. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
+| US-29 | Consulta de trazabilidad operacional | T4-04 | Implementación de endpoints de acciones preventivas y auditoría | Desarrollar los endpoints de acciones preventivas y de registro de compliance/auditoría para permitir al administrador hospitalario consultar la trazabilidad de las decisiones tomadas frente a alertas críticas de fatiga. | 3 | Garcia Villanueva, Leonardo Rafael | Done |
+| US-28 | Sugerencia de reemplazos operacionales | T4-05 | Implementación de endpoints de turnos, equipos de cuidado y reemplazos | Desarrollar los endpoints de gestión de turnos, miembros del equipo de cuidado y sugerencias de reemplazo laboral para trabajadores con turnos bloqueados por fatiga crítica. | 3 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-11 | Simulación de datos de dispositivos IoT | T4-06 | Implementación de endpoints de lecturas simuladas de wearables | Desarrollar el bounded context de simulación de datos biométricos provenientes de dispositivos IoT wearables, exponiendo endpoints que generen lecturas periódicas para alimentar el cálculo del Fatigue Score. | 3 | Lozano Leon, Richard Enrique | Done |
+| - | Estabilización final del despliegue | T4-07 | Ajustes finales de despliegue en la nube y soporte de status de usuario | Ajustar la configuración de despliegue del Web Service, Web Application y Landing Page en producción, e implementar el endpoint de soporte de actualización de rol y estado de usuario. | 3 | Lozano Leon, Richard Enrique | Done |
+| - | Documentación del Sprint 4 | T4-08 | Configuración final de Swagger UI y cierre de documentación técnica | Actualizar la documentación de los nuevos endpoints en Swagger/OpenAPI y consolidar la redacción del Sprint Backlog 4 y del reporte técnico del proyecto. | 1 | Güere Calero, Fernando Julio | Done |
+| US-24 | Consulta del historial de evaluaciones de fatiga | T4-09 | Ajuste de vistas de historial de evaluaciones en frontend | Ajustar la vista de historial de evaluaciones de fatiga en la Web Application para reflejar los datos reales del backend mediante gráficos y registros anteriores. | 2 | León Morales, Johan Yonel | Done |
+| - | Integración de suscripciones y facturación | T4-10 | Alineación de endpoints de suscripción con el frontend | Actualizar los servicios Angular para consumir los endpoints de planes de suscripción, sesiones de checkout y facturación, alineando los contratos de datos entre frontend y backend. | 3 | León Morales, Johan Yonel | Done |
+| - | Estabilización de interfaz responsive | T4-11 | Ajustes de espaciado y diseño responsive del dashboard | Estabilizar el espaciado y la disposición de los componentes del dashboard de la Web Application para asegurar una correcta visualización en distintos tamaños de pantalla. | 2 | León Morales, Johan Yonel | Done |
+| - | Alineación del flujo de invitaciones | T4-12 | Ajuste del flujo de invitaciones con el backend | Alinear el flujo de aceptación de invitaciones institucionales en la Web Application con los contratos de la API REST implementados en el backend. | 1 | León Morales, Johan Yonel | Done |
+
+**Total Sum of Story Points: 35**
+
+**Board del Sprint 4 en Trello:**
+
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 4.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Sprint_4.png" alt="Board del Sprint 4 en Trello" width="900"/>
+  <br>
+  <i>Figura del Board del Sprint 4 de VitalWatch en Trello.</i>
+</p>
+
+**URL del board:**  
+[Enlace del Trello para el Sprint 4](https://trello.com/invite/b/6a3477e47266b2a1ab91694b/ATTI145bc31fe6087748eb7097d95ea705ee9552EA33/vitalwatch-sprint-4)
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
+
+Durante este sprint, el equipo cerró el desarrollo del Web Service de VitalWatch completando los bounded contexts restantes bajo la arquitectura orientada al dominio (DDD): Gestión de Identidad y Acceso avanzada (roles e invitaciones), Riesgo Clínico, Acciones Preventivas, Turnos y Equipos de Cuidado, Auditoría, y la simulación de datos de dispositivos IoT wearables. En paralelo, se estabilizó la Web Application, alineando los endpoints de suscripciones y facturación con el frontend, corrigiendo el flujo de invitaciones y ajustando el diseño responsive del dashboard.
+
+La siguiente tabla presenta los commits más relevantes registrados en el repositorio **vitalwatch-platform** durante el sprint. Estos commits evidencian el cierre técnico de los bounded contexts del backend.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| vitalwatch-platform | feature/iam-auth... | 14c4262 | feat(iam): connect authentication to spring boot api | Conectó el flujo de autenticación institucional con los endpoints IAM del Web Service en Spring Boot. | 2026-07-06 |
+| vitalwatch-platform | feature/iam-invit... | 1c668fd | fix(invitations): align invitation flow with backend api | Ajustó el flujo de invitaciones institucionales para reflejar correctamente los contratos expuestos por el backend. | 2026-07-06 |
+| vitalwatch-platform | master | 2ee803b | fix(iam): support user role and status updates | Agregó soporte para la actualización del rol y estado de los usuarios institucionales registrados. | 2026-07-06 |
+| vitalwatch-platform | feature/iot-simul... | 39afeff | feat(clinical): add simulated iot wearable readings | Implementó la simulación de lecturas biométricas provenientes de dispositivos IoT wearables para el monitoreo clínico. | 2026-07-06 |
+| vitalwatch-platform | master | 9d42553 | docs: add project readme and license | Incorporó el archivo README y la licencia del proyecto en el repositorio principal. | 2026-07-06 |
+| vitalwatch-platform | feature/iot-simul... | 8f8de48 | feat(audit): add audit compliance log endpoints | Expuso los endpoints de registro de compliance y auditoría para trazabilidad institucional. | 2026-07-06 |
+| vitalwatch-platform | feature/iot-simul... | 5741da | feat(staff): add preventive actions endpoints | Desarrolló los endpoints de registro y consulta de acciones preventivas tomadas frente a alertas críticas. | 2026-07-06 |
+| vitalwatch-platform | feature/iot-simul... | ef5fb94 | feat(clinical): add clinical risk assessment endpoints | Implementó los endpoints de evaluación de riesgo clínico crítico del personal. | 2026-07-06 |
+| vitalwatch-platform | feature/iot-simul... | 7660cde | feat(shift): add care teams members and shift records endpoints | Desarrolló los endpoints de gestión de miembros del equipo de cuidado y registros de turnos. | 2026-07-06 |
+| vitalwatch-platform | feature/shift-coo... | 9d68bfa | feat(iam): add catalog endpoints for work areas and specialties | Agregó los endpoints de catálogo para áreas de trabajo y especialidades institucionales. | 2026-07-05 |
+| vitalwatch-platform | feature/iam-invit... | b3bd5c1 | fix(iam): provide noop invitation email service when resend is disabled | Implementó un servicio nulo de invitaciones cuando el envío de correos mediante Resend se encuentra deshabilitado. | 2026-07-05 |
+| vitalwatch-platform | feature/iam-invit... | 522bc12 | feat(iam): add resend invitation email service | Integró el servicio de reenvío de invitaciones institucionales mediante correo electrónico con Resend. | 2026-07-05 |
+| vitalwatch-platform | feature/iam-invit... | 7399b86 | feat(iam): add invitation management endpoints | Desarrolló los endpoints de gestión de invitaciones institucionales. | 2026-07-05 |
+| vitalwatch-platform | feature/subscript... | e0f254a | feat(subscriptions): add subscription plan endpoints | Expuso los endpoints de gestión de planes de suscripción institucionales. | 2026-07-05 |
+
+Estos commits demuestran que durante el Sprint 4 se completaron los bounded contexts restantes del Web Service de VitalWatch, cerrando la gestión avanzada de identidad y acceso (roles, catálogos e invitaciones institucionales), el monitoreo clínico y operacional (riesgo clínico, acciones preventivas, turnos y auditoría), y la simulación de datos de dispositivos IoT wearables, dejando el backend íntegramente alineado con los contratos consumidos por la Web Application.
+
+La siguiente tabla presenta los commits más relevantes registrados en el repositorio **vitalwatch-webapp** durante el sprint, evidenciando la integración final del frontend con los módulos de autenticación, facturación, invitaciones y estabilización visual del dashboard.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| vitalwatch-webapp | fix/responsive-a... | cc0a381 | fix(layout): stabilize responsive dashboard spacing | Ajustó el espaciado y la disposición de los componentes del dashboard para estabilizar su visualización responsive. | 2026-07-06 |
+| vitalwatch-webapp | feature/subscript... | 12fd787 | fix(billing): align subscription endpoints with backend | Alineó los endpoints de suscripción consumidos por el frontend con los contratos definidos en el backend. | 2026-07-06 |
+| vitalwatch-webapp | feature/iam-auth... | 14c4262 | feat(iam): connect authentication to spring boot api | Conectó el flujo de autenticación institucional de la Web Application con la API del Web Service en Spring Boot. | 2026-07-06 |
+| vitalwatch-webapp | feature/invitatio... | 1c668fd | fix(invitations): align invitation flow with backend api | Ajustó el flujo de invitaciones en la Web Application para reflejar correctamente los contratos del backend. | 2026-07-06 |
+
+Estos commits demuestran que durante el Sprint 4 la Web Application quedó completamente integrada con el Web Service desplegado, alineando la autenticación institucional, el flujo de invitaciones y los endpoints de suscripción y facturación, además de estabilizar el diseño responsive del dashboard para su versión final.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
