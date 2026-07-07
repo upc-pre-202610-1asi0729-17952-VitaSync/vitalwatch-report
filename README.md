@@ -4,17 +4,21 @@
 
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
-<h4>Facultad de Ingeniería</h4>
-<h4>Carrera de Ingeniería de Software</h4>
-<h4>Ciclo: 2026-10</h4>
-<h4>Código y Nombre del Curso: 1ASI0729 - Desarrollo de Aplicaciones Open Source</h4>
-<h4>NRC 17952</h4>
-<h4>Docente: Ivan Robles Fernández</h4>
-<h4>Informe del Trabajo Final</h4>
-<h4>Startup: VitaSync</h4>
-<h4>Producto: VitalWatch</h4>
 
-#### Relación de integrantes 
+<h4>Carrera de Ingeniería de Software</h4>
+<h3>1ASI0729</h3>
+<h3>Desarrollo de Aplicaciones Open Source</h3>
+<h3>NRC</h3>
+<h3>17952</h3>
+<h4>Informe del Trabajo Final</h4>
+<h4>Docente</h4>
+<h3>Ivan Robles Fernández</h3>
+<h3>Equipo</h3>
+<h4>Startup: VitaSync</h4>
+<h3>Producto</h3>
+<h4>VitalWatch</h4>
+
+#### Integrantes 
 | Integrante                              | Código     |
 |---------------------------------|----------------|
 | Montes Zamora, Edgar Alexander Mauricio | u20241e126 |
