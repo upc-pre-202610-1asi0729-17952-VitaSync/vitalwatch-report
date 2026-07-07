@@ -3403,6 +3403,68 @@ Estos commits demuestran que durante el Sprint 4 la Web Application quedó compl
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
+Durante el Sprint 4 se logró consolidar y desplegar la versión final operativa de la plataforma VitaSync. En esta iteración se completó la integración total de la aplicación web con los bounded contexts avanzados del backend, implementando módulos críticos como la gestión de roles (IAM), evaluación de riesgo clínico, auditoría, facturación de suscripciones y la simulación de dispositivos IoT. Esto permitió estabilizar el sistema en su entorno de producción, entregando una plataforma robusta, segura y completamente funcional para el personal clínico y administrativo.
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/swagger.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Swagger completo del backend</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/Users logeado.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>User logeado dentro del swagger</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/Users logeado 2.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>User logeado dentro del swagger</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/Users - sin loggear.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Respuesta 403 debido a que el usuario no esta logeadod</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/sign-in.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Inicio de sesion</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/token-sign in.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Token del inicio de sesion</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/invitaciones.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Invitaciones dentro del swagger</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/Invitaciones sin loggear.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Invitaciones sin logear dentro del swagger</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/Autenticacion.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Autenticacion dentro del swagger</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/Autenticacion exitosa.png" alt="Execution Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+  <i>Autenticacion exitosa dentro del swagger</i>
+</p>
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 A diferencia del sprint anterior, el Sprint 4 consolidó la madurez del backend RESTful API de VitalWatch desarrollado en Spring Boot bajo arquitectura orientada al dominio (DDD). En esta iteración, además de robustecer las operaciones centrales, se priorizó la paridad absoluta y la compatibilidad con el frontend en Angular a través de controladores optimizados y alias específicos para la interfaz de usuario. Los siete bounded contexts originales se extendieron incorporando flujos completos de negocio distribuidos en sus controllers REST correspondientes: **IAM & Invitations** (control de accesos, roles y flujos de invitación), **Profiles & Teams** (catálogos de especialidades y conformación de equipos asistenciales), **Clinical Risk & Alerts** (evaluaciones complejas y gestión de anomalías/alertas críticas en tiempo real), **Shifts** (ciclo de vida de turnos y asignaciones), **Staff Recovery & Incidents** (planes preventivos e incidentes escalados), **Audit & Compliance** (trazabilidad legal y registros de cumplimiento) y **Subscriptions & Checkout** (pasarela de facturación y sesiones de pago integradas). Toda la documentación de estos endpoints se encuentra sincronizada automáticamente mediante Springdoc OpenAPI en la interfaz de Swagger UI de producción.
