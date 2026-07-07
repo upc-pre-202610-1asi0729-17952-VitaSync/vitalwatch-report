@@ -3441,6 +3441,19 @@ A continuación se presentan los principales endpoints implementados y refinados
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
+Para documentar los avances de este Sprint 4, utilizamos GitHub como plataforma central de trabajo colaborativo. A través del repositorio vitalwatch-platform, los integrantes registraron sus contribuciones mediante commits estructurados, manteniendo actualizados los artefactos de software, los contratos de la API y el reporte final del proyecto. Durante este periodo, se evidenció la participación activa y coordinada de todo el equipo en el repositorio, reflejando el esfuerzo conjunto para lograr la compatibilidad absoluta con el frontend de Angular, la integración de flujos avanzados de negocio (como checkout, incidentes y cumplimiento), y la estabilización del despliegue final en la nube.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Insight_sprint4_platform.png" alt="Analisis de colaboración del equipo durante el Sprint 4 en GitHub" width="900"/>
+  <br>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Insight_sprint4_webapp.png" alt="Analisis de colaboración del equipo durante el Sprint 4 en GitHub" width="900"/>
+  <br>
+  <i>Analisis de colaboración del equipo durante el Sprint 4 en GitHub.</i>
+</p>
+
 <br>
 
 ## 5.3. Validation Interviews.
@@ -3515,6 +3528,7 @@ La entrevista de validación realizada a Yeny Calero, de 52 años, ofreció un r
 
 ***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD3RzQVjdrNTIvJk3g6Zw65Adqs5ZMHcWd1vxrnB7ODMjc?e=TDuKfx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+<!-- 
 <u>Entrevista 2:</u>
 
 Entrevistador:
@@ -3564,6 +3578,7 @@ Resumen de la entrevista
 </div>
 
 ***Enlace del video:*** [Ver grabación aquí]()
+-->
 
 ---
 
@@ -3595,6 +3610,7 @@ La entrevista de validación realizada a Alejandra Güere, de 24 años, demostr�
 
 ***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQAZItC86M_AS54dEx9sS7_oAYrUTJaM7cIzy4E2dK6rK5Q?e=EzCm2k&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+<!-- 
 <u>Entrevista 2:</u>
 
 Entrevistador:
@@ -3644,6 +3660,7 @@ Resumen de la entrevista
 </div>
 
 ***Enlace del video:*** [Ver grabación aquí]()
+-->
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
