@@ -10,26 +10,27 @@
 <h3>Desarrollo de Aplicaciones Open Source</h3>
 <h3>NRC</h3>
 <h3>17952</h3>
-<h4>Informe del Trabajo Final</h4>
+<h3>Informe del Trabajo Final</h3>
 <h4>Docente</h4>
 <h3>Ivan Robles Fernández</h3>
-<h3>Equipo</h3>
-<h4>Startup: VitaSync</h4>
-<h3>Producto</h3>
-<h4>VitalWatch</h4>
+<h4>Equipo</h4>
+<h3>Startup VitaSync</h3>
+<h4>Proyecto</h4>
+<h3>VitalWatch</h3>
+<br></br>
 
 #### Integrantes 
-| Integrante                              | Código     |
+|     Código                          |    Integrante  |
 |---------------------------------|----------------|
-| Montes Zamora, Edgar Alexander Mauricio | u20241e126 |
-| Güere Calero, Fernando Julio            | u202413169 |
-| León Morales, Johan Yonel               | u20231h055 |
-| Garcia Villanueva, Leonardo Rafael      | u20231h059 |
-| Lozano Leon, Richard Enrique            | u20241d990 |
+| u20241e126 | Montes Zamora, Edgar Alexander Mauricio |
+| u202413169 | Güere Calero, Fernando Julio  |
+| u20231h055 | León Morales, Johan Yonel |
+| u20231h059 | Garcia Villanueva, Leonardo Rafael |
+| u20241d990 | Lozano Leon, Richard Enrique |
 
 </div>
 
-<br><div align="center"><h3>Julio, 2026</h3></div><br>
+<br><div align="center"><h3>Periodo 202610</h3><h3>Julio 2026</h3></div><br>
 <div style="text-align: justify;">
 
 <br><br>
