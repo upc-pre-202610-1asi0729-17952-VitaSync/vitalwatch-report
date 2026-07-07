@@ -3405,6 +3405,38 @@ Estos commits demuestran que durante el Sprint 4 la Web Application quedó compl
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
+A diferencia del sprint anterior, el Sprint 4 consolidó la madurez del backend RESTful API de VitalWatch desarrollado en Spring Boot bajo arquitectura orientada al dominio (DDD). En esta iteración, además de robustecer las operaciones centrales, se priorizó la paridad absoluta y la compatibilidad con el frontend en Angular a través de controladores optimizados y alias específicos para la interfaz de usuario. Los siete bounded contexts originales se extendieron incorporando flujos completos de negocio distribuidos en sus controllers REST correspondientes: **IAM & Invitations** (control de accesos, roles y flujos de invitación), **Profiles & Teams** (catálogos de especialidades y conformación de equipos asistenciales), **Clinical Risk & Alerts** (evaluaciones complejas y gestión de anomalías/alertas críticas en tiempo real), **Shifts** (ciclo de vida de turnos y asignaciones), **Staff Recovery & Incidents** (planes preventivos e incidentes escalados), **Audit & Compliance** (trazabilidad legal y registros de cumplimiento) y **Subscriptions & Checkout** (pasarela de facturación y sesiones de pago integradas). Toda la documentación de estos endpoints se encuentra sincronizada automáticamente mediante Springdoc OpenAPI en la interfaz de Swagger UI de producción.
+
+A continuación se presentan los principales endpoints implementados y refinados para este sprint, organizados por su contexto de dominio y mapeados directamente desde el repositorio `vitalwatch-platform`:
+
+| Bounded Context | Endpoint | HTTP Verb | Descripción | Response Status |
+|---|---|---|---|---|
+| **IAM & Invitations** | `/api/v1/users/{userId}` | PATCH | Modifica o actualiza de forma parcial los datos y el rol de un usuario compatible con Angular. | 200 OK / 400 Bad Request |
+| **IAM & Invitations** | `/api/v1/role-assignments/{userAccountId}` | PATCH | Asigna u otorga roles institucionales específicos a una cuenta interna. | 200 OK |
+| **IAM & Invitations** | `/api/v1/invitations/send` | POST | Genera y despacha una invitación electrónica de acceso compatible con el frontend. | 201 Created |
+| **IAM & Invitations** | `/api/v1/user-invitations` | GET | Recupera el listado completo de invitaciones emitidas dentro del workspace hospitalario. | 200 OK |
+| **Profiles & Teams** | `/api/v1/specialties` | GET | Retorna el catálogo completo de especialidades médicas configuradas para el frontend. | 200 OK |
+| **Profiles & Teams** | `/api/v1/careTeams` | POST | Registra un nuevo equipo de cuidado médico asistencial en la plataforma. | 201 Created |
+| **Profiles & Teams** | `/api/v1/teamMembers` | GET | Obtiene la lista total de miembros asignados a equipos médicos compatibles con Angular. | 200 OK |
+| **Profiles & Teams** | `/api/v1/teamMembers/{teamMemberId}` | DELETE | Remueve de forma definitiva a un miembro de un equipo asistencial específico. | 200 OK / 404 Not Found |
+| **Clinical Risk & Alerts**| `/api/v1/riskAssessments/latest` | GET | Retorna la última evaluación de riesgo de fatiga registrada para agilizar el dashboard web. | 200 OK / 404 Not Found |
+| **Clinical Risk & Alerts**| `/api/v1/vitalSignAnomalies` | GET | Obtiene las anomalías de signos vitales capturadas y pendientes de procesamiento. | 200 OK |
+| **Clinical Risk & Alerts**| `/api/v1/clinicalAlerts/{alertId}` | PATCH | Actualiza y conmuta el estado de atención (atendido/ignorado) de una alerta clínica. | 200 OK |
+| **Shifts** | `/api/v1/shiftRecords` | POST | Crea un registro maestro de jornada o turno de trabajo a través de la API frontend. | 201 Created |
+| **Shifts** | `/api/v1/work-shifts/{workShiftId}/complete`| PATCH | Cambia el estado de un turno de trabajo a finalizado de manera formal. | 200 OK |
+| **Shifts** | `/api/v1/shift-assignments/{shiftAssignmentId}/release`| PATCH | Libera o desasigna formalmente a un operador de su turno asignado. | 200 OK |
+| **Staff Recovery & Incidents**| `/api/v1/recoveryPlans/{recoveryPlanId}/complete`| PATCH | Da por completado un plan de recuperación preventiva tras la estabilización del operario. | 200 OK |
+| **Staff Recovery & Incidents**| `/api/v1/preventiveActions/{preventiveActionId}`| PATCH | Realiza modificaciones parciales o ajustes a una acción preventiva en ejecución. | 200 OK |
+| **Staff Recovery & Incidents**| `/api/v1/incidents` | POST | Registra un nuevo incidente crítico o evento de fatiga extrema no controlado. | 201 Created |
+| **Staff Recovery & Incidents**| `/api/v1/incidents/{incidentId}/escalate`| PATCH | Escala un incidente activo hacia las jefaturas médicas y supervisores de turno. | 200 OK |
+| **Audit & Compliance** | `/api/v1/compliance-records` | GET | Recupera el historial de registros de cumplimiento normativo del espacio de trabajo. | 200 OK |
+| **Audit & Compliance** | `/api/v1/complianceRecords/{complianceRecordId}/review`| PATCH | Registra la auditoría y firma de revisión sobre un registro de cumplimiento específico. | 200 OK / 404 Not Found |
+| **Audit & Compliance** | `/api/v1/auditLogs` | POST | Registra de forma directa un trazo de auditoría originado por acciones del cliente web. | 201 Created |
+| **Subscriptions & Checkout**| `/api/v1/checkoutSessions` | POST | Crea una pasarela de pago o sesión de checkout compatible directamente con Stripe/Angular. | 201 Created |
+| **Subscriptions & Checkout**| `/api/v1/billing/checkout-session-status`| GET | Consulta el estado transaccional actual de la sesión de facturación activa. | 200 OK |
+| **Subscriptions & Checkout**| `/api/v1/hospital-subscriptions` | POST | Vincula formalmente una suscripción de pago a un entorno de workspace institucional. | 201 Created |
+| **Subscriptions & Checkout**| `/api/v1/hospital-subscriptions/{subscriptionId}/plan`| PATCH | Actualiza o degrada el plan de suscripción contratado por la entidad de salud. | 200 OK / 400 Bad Request |
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
