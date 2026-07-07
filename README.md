@@ -3465,6 +3465,8 @@ Durante el Sprint 4 se logró consolidar y desplegar la versión final operativa
   <i>Autenticacion exitosa dentro del swagger</i>
 </p>
 
+[Enlace del video](https://drive.google.com/file/d/1nI_6zUBDJDtr4fQikgUqIRmo7f_6TzbD/view?usp=sharing)
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 A diferencia del sprint anterior, el Sprint 4 consolidó la madurez del backend RESTful API de VitalWatch desarrollado en Spring Boot bajo arquitectura orientada al dominio (DDD). En esta iteración, además de robustecer las operaciones centrales, se priorizó la paridad absoluta y la compatibilidad con el frontend en Angular a través de controladores optimizados y alias específicos para la interfaz de usuario. Los siete bounded contexts originales se extendieron incorporando flujos completos de negocio distribuidos en sus controllers REST correspondientes: **IAM & Invitations** (control de accesos, roles y flujos de invitación), **Profiles & Teams** (catálogos de especialidades y conformación de equipos asistenciales), **Clinical Risk & Alerts** (evaluaciones complejas y gestión de anomalías/alertas críticas en tiempo real), **Shifts** (ciclo de vida de turnos y asignaciones), **Staff Recovery & Incidents** (planes preventivos e incidentes escalados), **Audit & Compliance** (trazabilidad legal y registros de cumplimiento) y **Subscriptions & Checkout** (pasarela de facturación y sesiones de pago integradas). Toda la documentación de estos endpoints se encuentra sincronizada automáticamente mediante Springdoc OpenAPI en la interfaz de Swagger UI de producción.
