@@ -3502,6 +3502,35 @@ A continuación se presentan los principales endpoints implementados y refinados
 | **Subscriptions & Checkout**| `/api/v1/hospital-subscriptions/{subscriptionId}/plan`| PATCH | Actualiza o degrada el plan de suscripción contratado por la entidad de salud. | 200 OK / 400 Bad Request |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_41.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_42.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_43.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_44.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_45.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_46.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_47.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 4" width="900"/>
+  <br>
+	<i>Backend desplegada de VitalWatch.</i>
+</p>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
